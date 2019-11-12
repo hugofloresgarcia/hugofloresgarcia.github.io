@@ -1,0 +1,73 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: hugofloresgarcia/museeg
+email: hf01049@georgiasouthern.edu
+description: a cool open source brain-computer interface for music performance
+url: https://hugofloresgarcia.github.io/MusEEG/
+keywords: ["blog", "jekyll"]
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+collections:
+   docs:
+     output: true
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: hugofloresgarcia/museeg
+  avatar: flower_logo_v1_cropped.png
+  job: ""
+  bio: "a cool open source brain-computer interface for music performance"
+  email: hf01049@georgiasouthern.edu
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: hugofloresgarcia/museeg
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
