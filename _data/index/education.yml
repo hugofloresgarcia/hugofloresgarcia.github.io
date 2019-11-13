@@ -1,4 +1,6 @@
 - name: Georgia Southern University
-  link: 
-  date: 2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+  date: 2016 - 2020
+  descr:
+  thesis: “EEG Brain-Computer Interface for Live Music Performance”
+  advisor: Fernando Rios Gutierrez, Associate Professor, Georgia Southern University
+  gpa: 4.0

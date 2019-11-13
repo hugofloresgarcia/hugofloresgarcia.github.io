@@ -1,0 +1,26 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- job: Research Assistant
+  name: Georgia Southern University
+  descr: Research Assistant under Dr. Fernando Ríos. Currently performing comparative study on different machine learning algorithms and feature extraction methods at executing classification tasks for EEG (electroencephalogram) BCI (brain-computer interface) applications.
+  date: 2019 - Present
+
+- job: Research Assistant
+  name: Georgia Southern University
+  descr: Research assistant under Dr. Sungkyun Lim. Developed MATLAB-based application to implement parallel computation techniques to accelerate planar antenna simulations using antenna simulation software such as FEKO, CST and IE3D. Assisted in project funded by ARRIS, Inc. that studied array antenna design and propagation modeling to achieve the best 60GHz coverage for home Wi-Fi systems
+  date: 2017 - 2018
+
+- job: Teaching Assistant
+  name: Georgia Southern University
+  date: 2018 – 2019
+  descr: Laboratory teaching assistant for Electric Circuit Analysis class. Provided assistance and instruction to students conducting laboratory experiments including building resistor networks, measuring current and voltage, Op-Amp circuits and full-wave rectifiers.
+
+- job: Academic Success Tutor
+  name: Georgia Southern University
+  date: 2019
+  descr: Mathematics tutor for Georgia Southern University’s Academic Success Center during the summer term.
+
+- job: Resident Advisor
+  name: Georgia Southern University
+  date: 2017 - 2019
+  descr: Created and coordinated programs that promote campus resources and community building with hall of 22 freshmen. Utilized problem-solving skills and mediated discussion during ambiguous and/or unexpected situations.

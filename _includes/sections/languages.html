@@ -1,0 +1,19 @@
+<div class="navy-line"></div>
+<h1><span data-i18n="skills.my_skills">Languages</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for language in site.data.index.languages %}
+          <div class="archive-title bio">
+            <div class="archive-year">
+              <strong>
+                {{ language.label }}
+              </strong>
+            <article class="page-content">
+              {{ language.level }}
+            </article>
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+</div>
