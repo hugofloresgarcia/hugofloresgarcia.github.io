@@ -1,5 +1,8 @@
-<h1><span data-i18n="skills.my_skills">About</span></h1>
-
-<div>
-    A diligent, autodidactic, research-oriented student with three years of experience in research in different fields of Electrical Engineering with an emphasis on signal processing and machine learning for EEG and audio applications.
+<h1><span data-i18n="skills.my_skills">Hugo Flores Garcia</span></h1>
+<div class="archive">
+        {% for about in site.data.index.about %}
+            <article class="archive-smalltab">
+              {{ about.about }}
+            </article>
+        {% endfor %}
 </div>

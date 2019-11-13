@@ -1,0 +1,18 @@
+<h1><span data-i18n="skills.my_skills">Awards</span></h1>
+
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for award in site.data.index.awards %}
+          <div class="archive-title">
+            <div class="archive-year">
+              {{ award.award }}
+              </br>
+              <strong>
+                {{ award.date }}
+              </strong>
+            </div>
+          </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<h1><span data-i18n="skills.my_skills">Publications</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for publication in site.data.index.publications %}
+
+            <article class="archive-tab">
+              {{ publication.publication }}
+            </article>
+
+    {% endfor %}
+  </div>
+</div>

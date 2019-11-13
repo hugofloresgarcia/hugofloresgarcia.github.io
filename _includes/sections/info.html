@@ -1,0 +1,12 @@
+<h1><span data-i18n="skills.my_skills">Contact</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for info in site.data.index.info %}
+          <div class="archive-smalltab">
+              {{ info.email }}
+              {{ info.address }}
+          </div>
+    {% endfor %}
+  </div>
+</div>

@@ -4,19 +4,31 @@ layout: default
 <div class="row">
     <div class="col l7">
         <div class="row">
+          {% include sections/about.html %}
+        </div>
+        <div class="row">
           {% include sections/career.html %}
+        </div>
+        <div class="row">
+          {% include sections/publications.html %}
+        </div>
+        <div class="row">
+          {% include sections/presentations.html %}
         </div>
     </div>
 
     <div class="col l4 offset-l1">
         <div class="row">
-            {% include sections/about.html %}
+            {% include sections/info.html %}
         </div>
         <div class="row">
             {% include sections/education.html %}
         </div>
         <div class="row">
             {% include sections/skills.html %}
+        </div>
+        <div class="row">
+          {% include sections/awards.html %}
         </div>
         <div class="row">
             {% include sections/languages.html %}
