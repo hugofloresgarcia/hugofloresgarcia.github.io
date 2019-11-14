@@ -30,6 +30,10 @@ kramdown:
 collections:
    portfolio:
      output: true
+     order:
+       music.md
+       software.md
+       pedals.md
 
 #
 ###################################
