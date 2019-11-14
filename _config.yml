@@ -28,8 +28,9 @@ kramdown:
   enable_coderay: false
 
 collections:
-   docs:
+   portfolio:
      output: true
+
 #
 ###################################
 # Site Owner configuration
