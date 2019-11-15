@@ -8,6 +8,7 @@ hello!
 my name is hugo flores garcia.
 
 ![main](../img/mainpic.gif)
+animation: jarrett thompson
 
 ##### about me
 I was born and raised in Honduras but came to the US to pursue a degree in electrical engineering.
