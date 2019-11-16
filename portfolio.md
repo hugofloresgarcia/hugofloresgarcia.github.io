@@ -42,13 +42,31 @@ credits:
 
 ## pedals
 ##### fuzzy cosmic barn owl
+
+<style>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-left: 5px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
+<body>
+
+<a target="_blank" href="../img/fuzzybarnowl-front.jpeg">  <img src="../img/fuzzybarnowl-front.jpeg" alt="Forest">
+</a>
+<a target="_blank" href="../img/fuzzybarnowl-back.png"> <img src="../img/fuzzybarnowl-back.png" alt="Forest">
+</a>
+
+</body>
+
 this is the fuzzy cosmic barn owl pedal.
 - 386 power amp distortion with an additional pseudo ringmod circuit.
 
 very cool, I promise.
 
 art by jarrett thompson
-
-![owl-front](../img/fuzzybarnowl-front.jpeg){: .align-left}
-
-![owl-back](../img/fuzzybarnowl-back.png){:height="433px" width="526px"}{: .align-right}
