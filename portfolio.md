@@ -1,6 +1,7 @@
 ---
 layout: page
 title: portfolio
+permalink: /portfolio/
 ---
 <!-- {% for doc in site.portfolio %}
   <h4>
