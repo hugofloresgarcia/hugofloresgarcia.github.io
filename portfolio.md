@@ -37,12 +37,26 @@ credits:
 - zach hummel - mastering
 
 ## performance
-##### a night in tunisia - solo excerpt
+##### a night in tunisia (solo excerpt)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8AhCw38SpiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### play of the game - improvisation excerpt
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1GuvIWcyDBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##### nate smith - bounce (solo excerpt)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QlOgE6RbnUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## academic publications and posters
+##### sample publication:
+<object data="../pdf/AcademicPublication_Sample.pdf" width="1000" height="1000" type='application/pdf'>
+</object>
+
+###### sample poster
+<object data="../pdf/GURC.pdf" width="1000" height="1000" type='application/pdf'>
+</object>
 
 ## pedals
 ##### fuzzy cosmic barn owl
-
 <style>
 img {
   border: 1px solid #ddd;
@@ -56,11 +70,17 @@ img:hover {
 }
 </style>
 <body>
+<div class="row">
+  <div class="col s12 m3">
+      <a target="_blank" href="../img/fuzzybarnowl-front.jpeg">  <img src="../img/fuzzybarnowl-front.jpeg" alt="Forest">
+      </a>
+  </div>
+  <div class="col s12 m9">
+      <a target="_blank" href="../img/fuzzybarnowl-back.png"> <img src="../img/fuzzybarnowl-back.png" alt="Forest">
+      </a>
+  </div>
+</div>
 
-<a target="_blank" href="../img/fuzzybarnowl-front.jpeg">  <img src="../img/fuzzybarnowl-front.jpeg" alt="Forest">
-</a>
-<a target="_blank" href="../img/fuzzybarnowl-back.png"> <img src="../img/fuzzybarnowl-back.png" alt="Forest">
-</a>
 
 </body>
 
