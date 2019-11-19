@@ -20,7 +20,7 @@ permalink: /portfolio/
 ##### mary jane (unmastered)
 <audio src="../audio/mj.wav" controls preload></audio>
 credits:
-- hugo flores garcia - composer, guitar, mixing, bgvs
+- hugo flores garcia - composer, guitar, mixing, vocals
 - jarrett thompson - drums, mixing, absolute unit
 - matt strickland - bass
 - cyril durant - organ
@@ -29,13 +29,21 @@ credits:
 ##### little fish
 <audio src="../audio/LittleFish.wav" controls preload></audio>
 credits:
-- hugo flores garcia - composer, guitar, mixing, bgvs
+- hugo flores garcia - composer, guitar, mixing, vocals
 - margaret kochetta  - composer, bgvs
 - daniel flores garcia - composer
 - jarrett thompson - drums, mixing
 - joseph charron - bass
 - zack sloop - mixing
 - zach hummel - mastering
+
+##### impressU (unmastered)
+<audio src="../audio/impressU.mp3" controls preload></audio>
+credits:
+- hugo flores garcia - composer, guitar, mixing, vocals
+- jarrett thompson - drums, mixing, absolute unit
+- zach futch - bass
+- margaret kochetta - bgvs
 
 ## performance
 ##### a night in tunisia (solo excerpt)
@@ -48,7 +56,6 @@ credits:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QlOgE6RbnUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## academic publications and posters
-##### sample publication:
 <object data="../pdf/AcademicPublication_Sample.pdf" width="1000" height="1000" type='application/pdf'>
 </object>
 
