@@ -8,6 +8,14 @@ permalink: /portfolio/
       <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
   </h4>
 {% endfor %} -->
+## compositions
+##### flowerbeds
+
+made using SuperCollider and openFrameworks
+
+source code:
+[flwrbdsgit](https://github.com/hugofloresgarcia/flowerbeds)
+
 ## software
 ##### museeg
 [museeg](https://hugofloresgarcia.github.io/MusEEG): a cool, open source, brain-computer interface for music performance!
