@@ -32,14 +32,15 @@ source code:
 
 
 ## original & mixed music
-##### mary jane (unmastered)
-<audio src="../audio/mj.wav" controls preload></audio>
+##### mary jane
+<audio src="../audio/mj.mp3" controls preload></audio>
 credits:
-- hugo flores garcia - composer, guitar, mixing, vocals
+- hugo flores garcia - composer, guitar, mixing, bgvs
 - jarrett thompson - drums, mixing, absolute unit
 - matt strickland - bass
 - cyril durant - organ
 - margaret kochetta - bgvs
+- zach hummel - mastering
 
 ##### little fish
 <audio src="../audio/LittleFish.wav" controls preload></audio>
