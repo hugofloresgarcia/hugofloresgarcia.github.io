@@ -34,6 +34,9 @@ function setup() {
   var root = new Branch(a, b);
 
   tree = new Tree(root);
+  springPalette = [  color(67, 151, 117), color(72, 191, 132), color(224, 186, 215)];
+  springPalette = [  color(67, 151, 117), color(0, 0, 0), color(0, 0, 0)];
+  tree.setPalette(springPalette);
 
   //button to generate branch
   var generate_branch_button = createButton('generate branches!')

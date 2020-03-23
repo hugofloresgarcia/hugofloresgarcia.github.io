@@ -9,7 +9,7 @@ class Branch
     this.amp = 1;
     this.force = 0.1;
 
-    this.color;
+    this.color = color(255, 255, 255);
 
     this.parent = null;
     this.left = null;
@@ -20,6 +20,13 @@ class Branch
     if (this.parent == null){
       return true;
     } else  { return false; }
+  }
+
+  is_leaf(node){
+    if(this.left == null && this.right == null){
+      return true;
+    }
+    else {return false;}
   }
 
   branch(angle, amp) {
@@ -44,16 +51,20 @@ class Branch
   }
 
   show() {
-    stroke(255);
+    stroke(this.color);
     line(this.begin.x, this.begin.y, this.end.x, this.end.y);
   }
 
 };
 
-class Theme {
+class TreePalette {
   constructor(paletteArray){
+    this.root = paletteArray[0];
+    this.branch = paletteArray[1];
+    this.leaf = paletteArray[2];
   }
 }
+
 
 class Tree {
   constructor(root){
@@ -61,7 +72,19 @@ class Tree {
     this.left_height = 0;
     this.right_height = 0;
     this.maxDepth = 0;
-    this.palette = new Theme()
+    this.palette = new TreePalette([color(255, 255, 255),
+                                    color(255, 255, 255),
+                                    color(255, 255, 255)])
+  }
+
+  setPalette(paletteArray){
+    this.palette = new TreePalette(paletteArray);
+    print("root color");
+    print(this.palette.root);
+    print("branch color");
+    print(this.palette.branch);
+    print("leaf color");
+    print(this.palette.leaf);
   }
 
   sayhi() {
@@ -85,12 +108,20 @@ class Tree {
   }
 
   node_grow(node, depth){
-    if (node.left == null && node.right == null){
+    if (node.is_leaf()){
       if (depth == 0) {
         return
       }
+
+      // parameters specific to level / depth
       node.amp = node.amp / sqrt(2);
       node.force += 1 / this.maxDepth*0.1;
+
+      //color setting
+      if (node.is_root()){node.color = this.palette.root}
+      else if (node.is_leaf()) {node.color = this.palette.leaf}
+      else {node.color = this.palette.branch}
+
       // print(node.force);
 
       node.left = node.branch(-PI/4);
