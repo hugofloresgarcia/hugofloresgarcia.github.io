@@ -11,10 +11,13 @@ var tree;
 var absolute_max_depth = 5;
 
 function generate_branch(){
-  tree.maxDepth += 1;
   if (tree.maxDepth <= absolute_max_depth){
   tree.grow(1);
+  }
 }
+
+function random_insert(){
+    tree.random_insert();
 }
 
 function toggle_jitter(){
@@ -27,7 +30,7 @@ function toggle_jitter(){
 
 
 function setup() {
-  createCanvas(screen.width, screen.height);
+  createCanvas(screen.width, screen.height-20);
 
   //root for our tree
   var a = createVector(width/2, height);
@@ -41,6 +44,10 @@ function setup() {
   //button to generate branch
   var generate_branch_button = createButton('generate branches!')
   generate_branch_button.mousePressed(generate_branch)
+
+  //button to random insert
+  var random_insert_button = createButton('random insert!')
+  random_insert_button.mousePressed(random_insert)
 
   //checkbox to activate/deactive node_jitter
   var jitter_box = createCheckbox('jitter', false);
