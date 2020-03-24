@@ -25,6 +25,8 @@ class Branch
     this.children = new Array(this.maxChildren).fill(null);
   }
 
+
+
   is_root(){
     if (this.parent == null){
       return true;
@@ -37,6 +39,16 @@ class Branch
   //   }
   //   else {return false;}
   // }
+  update(){
+    //update position
+    if (!this.is_root()){
+      let parent = this.parent;
+      let translation = p5.Vector.sub(parent.end, this.begin);
+
+      this.begin = parent.end;
+      this.end = p5.Vector.add(this.end, translation);
+    }
+  }
 
   is_leaf(){
     var result = true;
@@ -77,6 +89,7 @@ class Branch
 
     return child;
   }
+
 
   // use a force between 0 and 1
   jitter(){
@@ -120,14 +133,13 @@ class TreePalette {
   }
 }
 
-
 class Tree {
   constructor(root){
     this.root = root;
     this.left_height = 0;
     this.right_height = 0;
     this.height = 0;
-    this.maxDepth = 5;
+    this.maxDepth = 3;
     this.palette = new TreePalette([color(255, 255, 255),
                                     color(255, 255, 255),
                                     color(255, 255, 255)]);
@@ -140,6 +152,7 @@ class Tree {
 
   setPalette(paletteArray){
     this.palette = new TreePalette(paletteArray);
+    this.root.color = this.palette.root;
   }
 
 
@@ -202,7 +215,7 @@ class Tree {
     }
 
     if (node.is_root()) {node.force = 0;}
-    else {node.force += 1 / this.maxDepth*0.1;}
+    else {node.force += 1 / this.maxDepth * 1;}
   }
 
   node_grow(node, depth){
@@ -314,6 +327,24 @@ class Tree {
     this.random_node_insert(this.root);
   }
 
+  node_traverse_and_update(node){
+    if (node != null) {
+      node.update();
+      if (!node.is_leaf()){
+        for (let i = 0; i < node.maxChildren ; i++){
+            this.node_traverse_and_update(node.children[i]);
+        }
+      }
+    }
+    else {
+      return;
+    }
+  }
+
+  traverse_and_update(){
+    this.node_traverse_and_update(this.root);
+  }
+
   node_show(node){
     if (node == null){
       return
@@ -333,7 +364,9 @@ class Tree {
     if (node == null){
       return
     }
-    node.jitter();
+    if (node.is_leaf()){
+        node.jitter();
+    }
     for (var i = 0; i < node.maxChildren; i++){
       this.node_jitter(node.children[i]);
     }
@@ -344,3 +377,20 @@ class Tree {
   }
 
 }
+
+// class tallTree extends Tree {
+//
+//   constructor(root){
+//     super.constructor(root);
+//     root.amp = 0.8;
+//     root.maxAmp = this.amp;
+//     root.force = 0.1;
+//     root.width = 20;
+//     root.maxWidth = this.width;
+//     root.color = color(255, 255, 255);
+//
+//     this.angle_deviation = PI/8;
+//     this.node_amp_factor = 0.8;
+//     this.node_width_factor = 0.8;
+//   }
+// }
