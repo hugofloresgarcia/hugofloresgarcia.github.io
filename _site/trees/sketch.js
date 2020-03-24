@@ -8,12 +8,13 @@ function sleep(milliseconds) {
 
 var jitter_trees = false;
 var tree;
+var absolute_max_depth = 5;
 
 function generate_branch(){
   tree.maxDepth += 1;
-  while (tree.height() < tree.maxDepth){
-      tree.grow(1);
-  }
+  if (tree.maxDepth <= absolute_max_depth){
+  tree.grow(1);
+}
 }
 
 function toggle_jitter(){
@@ -26,16 +27,15 @@ function toggle_jitter(){
 
 
 function setup() {
-  createCanvas(1920/2, 1080/2);
+  createCanvas(screen.width, screen.height);
 
   //root for our tree
   var a = createVector(width/2, height);
-  var b = createVector(width/2, height-100);
+  var b = createVector(width/2, height-200);
   var root = new Branch(a, b);
-
+//brown: color(179, 89, 0)
   tree = new Tree(root);
-  springPalette = [  color(67, 151, 117), color(72, 191, 132), color(224, 186, 215)];
-  springPalette = [  color(67, 151, 117), color(0, 0, 0), color(0, 0, 0)];
+  springPalette = [color(72, 191, 132), color(72, 191, 132), color(255, 186, 215)];
   tree.setPalette(springPalette);
 
   //button to generate branch
@@ -49,12 +49,9 @@ function setup() {
 
 
 function draw() {
-  background(51);
+  background(100);
 
   tree.show();
   if (jitter_trees) {tree.jitter();}
-
-
-  print(tree.root.force);
 
 }
