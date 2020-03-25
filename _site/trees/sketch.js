@@ -63,6 +63,8 @@ function setup() {
     let rand_palette = palettes[round(random(0, palettes.length-1))]
     temp_tree.setPalette(rand_palette)
 
+    temp_tree.grow(1);
+
     trees.push(temp_tree);
     print(trees.length);
   }
@@ -81,9 +83,12 @@ function setup() {
   let note_width, num_notes;
   note_width = 30;
   num_notes = width/note_width;
+  num_octaves = round(num_notes / 12);
+  print(num_octaves);
+  start_note = 72 - 12 * Math.floor(num_octaves / 2)
 
   var synth = new Synth();
-  var keyboard = new MIDIKeyboard(60, 60+num_notes, 0, screen.height-180-img_height, 30, synth, random_insert);
+  var keyboard = new MIDIKeyboard(start_note, start_note+num_notes, 0, screen.height-180-img_height, 30, synth, random_insert);
 
   //button to generate branch
   var generate_branch_button = createButton('generate branches!');

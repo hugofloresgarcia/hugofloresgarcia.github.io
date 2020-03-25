@@ -41,12 +41,17 @@ class MIDIKey {
 
     if (midinote % 12 == 0 || midinote % 12 == 5){
       image = "resources/key_c_f.png";
+      x = x + 5;
     }
-    else if (midinote % 12 == 2 || midinote % 12 == 4 || midinote % 12 == 7 || midinote % 12 == 9 || midinote % 12 == 11){
-      image = "resources/key_d_g_a_b.png";
+    else if (midinote % 12 == 4 || midinote % 12 == 11){
+      image = "resources/key_e_b.png"
+    }
+    else if (midinote % 12 == 2 || midinote % 12 == 7 || midinote % 12 == 9){
+      image = "resources/key_d_g_a.png";
     }
     else {
       image = "resources/key_black.png";
+
       this.is_black = true;
     }
 
@@ -54,6 +59,10 @@ class MIDIKey {
     this.button = createImg(image);
     this.button.mousePressed(fxn);
     this.button.position(x, y);
+    if (this.is_black){
+      let aux_image = createImg("resources/key_black_aux.png");
+      aux_image.position(x+22.5, y+128);
+    }
     // this.button.size(100, 100);
 
   }
