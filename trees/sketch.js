@@ -51,14 +51,18 @@ function setup() {
     let num_trees = trees.length + 1;
 
     for (let i = 0 ; i < trees.length ; i++){
-      let a = createVector(width/(num_trees+1)*(i+1), height);
-      let b = createVector(width/(num_trees+1)*(i+1), height - random(100, 200))
+      let x_pos = width/(num_trees+1)*(i+1)
+      x_pos = x_pos + random(-x_pos/10, x_pos/10);
+      let a = createVector(x_pos, height);
+      let b = createVector(x_pos, height - random(100, 200))
       trees[i].root.begin = a;
       trees[i].root.end = b;
       trees[i].traverse_and_update();
     }
-    let a = createVector(width/(num_trees+1)*num_trees, height);
-    let b = createVector(width/(num_trees+1)*num_trees, height - random(100, 200));
+    let x_pos = width/(num_trees+1)*num_trees;
+    x_pos = x_pos + random(-x_pos/10, x_pos/10);
+    let a = createVector(x_pos, height);
+    let b = createVector(x_pos, height - random(100, 200));
     let temp_root = new Branch(a, b);
     let temp_tree = new Tree(temp_root);
     print(round(random(0, palettes.length-1)))
@@ -72,9 +76,22 @@ function setup() {
   }
   }
 
+  function reset_forest(){
+    trees = [];
+    spawn_tree();
+    spawn_tree();
+    spawn_tree();
+  }
+
   palettes = [[color(72, 191, 132), color(72, 191, 132), color(255, 186, 215)],
               [color(122, 132, 80), color(122, 132, 80), color(203, 243, 210)],
-              [color(76, 46, 5)   , color(76, 46, 5), color(183, 192, 238)]
+              [color(76, 46, 5)   , color(76, 46, 5), color(183, 192, 238)],
+              [color("#99A58D"), color("#99A58D"), color("#5A2D3C")],
+              [color("#F0E8BD"), color("#F0E8BD"), color("#FBED6B")],
+              [color("#F0E8BD"), color("#F0E8BD"), color("#FA7557")],
+              [color("#5F6117"), color("#5F6117"), color("#E67251")],
+              [color("#8F7579"), color("#8F7579"), color("#60522A")],
+              [color("#DFC692"), color("#DFC692"), color("#F1877E")],
             ];
 
   let img_height = 218;
@@ -97,19 +114,21 @@ function setup() {
   generate_branch_button.mousePressed(generate_branch);
   generate_branch_button.position(0, 0);
 
-  //button to random insert
-  var random_insert_button = createButton('random insert!');
-  random_insert_button.mousePressed(random_insert);
-  random_insert_button.position(0, 20);
-
+  //button to spawn a new tree
   var spawn_tree_button = createButton('spawn a new tree');
   spawn_tree_button.mousePressed(spawn_tree);
   spawn_tree_button.position(0, 40);
 
-  //checkbox to activate/deactive node_jitter
+  //button to clear all trees
+  var reset_forest_button = createButton('reset forest');
+  reset_forest_button.mousePressed(reset_forest);
+  reset_forest_button.position(0, 20);
+
+  //checkbox to activate/deactive node jitter
   var jitter_box = createCheckbox('jitter', false);
   jitter_box.changed(toggle_jitter);
   jitter_box.position(0, 60);
+
 
   spawn_tree();
   spawn_tree();

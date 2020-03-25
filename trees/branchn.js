@@ -47,7 +47,7 @@ class Branch
 
     this.depth = 0;
 
-    this.maxChildren = round(random(5, 7));
+    this.maxChildren = round(random(11,13));
     this.children = [];
     this.children_full = false;
   }
@@ -149,6 +149,7 @@ class Branch
       stroke(this.color);
       strokeWeight(this.maxWidth);
       ellipse(this.end.x, this.end.y, this.ellipseHeight, this.ellipseHeight);
+      ellipse(this.begin.x, this.begin.y, this.ellipseHeight, this.ellipseHeight);
     }
     else {
       draw_line_slowly(this.begin, this.end);

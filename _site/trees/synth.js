@@ -4,8 +4,9 @@ class Synth {
     this.osc = new p5.TriOsc();
 
     this.envelope = new p5.Envelope();
-    this.envelope.setADSR(0.001, 0.5, 1, 1);
+    this.envelope.setADSR(0.001, 0, 0.5, 1);
     this.envelope.setRange(1, 0);
+    this.envelope.setExp();
 
     this.filter = new p5.LowPass();
   }
@@ -14,9 +15,7 @@ class Synth {
     let freq = midiToFreq(midinote);
 
     this.osc.freq(freq);
-    this.filter.freq(freq*3);
-
-    // this.osc.start(1, 0.001);
+    this.filter.freq(freq*2.5);
     this.osc.start();
 
     this.osc.disconnect();
