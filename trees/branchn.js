@@ -22,6 +22,16 @@ function draw_line_slowly(start_point, end_point){
   let x_coordinate = start_point.x;
   let y_coordinate = start_point.y;
 
+  // step_size = 5;
+  // num_steps = round((end_point.y - start_point.y) / step_size);
+  //
+  // for (let i = 0; i < num_steps ; i++){
+  //   line(start_point.x + step_size * (i),
+  //        start_point.y + step_size * (i),
+  //        start_point.x + step_size * (i + 1),
+  //        start_point.y + step_size * (i + 1));
+  // }
+
   //this is too fast. maybe you can draw tiny lines and sleep(milliseconds) in between?
   line(start_point.x, start_point.y, end_point.x, end_point.y);
 }
@@ -281,36 +291,6 @@ class Tree {
     this.node_grow(this.root, depth);
   }
 
-  // random_node_insert(node){
-  //   if (node == null){return}
-  //   if (node.is_leaf() && node.depth <= this.maxDepth){
-  //     if (node.depth >= this.maxDepth) {
-  //       return
-  //     }
-  //
-  //    let temp_color = color(255, 0, 0);
-  //
-  //    let new_color = color(0, 0, 0);
-  //    new_color.setRed(red(node.color));
-  //    new_color.setGreen(green(node.color));
-  //    new_color.setBlue(blue(node.color));
-  //
-  //     node.color = temp_color;
-  //     node.show();
-  //
-  //     this.set_params(node, node.depth);
-  //     for (let i = 0; i < node.maxChildren; i++){
-  //       let angle = PI/2/node.maxChildren * ((i+1)-Math.ceil(node.maxChildren)/2) - PI/2/2/node.maxChildren + random(-this.angle_deviation, this.angle_deviation);
-  //       node.children[i] = node.branch(angle);
-  //       this.set_color(node.children[i]);
-  //     }
-  //     print("node depth: " + node.depth);
-  //   }
-  //
-  //   let i = round(random(0, node.maxChildren));
-  //   this.random_node_insert(node.children[i]);
-  //   this.set_color(node);
-  // }
 
  random_node_insert(node){
     // access a random node
