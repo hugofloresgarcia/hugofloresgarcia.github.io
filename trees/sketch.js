@@ -29,11 +29,13 @@ function setup() {
   }
 
   function random_insert(){
+    for (let i = 0; i < 3 ; i++){
     idx = round(random(0, trees.length-1));
     let tree = trees[idx];
     tree.random_insert();
     let a = tree.get_depth();
     print(a);
+    }
   }
 
   function toggle_jitter(){

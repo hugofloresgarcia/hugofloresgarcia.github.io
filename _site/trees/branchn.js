@@ -48,7 +48,8 @@ class Branch
     this.depth = 0;
 
     this.maxChildren = round(random(5, 7));
-    this.children = new Array(this.maxChildren).fill(null);
+    this.children = [];
+    this.children_full = false;
   }
 
 
@@ -111,6 +112,11 @@ class Branch
     //the child will only have child vector, temporarily
     //the parent, however, unlocks its full potential
     this.children.push(child);
+
+    if (this.children.length == this.maxChildren){
+      this.children_full = true;
+    }
+
     child.children = [null];
 
     return child;
@@ -312,39 +318,22 @@ class Tree {
       return
     }
     else {
-      // let temp_color = color(255, 0, 0);
-      //
-      // let new_color = color(0, 0, 0);
-      // new_color.setRed(red(node.color));
-      // new_color.setGreen(green(node.color));
-      // new_color.setBlue(blue(node.color));
-      //
-      // node.color = temp_color;
-      // node.show();
-      //access a random child
-      let i = round(random(0, node.maxChildren)); //index for a randomly picked child
-
-      //if the random child is empty, create a leaf
-      if (node.children[i] == null){
-        let angle = PI/2/node.maxChildren * ((i+1)-Math.ceil(node.maxChildren)/2) - PI/2/2/node.maxChildren + random(-this.angle_deviation, this.angle_deviation);
-        node.children[i] = node.branch(angle);
-        node.children[i].parent = node;
-        this.set_params(node);
-        this.set_params(node.children[i]);
-        this.set_color(node);
-        this.set_color(node.children[i]);
-
-
-      }
-      else {
-        node.children[i].show();
-        if (node.children[i].depth <= this.maxDepth){
+      // if the node is not a leaf, check to see if all of its children are full
+        // if it has available children spots, create a new child
+        if (!node.children_full){
+          let i = round(random(0, node.maxChildren)); //index for a randomly picked child
+          let angle = PI/2/node.maxChildren * ((i+1)-Math.ceil(node.maxChildren)/2) - PI/2/2/node.maxChildren + random(-this.angle_deviation, this.angle_deviation);
+          node.children[i] = node.branch(angle);
+          node.children[i].parent = node;
+          this.set_params(node);
+          this.set_params(node.children[i]);
+          this.set_color(node);
+          this.set_color(node.children[i]);
+        }
+        else { //, just access a random child
+          let i = round(random(0, node.maxChildren)); //index for a randomly picked child
           this.random_node_insert(node.children[i]);
         }
-        else {
-          this.random_node_insert(this.root);
-        }
-      }
 
     }
   }
