@@ -22,13 +22,18 @@ var absolute_max_trees = 7;
 function setup() {
   function generate_branch(){
     idx = round(random(0, trees.length-1));
-    print(idx);
     let tree = trees[idx];
     tree.grow(1);
+    let a = tree.get_depth();
+    print(a);
   }
 
   function random_insert(){
-      tree.random_insert();
+    idx = round(random(0, trees.length-1));
+    let tree = trees[idx];
+    tree.random_insert();
+    let a = tree.get_depth();
+    print(a);
   }
 
   function toggle_jitter(){
@@ -68,37 +73,49 @@ function setup() {
               [color(76, 46, 5)   , color(76, 46, 5), color(183, 192, 238)]
             ];
 
-  createCanvas(screen.width, screen.height-20);
+  let img_height = 218;
+  var canvas_end = screen.height - 180 - img_height;
 
-//   //root for our tree
-//   var a = createVector(width/2, height);
-//   var b = createVector(width/2, height-200);
-//   var root = new Branch(a, b);
-// //brown: color(179, 89, 0)
-//   tree = new Tree(root);
-//   tree.setPalette(palettes[0]);
+  createCanvas(screen.width, canvas_end);
+
+  let note_width, num_notes;
+  note_width = 30;
+  num_notes = width/note_width;
+
+  var synth = new Synth();
+  var keyboard = new MIDIKeyboard(60, 60+num_notes, 0, screen.height-180-img_height, 30, synth, random_insert);
 
   //button to generate branch
   var generate_branch_button = createButton('generate branches!');
   generate_branch_button.mousePressed(generate_branch);
+  generate_branch_button.position(0, 0);
 
   //button to random insert
   var random_insert_button = createButton('random insert!');
   random_insert_button.mousePressed(random_insert);
+  random_insert_button.position(0, 20);
+
+  var spawn_tree_button = createButton('spawn a new tree');
+  spawn_tree_button.mousePressed(spawn_tree);
+  spawn_tree_button.position(0, 40);
 
   //checkbox to activate/deactive node_jitter
   var jitter_box = createCheckbox('jitter', false);
   jitter_box.changed(toggle_jitter);
+  jitter_box.position(0, 60);
 
-  var spawn_tree_button = createButton('spawn a new tree');
-  spawn_tree_button.mousePressed(spawn_tree);
-
+  spawn_tree();
+  spawn_tree();
   spawn_tree();
 }
 
 
+
+
 function draw() {
   background(100);
+
+
 
   trees.forEach(showTrees);
   function showTrees(item, index){item.show()};

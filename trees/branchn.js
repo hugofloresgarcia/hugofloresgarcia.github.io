@@ -1,5 +1,31 @@
 var startTime = new Date();
 
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+
+///
+/// #todo:
+/// @Daniel: right now, the lines (branches) are drawing immediately,
+/// so the growth process looks unnatural. Help me fix that.
+/// This function, (draw_line_slowly) receives two inputs: a start point and an
+/// end point. Fix the code inside so the line draws bit by bit, instead of all at once.
+function draw_line_slowly(start_point, end_point){
+  //Bonus: I'll give u weed when u get here if you figure out a way to add a third input to the function: a speed parameter
+  //Good luck!
+
+  //HINT: point variables can unpack into x and y like This.
+  let x_coordinate = start_point.x;
+  let y_coordinate = start_point.y;
+
+  //this is too fast. maybe you can draw tiny lines and sleep(milliseconds) in between?
+  line(start_point.x, start_point.y, end_point.x, end_point.y);
+}
+
 
 /// lifes comes, life goes
 
@@ -119,7 +145,7 @@ class Branch
       ellipse(this.end.x, this.end.y, this.ellipseHeight, this.ellipseHeight);
     }
     else {
-      line(this.begin.x, this.begin.y, this.end.x, this.end.y);
+      draw_line_slowly(this.begin, this.end);
     }
   }
 
@@ -343,6 +369,22 @@ class Tree {
 
   traverse_and_update(){
     this.node_traverse_and_update(this.root);
+  }
+
+  node_get_depth(node){
+    if (node == null){
+      return -1;
+    }
+    else{
+      for (let i = 0; i < node.maxChildren ; i++){
+          return 1 + this.node_get_depth(node.children[i]);
+      }
+    }
+  }
+
+  get_depth(){
+    let depth = this.node_get_depth(this.root);
+    return depth;
   }
 
   node_show(node){
