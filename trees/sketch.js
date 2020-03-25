@@ -109,25 +109,26 @@ function setup() {
   var synth = new Synth();
   var keyboard = new MIDIKeyboard(start_note, start_note+num_notes, 0, screen.height-180-img_height, 30, synth, random_insert);
 
+  let button_size = 40;
   //button to generate branch
   var generate_branch_button = createButton('generate branches!');
   generate_branch_button.mousePressed(generate_branch);
-  generate_branch_button.position(0, 0);
+  generate_branch_button.position(0, button_size * 0);
 
   //button to spawn a new tree
   var spawn_tree_button = createButton('spawn a new tree');
   spawn_tree_button.mousePressed(spawn_tree);
-  spawn_tree_button.position(0, 40);
+  spawn_tree_button.position(0, button_size * 1);
 
   //button to clear all trees
   var reset_forest_button = createButton('reset forest');
   reset_forest_button.mousePressed(reset_forest);
-  reset_forest_button.position(0, 20);
+  reset_forest_button.position(0, button_size * 2);
 
   //checkbox to activate/deactive node jitter
   var jitter_box = createCheckbox('jitter', false);
   jitter_box.changed(toggle_jitter);
-  jitter_box.position(0, 60);
+  jitter_box.position(0, button_size * 3);
 
 
   spawn_tree();

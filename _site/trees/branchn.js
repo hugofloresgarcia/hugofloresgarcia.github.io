@@ -47,7 +47,7 @@ class Branch
 
     this.depth = 0;
 
-    this.maxChildren = round(random(11,13));
+    this.maxChildren = round(random(7,5));
     this.children = [];
     this.children_full = false;
   }
