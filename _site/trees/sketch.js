@@ -54,7 +54,7 @@ function setup() {
       let x_pos = width/(num_trees+1)*(i+1)
       x_pos = x_pos + random(-x_pos/10, x_pos/10);
       let a = createVector(x_pos, height);
-      let b = createVector(x_pos, height - random(100, 200))
+      let b = createVector(x_pos, height - random(100, 150))
       trees[i].root.begin = a;
       trees[i].root.end = b;
       trees[i].traverse_and_update();
@@ -62,7 +62,7 @@ function setup() {
     let x_pos = width/(num_trees+1)*num_trees;
     x_pos = x_pos + random(-x_pos/10, x_pos/10);
     let a = createVector(x_pos, height);
-    let b = createVector(x_pos, height - random(100, 200));
+    let b = createVector(x_pos, height - random(50, 150));
     let temp_root = new Branch(a, b);
     let temp_tree = new Tree(temp_root);
     print(round(random(0, palettes.length-1)))
