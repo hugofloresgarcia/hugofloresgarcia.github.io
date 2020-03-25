@@ -4,7 +4,7 @@ class Synth {
     this.osc = new p5.TriOsc();
 
     this.envelope = new p5.Envelope();
-    this.envelope.setADSR(0.001, 0, 0.5, 1);
+    this.envelope.setADSR(0.001, 0, 0.5, 2.5);
     this.envelope.setRange(1, 0);
     this.envelope.setExp();
 
