@@ -183,29 +183,31 @@ function draw() {
 }
 
 function keyPressed(){
-  let midinote = 0;
-  if      (key ==  "a"){midinote = 60;}
-  else if (key ==  "w"){midinote = 61;}
-  else if (key ==  "s"){midinote = 62;}
-  else if (key ==  "e"){midinote = 63;}
-  else if (key ==  "d"){midinote = 64;}
-  else if (key ==  "f"){midinote = 65;}
-  else if (key ==  "t"){midinote = 66;}
-  else if (key ==  "g"){midinote = 67;}
-  else if (key ==  "y"){midinote = 68;}
-  else if (key ==  "h"){midinote = 69;}
-  else if (key ==  "u"){midinote = 70;}
-  else if (key ==  "j"){midinote = 71;}
-  else if (key ==  "k"){midinote = 72;}
-  else if (key ==  "o"){midinote = 73;}
-  else if (key ==  "l"){midinote = 74;}
-  else if (key ==  "p"){midinote = 75;}
-  else if (key ==  ";"){midinote = 76;}
-  else if (key == "\'"){midinote = 77;}
-  else {return}
-  let synth = new Synth();
-  synth.play(midinote);
-  random_insert();
+    if (use_keyboard){
+      let midinote = 0;
+      if      (key ==  "a"){midinote = 60;}
+      else if (key ==  "w"){midinote = 61;}
+      else if (key ==  "s"){midinote = 62;}
+      else if (key ==  "e"){midinote = 63;}
+      else if (key ==  "d"){midinote = 64;}
+      else if (key ==  "f"){midinote = 65;}
+      else if (key ==  "t"){midinote = 66;}
+      else if (key ==  "g"){midinote = 67;}
+      else if (key ==  "y"){midinote = 68;}
+      else if (key ==  "h"){midinote = 69;}
+      else if (key ==  "u"){midinote = 70;}
+      else if (key ==  "j"){midinote = 71;}
+      else if (key ==  "k"){midinote = 72;}
+      else if (key ==  "o"){midinote = 73;}
+      else if (key ==  "l"){midinote = 74;}
+      else if (key ==  "p"){midinote = 75;}
+      else if (key ==  ";"){midinote = 76;}
+      else if (key == "\'"){midinote = 77;}
+      else {return}
+      let synth = new Synth();
+      synth.play(midinote);
+      random_insert();
+  }
 
   return false;
 }
@@ -232,13 +234,18 @@ function setup_midi(){
       switch (command) {
           case 144: // noteOn
               if (velocity > 0) {
-                  noteOn(note, velocity);
+
+                  let synth = new Synth();
+                  synth.play(note);
+                  random_insert();
+                  sleep(200);
               } else {
-                  noteOff(note);
+                  // noteOff(note);
+                  break;
               }
               break;
           case 128: // noteOff
-              noteOff(note);
+              // noteOff(note);
               break;
           // we could easily expand this switch statement to cover other types of commands such as controllers or sysex
       }
