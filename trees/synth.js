@@ -29,15 +29,6 @@ class Synth {
     this.attackTime = 0.2;
     this.releaseTime = 1.5;
 
-
-
-
-    // this.envelope = new p5.Envelope();
-    // this.envelope.setADSR(0.001, 0, 0.5, 1.5);
-    // this.envelope.setRange(1, 0);
-    // this.envelope.setExp();
-
-    // this.filter = new p5.LowPass();
   }
 
   play(midinote){

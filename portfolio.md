@@ -9,11 +9,11 @@ permalink: /portfolio/
   </h4>
 {% endfor %} -->
 ## compositions
+##### can't help but feel alone
+made with love from home
 
-##### trees
-interactive tree garden
-
-link: [tree_garden](../trees)
+![img](../img/album-cover-bg_2.png){:height="500px" width="500px"}
+<audio src="../audio/chbfa.mp3" controls preload></audio>
 
 ##### flowerbeds
 
@@ -28,6 +28,10 @@ source code:
 ##### museeg
 [museeg](https://hugofloresgarcia.github.io/MusEEG): a cool, open source, brain-computer interface for music performance!
 
+##### trees
+interactive tree garden
+[tree_garden](../trees)
+
 ##### recAlert
 
 [recAlert](https://github.com/hugofloresgarcia/recAlert): google script meant to notify recording crew members that they have a recording job coming up.
@@ -39,7 +43,7 @@ source code:
 
 ## original & mixed music
 ##### mary jane
-<audio src="../audio/mj.mp3" controls preload></audio>
+<audio src="../audio/mary jane.mp3" controls preload></audio>
 credits:
 - hugo flores garcia - composer, guitar, mixing, bgvs
 - jarrett thompson - drums, mixing, absolute unit
@@ -47,25 +51,6 @@ credits:
 - cyril durant - organ
 - margaret kochetta - bgvs
 - zach hummel - mastering
-
-##### little fish
-<audio src="../audio/LittleFish.wav" controls preload></audio>
-credits:
-- hugo flores garcia - composer, guitar, mixing, vocals
-- margaret kochetta  - composer, bgvs
-- daniel flores garcia - composer
-- jarrett thompson - drums, mixing
-- joseph charron - bass
-- zack sloop - mixing
-- zach hummel - mastering
-
-##### impressU (unmastered)
-<audio src="../audio/impressU.mp3" controls preload></audio>
-credits:
-- hugo flores garcia - composer, guitar, mixing, vocals
-- jarrett thompson - drums, mixing, absolute unit
-- zach futch - bass
-- margaret kochetta - bgvs
 
 ## performance
 ##### a night in tunisia (solo excerpt)
@@ -76,14 +61,6 @@ credits:
 
 ##### nate smith - bounce (solo excerpt)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QlOgE6RbnUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## academic publications and posters
-<object data="../pdf/AcademicPublication_Sample.pdf" width="1000" height="1000" type='application/pdf'>
-</object>
-
-###### sample poster
-<object data="../pdf/GURC.pdf" width="1000" height="1000" type='application/pdf'>
-</object>
 
 ## pedals
 ##### fuzzy cosmic barn owl

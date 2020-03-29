@@ -57,7 +57,7 @@ class Branch
 
     this.depth = 0;
 
-    this.maxChildren = round(random(9,11));
+    this.maxChildren = round(random(5,7));
     this.children = [];
     this.children_full = false;
   }
@@ -182,7 +182,7 @@ class Tree {
     this.left_height = 0;
     this.right_height = 0;
     this.height = 0;
-    this.maxDepth = 2;
+    this.maxDepth = 3;
     this.palette = new TreePalette([color(255, 255, 255),
                                     color(255, 255, 255),
                                     color(255, 255, 255)]);
