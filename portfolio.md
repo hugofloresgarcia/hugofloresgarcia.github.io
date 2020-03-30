@@ -11,14 +11,11 @@ permalink: /portfolio/
 ## compositions
 ##### can't help but feel alone
 made with love from home
-
-![img](../img/album-cover-bg_2.png){:height="500px" width="500px"}
-<audio src="../audio/chbfa.mp3" controls preload></audio>
+<iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786699745&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 ##### flowerbeds
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R0BGlQ1rRNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 made using SuperCollider and openFrameworks
 
 source code:
@@ -30,6 +27,7 @@ source code:
 
 ##### trees
 interactive tree garden
+
 [tree_garden](../trees)
 
 ##### recAlert
