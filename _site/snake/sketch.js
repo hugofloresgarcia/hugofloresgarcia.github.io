@@ -39,7 +39,7 @@ function draw() {
 
   game.draw();
   if (game.player == 'q_learner') {
-    game.q_learner.show_scoreboard(canvas_dim.x -100, 10);
+    game.q_learner.show_scoreboard(canvas_dim.x -canvas_dim.x/25*5, 10);
     game.q_learner.randomness = randomization.value()/100;
     game.q_learner.learning_rate = lrn_rate.value()/100;
   }

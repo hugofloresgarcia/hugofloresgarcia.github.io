@@ -174,7 +174,7 @@ class Game {
         this.snake.draw();
         this.food.draw();
         // show the score_board
-        this.show_scoreboard(40, 20);
+        this.show_scoreboard(40, 40);
       }
       else{ // if the game is over, show game over menu
       }
