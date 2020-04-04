@@ -26,6 +26,18 @@ function setup() {
   randomization = createSlider(1, 100, 5);
   randomization.position(canvas_dim.x+150,canvas_dim.y/2 + 180 )
   createButton('randomization').position(canvas_dim.x+10, canvas_dim.y/2+180)
+
+  save_checkpoint_button = createButton('save checkpoint');
+  save_checkpoint_button.position(canvas_dim.x+150,canvas_dim.y/2 + 240 )
+  save_checkpoint_button.mousePressed(function(){game.q_learner.save_checkpoint()})
+
+
+
+  load_checkpoint_button = createButton('load checkpoint');
+  load_checkpoint_button.position(canvas_dim.x+150,canvas_dim.y/2 + 270 )
+  load_checkpoint_button.mousePressed(function(){game.q_learner.load_checkpoint()})
+
+
 }
 
 

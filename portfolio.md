@@ -11,7 +11,8 @@ permalink: /portfolio/
 ## compositions
 ##### can't help but feel alone
 made with love from home
-<iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786699745&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786787825&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 ##### flowerbeds
 
@@ -26,9 +27,9 @@ source code:
 [museeg](https://hugofloresgarcia.github.io/MusEEG): a cool, open source, brain-computer interface for music performance!
 
 ##### trees
-interactive tree garden
 
 [tree_garden](../trees)
+
 
 ##### recAlert
 

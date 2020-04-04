@@ -1,3 +1,8 @@
+function sleep(delay) {
+    var start = new Date().getTime();
+    while (new Date().getTime() < start + delay);
+}
+
 class QLearner {
   constructor(canvas_dim){
     this.learning_rate = 0.85;
@@ -107,5 +112,51 @@ class QLearner {
       this.cumulative_score++;
       this.current_score++;
     }
+  }
+
+  load_checkpoint(){
+    var input = document.createElement('input');
+    input.type = 'file';
+    var content = '';
+    input.onchange = e => {
+     var file = e.target.files[0];
+           // setting up the reader
+     var reader = new FileReader();
+     reader.readAsText(file,'UTF-8');
+
+     // here we tell the reader what to do when it's done reading...
+     reader.onload = readerEvent => {
+        content = JSON.parse(readerEvent.target.result); // this is the content!
+        var f = (content) => {
+          this.checkpoint =content;
+
+          this.num_moves = content.num_moves;
+          this.cumulative_score = content.cumulative_score;
+          this.num_deaths = content.num_deaths;
+          this.max_score = content.max_score;
+          this.q_table = content.q_table;
+        };
+        f(content);
+      }
+    }
+    input.click();
+    // sleep(2200)
+
+
+  }
+
+  save_checkpoint(){
+    let checkpoint = {
+      "learning_rate": this.learning_rate,
+      "radnomness": this.randomness, 
+      "discount_factor": this.discount_factor,
+      "num_moves": this.num_moves,
+      "num_deaths": this.num_deaths,
+      "cumulative_score": this.cumulative_score,
+      "max_score": this.max_score,
+      "q_table": this.q_table
+    };
+    let checkpoint_str = JSON.stringify(checkpoint);
+    download(checkpoint_str, 'checkpoint.json');
   }
 }
