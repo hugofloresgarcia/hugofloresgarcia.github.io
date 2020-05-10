@@ -3,6 +3,19 @@ var synth;
 var pentaScale;
 var masterFlower;
 
+function rand_shade(base_color, depth){
+  let new_color = color(0, 0, 0);
+  let randomN = random(-depth, depth);
+  new_color.setRed(red(base_color) + randomN);
+  new_color.setGreen(green(base_color) + randomN);
+  new_color.setBlue(blue(base_color)+  randomN);
+  return new_color;
+}
+
+function noise(val){
+  return val + random(-val/10, val/10);
+}
+
 function midicps(midinote){
   return Math.pow(2, (midinote-69)/12) * 440
 }
@@ -75,10 +88,11 @@ class Flower{
     this.petalColor = color(random(128, 230), random(128, 230),random(128, 230));
     this.petalNumber = petalNumber;
 
-    this.color = [color('#A1E8CC'),color('#FAC9B8'), color('#D6D9CE'),color('#F1B5CB'), color('#E4C1F9'),color('#7BDFF2'),color('#B2F7EF'), color('#FFA69E'),color('#FDF5BF'), color('#F2B5D4'),color('#A7CECB'),color('#FBF5F3'),color('#F3FFB6'),color('#91A6FF'),color('#B4D2E7'), color('#85FF9E'), color('#9684A1'),color('#D0F4DE'), color('#DBBBF5'),color('#D2FF96')];
 
-    this.flowerColor = arraySelect(this.color);
-    this.petalColor = arraySelect(this.color);
+    // this.color = [color('#A1E8CC'),color('#FAC9B8'), color('#D6D9CE'),color('#F1B5CB'), color('#E4C1F9'),color('#7BDFF2'),color('#B2F7EF'), color('#FFA69E'),color('#FDF5BF'), color('#F2B5D4'),color('#A7CECB'),color('#FBF5F3'),color('#F3FFB6'),color('#91A6FF'),color('#B4D2E7'), color('#85FF9E'), color('#9684A1'),color('#D0F4DE'), color('#DBBBF5'),color('#D2FF96')];
+
+    // this.flowerColor = arraySelect(this.color);
+    // this.petalColor = arraySelect(this.color);
   }
 
   draw() {
@@ -88,6 +102,7 @@ class Flower{
     translate(this.x, this.y);
     //rotate(radians(frameCount / 2));
     for (var r1 = 0; r1 < this.petalNumber; r1++) {
+      // fill(this.petalColors[r1]);
       ellipse(0, this.radius, this.radius * 0.625, this.radius*1.25)
       rotate(PI / (this.petalNumber/2));
   }
@@ -163,7 +178,7 @@ function keyPressed(){
   flowerRadius = random(10, 30);
   flowerX = random(0, width);
   flowerY = random(0, height);
-  flowerNumPetals = random(7, 18);
+  flowerNumPetals = random(7, 12);
 
   garden.push(new Flower(flowerRadius, flowerX, flowerY, flowerNumPetals));
 
