@@ -17,4 +17,4 @@ I'm an avid jazz musician, so I spend a lot of time performing with [play of the
 
 My main career goal is perform research in audio, music, and interactive musical systems to build and design tools that make music more accessible to people around the world as well as provide artists with innovative compositional tools.  
 
-My current project is the [MusEEG](https://hugofloresgarcia.github.io/MusEEG), an open source python package for designing brain-computer interfaces for music performance.
+I'm currently a doctoral student in the [Interactive Audio Lab](https://interactiveaudiolab.github.io) at Northwestern University. 
