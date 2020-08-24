@@ -3,30 +3,23 @@ layout: page
 title:  music tech
 permalink: /music_tech/
 ---
-<!-- {% for doc in site.portfolio %}
-  <h4>
-      <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
-  </h4>
-{% endfor %} -->
+
 ## software
 ##### pedalboy
-a super cool SuperCollider pedalboard app with lots of lfos lower-level controls, and full midi support :)!
+a super cool SuperCollider pedalboard app with lots of lfos lower-level controls, and full midi support :)!  
 [source](https://github.com/hugofloresgarcia/pedalboy)
 
-##### museeg
-[museeg](https://hugofloresgarcia.github.io/MusEEG): a cool, open source, brain-computer interface for music performance!
-
-##### trees
+##### trees  
+I decided to learn javascript for a month and this is what I came up with.   
 [tree_garden](../trees)
-
 
 ## compositions
 ##### flowerbeds
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 made using SuperCollider and openFrameworks
 
-source code:
+source code:  
 [flowerbeds](https://github.com/hugofloresgarcia/flowerbeds)
 
 ## pedals
@@ -59,7 +52,7 @@ img:hover {
 </body>
 
 this is the fuzzy cosmic barn owl pedal.
-- 386 power amp distortion with an additional pseudo ringmod circuit.
+- 386 power amp distortion with an additional analog octave up circuit.
 
 very cool, I promise.
 

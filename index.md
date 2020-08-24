@@ -4,7 +4,8 @@ comments: false
 pinned: true
 image:
 ---
-hello!
+##### hello!
+
 my name is hugo flores garcia.
 
 ![main](../img/mainpic.gif)
@@ -19,5 +20,3 @@ I'm an avid jazz musician, so I spend a lot of time performing with [play of the
 My main career goal is perform research in audio, music, and interactive musical systems to build and design tools that make music more accessible to people around the world as well as provide artists with innovative compositional tools.  
 
 I'm currently a doctoral student in the [Interactive Audio Lab](https://interactiveaudiolab.github.io) at Northwestern University. 
-
-check out these [UMAP](./philharmonia/philharmonia-umap.html) and [t-SNE](./philharmonia/philharmonia-tsne.html)) projections of the VGGish embedding on orchestral samples from the Philharmonia orchestra:)!
