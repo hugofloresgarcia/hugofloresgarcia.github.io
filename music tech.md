@@ -70,9 +70,7 @@ img:hover {
 
 </body>
 
-this is the fuzzy cosmic barn owl pedal.
-
-- 386 power amp distortion with an additional analog octave up circuit.
+this is the fuzzy cosmic barn owl pedal. It's a 386 power amp distortion with an additional analog octave up circuit.
 
 very cool, I promise.
 
