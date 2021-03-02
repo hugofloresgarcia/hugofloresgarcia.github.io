@@ -5,15 +5,32 @@ permalink: /music_tech/
 ---
 
 ## software
+
+[**torchopenl3**](https://github.com/hugofloresgarcia/torchopenl3): a pytorch port of the openl3 audio embedding (from the marl implementation). 
+
+[**philharmonia dataset**](https://github.com/hugofloresgarcia/philharmonia-dataset): a pytorch dataset for 14,000 sound samples of the Philharmonia Orchestra, retrieved from their website. 
+
 ##### pedalboy
+
 a super cool SuperCollider pedalboard app with lots of lfos lower-level controls, and full midi support :)!  
 [source](https://github.com/hugofloresgarcia/pedalboy)
 
-##### trees  
-I decided to learn javascript for a month and this is what I came up with.   
-[tree_garden](../trees)
+<img src="../img/pedalboy.png" title="" alt="pedalboy" width="366">
+
+##### automaton
+
+a cellular automata sequencer built using SuperCollider
+
+<img src="../img/automaton.png" title="" alt="automaton" width="368">
+
+##### trees
+
+tree garden! click [me](../trees)
+
+![trees](../img/trees-demo.png)
 
 ## compositions
+
 ##### flowerbeds
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
@@ -23,35 +40,38 @@ source code:
 [flowerbeds](https://github.com/hugofloresgarcia/flowerbeds)
 
 ## pedals
+
 ##### fuzzy cosmic barn owl
+
 <style>
 img {
   border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-  margin-left: 5px;
+  border-radius: 2px;
+  padding: 2px;
+  width: 400px;
+  margin-left: 2px;
 }
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 </style>
+
 <body>
 <div class="row">
   <div class="col s12 m3">
-      <a target="_blank" href="../img/fuzzybarnowl-front.jpeg">  <img src="../img/fuzzybarnowl-front.jpeg" alt="Forest">
+      <a target="_blank" href="../img/fuzzybarnowl-front.jpeg">  <img src="../img/fuzzybarnowl-front.jpeg" alt="front">
       </a>
   </div>
   <div class="col s12 m9">
-      <a target="_blank" href="../img/fuzzybarnowl-back.png"> <img src="../img/fuzzybarnowl-back.png" alt="Forest">
+      <a target="_blank" href="../img/fuzzybarnowl-back.png"> <img src="../img/fuzzybarnowl-back.png" alt="back">
       </a>
   </div>
 </div>
 
-
 </body>
 
 this is the fuzzy cosmic barn owl pedal.
+
 - 386 power amp distortion with an additional analog octave up circuit.
 
 very cool, I promise.

@@ -241,9 +241,10 @@ GEM
 
 PLATFORMS
   ruby
+  universal-darwin-20
 
 DEPENDENCIES
   github-pages
 
 BUNDLED WITH
-   2.0.2
+   2.2.0
