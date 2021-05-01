@@ -4,17 +4,9 @@ comments: false
 pinned: true
 image:
 ---
-##### hello!
+##### Hello!
+My name is Hugo Flores García. Born and raised in Honduras, I’m a doctoral student at Northwestern University and a member of the [Interactive Audio Lab](https://interactiveaudiolab.github.io). My research interests include sound event detection, audio source separation, and designing accessible music production and creation interfaces. In my spare time, I enjoy playing jazz and funk guitar, writing interactive electronic music, as well as designing my own guitar pedals and effects, either physically or on SuperCollider. 
 
-my name is hugo flores garcia.
 
 ![main](../img/mainpic.gif)
 animation: jarrett thompson
-
-##### about me
-
-I was born and raised in Honduras but came to the US to pursue a degree in electrical engineering.
-
-My goal is perform research in audio, music, and interactive musical systems to build and design tools that make music more accessible to people around the world as well as provide artists with innovative compositional tools.  
-
-I'm currently a doctoral student in the [Interactive Audio Lab](https://interactiveaudiolab.github.io) at Northwestern University. 
