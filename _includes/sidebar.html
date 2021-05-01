@@ -1,9 +1,10 @@
-{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
+{% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {%
+endif %}
 
 <div class="cover-card table-cell table-middle">
   {% if author.avatar %}
   <a href="{{ site.url }}/">
-    <img src="{{ site.url }}/img/{{ author.avatar }}" alt=""  class='avatar' align="right">
+    <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class='avatar' align="right">
   </a>
   {% endif %}
   <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
@@ -19,6 +20,9 @@
         <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
       </li>
       {% endif %} {% endfor %}
+      <li class="nav-item">
+        <a href="cv">/cv.pdf</a>
+      </li>
     </ul>
   </nav>
   {% include social-links.html %}
