@@ -4,7 +4,7 @@
 ####################################
 #
 title: hugofloresgarcia
-email: hf01049@georgiasouthern.edu
+email: hugofloresgarcia@u.northwestern.edu
 description: it's me! i like to make weird music with beep beep boop boops
 url: https://hugofloresgarcia.github.io/
 keywords: ["blog", "jekyll"]
@@ -46,7 +46,7 @@ owner:
   avatar: flower_logo_v1_cropped.png
   job: ""
   bio: "it's me! i like to make weird music with beep beep boop boops"
-  email: hf01049@georgiasouthern.edu
+  email: hugofloresgarcia@u.northwestern.edu
   disqus-shortname:
   twitter: #username
   facebook: #username
