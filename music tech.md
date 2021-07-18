@@ -4,12 +4,6 @@ title:  music tech
 permalink: /music_tech/
 ---
 
-## software
-
-[**torchopenl3**](https://github.com/hugofloresgarcia/torchopenl3): a pytorch port of the openl3 audio embedding (from the marl implementation). 
-
-[**philharmonia dataset**](https://github.com/hugofloresgarcia/philharmonia-dataset): a pytorch dataset for 14,000 sound samples of the Philharmonia Orchestra, retrieved from their website. 
-
 ##### pedalboy
 
 a super cool SuperCollider pedalboard app with lots of lfos lower-level controls, and full midi support :)!  
