@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  music tech
-permalink: /music_tech/
+permalink: music_tech/
 ---
 
 ##### pedalboy

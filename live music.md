@@ -1,7 +1,7 @@
 ---
 layout: page
 title: live music
-permalink: /live_music/
+permalink: live_music/
 ---
 
 

@@ -29,18 +29,6 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-collections:
-   portfolio:
-     output: true
-     order:
-       compositions.md
-       music.md
-       software.md
-       pedals.md
-
-scholar:
-  style: ieee
-
 #
 ###################################
 # Site Owner configuration
