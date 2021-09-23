@@ -7,7 +7,7 @@ permalink: research/
 ### projects
 
 #### source separation and extensible MIR tools for Audacity
-    A project funded by Google Summer of Code to design and implement a suite of Deep Learning based tools for Audacity. [[GSoC project](https://summerofcode.withgoogle.com/projects/#5565426706153472)] [[blog](https://www.audacityteam.org/category/gsoc/gsoc-2021-source-separation/)]
+    A project funded by Google Summer of Code to design and implement a suite of Deep Learning based tools for Audacity.See the [project website](https://interactiveaudio.github.io/project/audacity)
 
 
 ### software
