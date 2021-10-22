@@ -17,4 +17,4 @@ main:
     url: /music/
         
   - title: "CV"
-    url: https://github.com/hugofloresgarcia/hugofloresgarcia.github.io/raw/master/cv.pdf
+    url: ./cv.pdf
