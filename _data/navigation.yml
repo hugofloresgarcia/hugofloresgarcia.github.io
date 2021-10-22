@@ -17,4 +17,4 @@ main:
     url: /music/
         
   - title: "CV"
-    url: ./cv.pdf
+    url: /cv.pdf
