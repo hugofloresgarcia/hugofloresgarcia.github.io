@@ -17,7 +17,7 @@ In this work, we exploit hierarchical relationships between instruments in a few
 ## [Audacity with Deep Learning](https://interactiveaudiolab.github.io/project/audacity.html)
 I am contributing a deep learning framework and a deep model manager that connects to HuggingFace to Audacity. This project was funded by a [Google Summer of Code](https://summerofcode.withgoogle.com/archive/2021/projects/5097817919455232/) grant. Read the [Work Product Summary](https://www.audacityteam.org/gsoc-2021-work-product-source-separation-and-deep-learning-tools/).
 
-## [`torchaudacity`](https://github.com/hugofloresgarcia/torchaudacity)
+## [`audacitorch`](https://github.com/hugofloresgarcia/audacitorch)
 PyTorch wrappers for using your deep model in Audacity, and sharing it with the community!
 
 ## [`torchopenl3`](https://github.com/hugofloresgarcia/torchopenl3)
