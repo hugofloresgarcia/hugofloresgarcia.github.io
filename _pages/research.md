@@ -10,7 +10,7 @@ author_profile: true
 We provide a software framework that lets deep learning practitioners easily integrate their own PyTorch models into the open-source Audacity DAW. This lets ML audio researchers put tools in the hands of sound artists without doing DAW-specific development work.
 
 #### Invited talk at Bay Innovative Signal Hackers Meetup (2021) 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gUXdQLUdOsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gUXdQLUdOsU?start=2887" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## [Leveraging Hierarchical Structures for Few-Shot Musical Instrument Recognition](https://arxiv.org/abs/2107.07029)
