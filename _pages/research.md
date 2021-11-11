@@ -16,6 +16,8 @@ We provide a software framework that lets deep learning practitioners easily int
 ## [Leveraging Hierarchical Structures for Few-Shot Musical Instrument Recognition](https://arxiv.org/abs/2107.07029)
 In this work, we exploit hierarchical relationships between instruments in a few-shot learning setup to enable classification of a wider set of musical instruments, given a few examples at inference. See the [supplementary code](https://github.com/hugofloresgarcia/music-trees) on github. 
 
+**update**: this work won the Best Paper Award at ISMIR 2021! :)
+
 #### ISMIR 2021 Poster Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BcK_FflSddA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
