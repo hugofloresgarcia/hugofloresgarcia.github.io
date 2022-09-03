@@ -5,6 +5,10 @@ permalink: /research/
 author_profile: true
 ---
 
+## [Haptic Audio Production Tools]
+
+Digital Audio Workstations (DAWs) are highly visual interfaces, and I'm currently working on leveraging widely available haptic interfaces (e.g. smartphones) to make audio production tools for people with visual impairments. 
+
 ## [Deep Learning Tools for Audacity](https://interactiveaudiolab.github.io/project/audacity.html)
 
 We provide a software framework that lets deep learning practitioners easily integrate their own PyTorch models into the open-source Audacity DAW. This lets ML audio researchers put tools in the hands of sound artists without doing DAW-specific development work.
