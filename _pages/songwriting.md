@@ -1,7 +1,7 @@
 ---
 title: "Songwriting"
 excerpt: "Music I've written and recorded!"
-permalink: /songs/
+permalink: /songwriting/
 ---
 
 ### Pp!

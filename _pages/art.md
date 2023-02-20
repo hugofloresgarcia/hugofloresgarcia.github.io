@@ -35,8 +35,6 @@ tree garden!
 
 ![trees](../img/trees-demo.png)
 
-
-
 # Pedals
 
 ## Fuzzy cosmic barn owl
