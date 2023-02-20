@@ -1,7 +1,7 @@
 ---
 title: "Music"
 excerpt: "live music, beep boops and other musings"
-collection: music
+permalink: /music/
 ---
 
 ### Cricket Hill
