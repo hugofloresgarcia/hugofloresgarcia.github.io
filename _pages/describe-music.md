@@ -5,6 +5,6 @@ permalink: /describe-music/
 
 Follow the following Gradio link to complete the survey:
 
-<a href="  https://5abee2ec-07fe-489b.gradio.live">  https://5abee2ec-07fe-489b.gradio.live/</a>
+<a href="[  https://8ce8d699-cb17-421d.gradio.live"> https://8ce8d699-cb17-421d.gradio.live/</a>
 
 Thank you!!! :)
