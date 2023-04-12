@@ -5,6 +5,6 @@ permalink: /vamp/
 
 Follow the following Gradio link to explore some sounds:
 
-[https://1371e544f50b0384.gradio.app](https://1371e544f50b0384.gradio.app)
+https://d2aea7bc2c6c03717f.gradio.live/
 
 Thank you!!! :)
