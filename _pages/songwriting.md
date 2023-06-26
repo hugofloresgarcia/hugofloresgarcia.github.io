@@ -4,8 +4,6 @@ excerpt: "Music I've written and recorded!"
 permalink: /songwriting/
 ---
 
-### Poinciana
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z88LTgmKk7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Pp!
 
