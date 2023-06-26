@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<header>
+  <h1>{{ site.title }}</h1>
+  {%- if site.theme_config.show_description -%}
+    <p>{{ site.description }}</p>
+  {%- endif -%}
+</header>
+
+<div class="menu-container">
+  <ul>
+  {%- include menu_item.html collection=site.data.art_menu.entries -%}
+  </ul>
+  <ul>
+  {%- include menu_item.html collection=site.data.research_menu.entries -%}
+  </ul>
+</div>
+
+{{ content }}
