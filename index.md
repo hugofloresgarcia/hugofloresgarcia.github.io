@@ -37,4 +37,13 @@ layout: home
   </div>
 </div>
 
-You can reach him by email at hugofg [at] u.northwestern.edu, or check out his <a href="https://github.com/hugofloresgarcia">github</a>. 
+
+You can reach him
+<ul style="list-style-type:none">
+  <li> by email at hugofg [at] u.northwestern.edu,  </li>
+  <li> or <a href="https://github.com/hugofloresgarcia">github</a>,   </li>
+  <li> or <a href="https://instagram.com/hugofloresgarcia">instagram</a>.    </li>
+</ul>
+  
+  
+  
