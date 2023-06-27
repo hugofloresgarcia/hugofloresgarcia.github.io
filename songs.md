@@ -4,7 +4,7 @@ title: songs
 # which_category: interfaces
 ---
 
-
+These are some songs I've recorded over the years. I also might have other stuff on [spotify](https://open.spotify.com/artist/2G3nvgKUPVjOLq7Ng6Pwzm), [soundcloud](https://soundcloud.com/hugofloresgarcia) and [bandcamp](https://hugofloresgarcia.bandcamp.com/).
 
 ### Poinciana
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z88LTgmKk7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
