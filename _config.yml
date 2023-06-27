@@ -6,6 +6,7 @@ baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're sit
 description: > # description of the site (multiple lines allowed)
   music 🤝 computers
 
+
 permalink: /:slug.html
 
 favicon: "/assets/img/logo.png" # name+extension of favicon (which must be put on the root folder)

@@ -9,13 +9,9 @@ layout: home
 
 <div class="container">
   <div class="row">
-    <p>Hugo Flores García (he/him) is a computer musician, scientist and guitarist.</p>
+    <p>Hugo Flores García (he/him) is a computer musician, scientist and guitarist. Hugo is a PhD Candidate at Northwestern University, performing research at the intersection of machine learning, music, and human-computer interaction. 
+    </p>
     <img src="/assets/img/me.jpeg" alt="Hugo Flores García" width="200"/>
-  </div>
-
-  <div class="row">
-    <p>Hugo is a PhD Candidate at Northwestern University, performing research at the intersection of machine learning, music, and human-computer interaction.</p>
-    <img src="/assets/img/machine-learning.png" alt="Machine Learning" width="200"/>
   </div>
 
   <div class="row">
@@ -27,14 +23,16 @@ layout: home
     <p>His creative work swirls around the worlds of improvised music, algorithmic composition, electroacoustic music, and live coding.</p>
     <img src="/assets/img/bassface.jpg" alt="Bass Face" width="200"/>
   </div>
-
+<!-- 
   <div class="row">
     <p>Hugo was born and raised in Tegucigalpa, Honduras.</p>
     <img src="/assets/img/honduras-home.jpg" alt="Honduras Home" width="200"/>
-  </div>
+  </div> -->
 
   <div class="row">
-    <p>He now lives in Chicago, IL with his partner and his two cats, pipi and pixel.</p>
+    <p>Hugo was born and raised in Tegucigalpa, Honduras. He now lives in Chicago, IL with his partner and his two cats, pipi and pixel.</p>
     <img src="/assets/img/cats.jpg" alt="Cats" width="200"/>
   </div>
 </div>
+
+You can reach him by email at hugofg [at] u.northwestern.edu, or check out his <a href="https://github.com/hugofloresgarcia">github</a>. 

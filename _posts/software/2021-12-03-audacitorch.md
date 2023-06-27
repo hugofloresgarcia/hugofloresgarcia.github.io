@@ -2,6 +2,7 @@
 layout: post
 category: software
 title: audacitorch (Audacity with Deep Learning)
+image: /assets/img/research/audacitorch.png
 ---
 
 
@@ -9,3 +10,4 @@ I contributed a deep learning framework and a deep model manager that connects t
 
 You can download Audacity with Deep Learning [here](https://interactiveaudiolab.github.io/project/audacity.html). 
 
+Take a look at the [code](https://github.com/audacitorch/audacitorch). 

@@ -1,7 +1,8 @@
 ---
 layout: post
 category: research
-title: ISMIR 2022 Tutorial on Few-Shot and Zero-Shot Learning for Music Information Retrieval
+title: ISMIR 2022 Tutorial on Few-Shot and Zero-Shot Learning for MIR
+image: /assets/img/machine-learning.png
 ---
 
 [Yu Wang](https://y-wang.weebly.com/), [Jeong Choi](https://jeongchoi.home.blog/) and I gave a tutorial during ISMIR 2022 on few-shot and zero-shot learning centered around music information retrieval tasks. 
