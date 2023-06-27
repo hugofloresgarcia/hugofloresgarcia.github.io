@@ -2,10 +2,12 @@
 layout: home
 ---
 
-<figure>
-  <img src="/assets/img/flower.gif" alt="flower" width="300"/>
-  <figcaption style="text-align: center; font-size: 0.8em;">a flower fed back into itself going through multiple color transformations, made with max/msp/jit. original illustration by camilla forte</figcaption>
-</figure>
+<div style="text-align: center;">
+  <figure style="display: inline-block; width: 300px; text-align: center;">
+    <img src="/assets/img/flower.gif" alt="flower" width="300"/>
+    <figcaption style="font-size: 0.8em;">a flower fed back into itself going through multiple color transformations, made with max/msp/jit. original illustration by camilla forte</figcaption>
+  </figure>
+</div>
 
 <div class="container">
   <div class="row">
