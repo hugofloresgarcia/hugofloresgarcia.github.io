@@ -14,6 +14,10 @@ entries:
     category: songs
     url: /songs
 
+  - title: performances 🔊
+    category: performances
+    url: /performances
+
 
 
 
