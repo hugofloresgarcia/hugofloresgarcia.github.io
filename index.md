@@ -45,5 +45,3 @@ You can reach him
   <li> or <a href="https://instagram.com/hugofloresgarcia">instagram</a>.    </li>
 </ul>
   
-  
-  
