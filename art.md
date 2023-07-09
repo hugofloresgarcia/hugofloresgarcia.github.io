@@ -6,7 +6,7 @@ title: art
 
 ## Latent Space // Salad Bowl (coming soon)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WDs3ww5fLUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-Latent Space // Salad Bowl is an upcoming immersive AI art installation where the participant is immersed in and actively engaged with the latent space of a neural network trained to generate sounds. The participant can interact with any of the unique physical  sound sculptures laid out around the space through actions like plucking, shaking, striking, and singing into the sculptures. the  participant begins to hear transformed echoes of the sounds they made coming from eight different speakers positioned around the space.  Each speaker functions as a grounding point, or a centroid, for each cluster in the data distribution.  The layout of the speakers is guided by  the locations of eight clusters that correspond to timbral groups learned by the neural network  projected onto a two dimensional space.
+Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space.
 
 
 ## [Flowerbeds](https://github.com/hugofloresgarcia/flowerbeds)
