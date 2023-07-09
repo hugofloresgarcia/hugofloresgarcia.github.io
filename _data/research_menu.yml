@@ -7,9 +7,9 @@ entries:
     category: research
     url: /research
 
-  - title: software 💻
-    category: software
-    url: /software
+  # - title: software 💻
+  #   category: software
+  #   url: /software
 
   - title: publications 📚
     category: publications
