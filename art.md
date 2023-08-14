@@ -5,8 +5,8 @@ title: art
 ---
 
 ## confluyo yo, el ambiente me sigue
-<iframe width="350" height="150" src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="350" height="150" src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 confluyo yo explores the raw, timbral and rhythmic relationships between intentional sounds, natural sounds, and sounds as byproduct of human activity. in the piece, a horn player ([Michael J. Pineda](https://drum.io/michaeljpineda/)) plays a short 9 second theme, called a 'seed', then improvises over it.  the seed is repeated for the rest of the piece, though, through repetition, it slowly dematerializes from a horn sound to either the sound of birds, or the sound of machines. Read the program notes and score [here](https://hugo-does-things.notion.site/confluyo-yo-el-ambiente-me-sigue-38a1b1073a1643a5b2ad0902a02daba7). _confluyo yo_ makes use of [VampNet](/research). happy to announce that _confluyo yo_ has been accepted for the ISMIR 2023 conference and will be performed in Milan, Italy in November 2023! 
 
@@ -14,14 +14,14 @@ Recordings available on [Bandcamp](https://hugofloresgarcia.bandcamp.com/album/c
 
 
 ## Latent Space // Salad Bowl (coming soon)
-<iframe width="560" height="125" src="https://www.youtube.com/embed/WDs3ww5fLUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/WDs3ww5fLUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space.
 
 
 ## [Flowerbeds](https://github.com/hugofloresgarcia/flowerbeds)
 
 
-<iframe width="560" src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+<iframe  src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 
 Audiovisual live coding, written using SuperCollider and openFrameworks. Performed at Channel Noise fest  at Georgia Southern University in 2019. 
 
@@ -36,12 +36,12 @@ three improvised experimental pieces recorded around my apartment, in concert wi
 Early exploration of a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
 High entropy, short structure, in short loops. 
 
-<iframe width="560" height="125" src="https://www.youtube.com/embed/KnBJIgaPZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/KnBJIgaPZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Cccccccc
 
 Working on a patch for Francisco Corthey. Granular looping. 
-<iframe width="560" height="125" src="https://www.youtube.com/embed/-B4SSNlLNY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/-B4SSNlLNY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Sunday
@@ -51,5 +51,5 @@ Working on a patch for Francisco Corthey. Granular looping.
 ## Scanning the Waves
 
 A radio piece. Surfing the megahertz waves in uptown, chicago. 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
