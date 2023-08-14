@@ -4,6 +4,14 @@ title: art
 # which_category: art
 ---
 
+## confluyo yo, el ambiente me sigue
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+confluyo yo explores the raw, timbral and rhythmic relationships between intentional sounds, natural sounds, and sounds as byproduct of human activity. in the piece, a horn player ([Michael J. Pineda](https://drum.io/michaeljpineda/)) plays a short 9 second theme, called a 'seed', then improvises over it.  the seed is repeated for the rest of the piece, though, through repetition, it slowly dematerializes from a horn sound to either the sound of birds, or the sound of machines. Read the program notes and score [here](https://hugo-does-things.notion.site/confluyo-yo-el-ambiente-me-sigue-38a1b1073a1643a5b2ad0902a02daba7).  happy to announce that _confluyo yo_ has been accepted for the ISMIR 2023 conference and will be performed in Milan, Italy in November 2023! 
+
+
 ## Latent Space // Salad Bowl (coming soon)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WDs3ww5fLUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space.
