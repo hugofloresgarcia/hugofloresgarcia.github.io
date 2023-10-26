@@ -17,7 +17,7 @@ layout: home
   </div>
 
   <div class="row">
-    <p>His research centers around designing interfaces for musical expression, sometimes powered by deep learning.</p>
+    <p>His research centers around designing deep learning systems and human-computer interfaces for creative expression, with a focus on the sound arts. Specifically, he's interested in building generative models for sound and designing controllable, human-in-the-loop interfaces for these generative models, such that they can empower musicians and sound artists to expressively communicate through the medium of generative sound. </p>
     <img src="/assets/img/cloudchoir.gif" alt="Cloud Choir" width="200"/>
   </div>
 
