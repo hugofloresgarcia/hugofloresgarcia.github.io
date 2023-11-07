@@ -25,11 +25,6 @@ layout: home
     <p>His creative work swirls around the worlds of improvised music, algorithmic composition, electroacoustic music, and live coding.</p>
     <img src="/assets/img/bassface.jpg" alt="Bass Face" width="200"/>
   </div>
-<!-- 
-  <div class="row">
-    <p>Hugo was born and raised in Tegucigalpa, Honduras.</p>
-    <img src="/assets/img/honduras-home.jpg" alt="Honduras Home" width="200"/>
-  </div> -->
 
   <div class="row">
     <p>Hugo was born and raised in Tegucigalpa, Honduras. He now lives in Chicago, IL with his partner and his two cats, pipi and pixel.</p>
