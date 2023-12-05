@@ -14,10 +14,14 @@ Read the program notes and score [here](https://hugo-does-things.notion.site/con
 
 Recordings available on [Bandcamp](https://hugofloresgarcia.bandcamp.com/album/confluyo-yo-el-ambiente-me-sigue).
 
+## salad bowl 
+<iframe src="https://www.youtube.com/embed/2Qo0FgvoRxU?si=uldShlWdkhUxoOQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+salad bowl is an interactive neural sound installation where audiences are invited to co-mingle with “the salad” — a neural network trained on a diverse, eclectic collection of sounds. the salad is a heterogeneous mix of sound elements, each with its unique character, all contributing to a vibrant whole. The salad is a collective memory of the past sonic experiences of all sorts of things, all encoded in a fuzzy possibility space.
 
+<!-- 
 ## Latent Space // Salad Bowl (coming soon)
 <iframe src="https://www.youtube.com/embed/WDs3ww5fLUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space.
+Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space. -->
 
 
 ## [Flowerbeds](https://github.com/hugofloresgarcia/flowerbeds)
