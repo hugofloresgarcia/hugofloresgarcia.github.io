@@ -4,6 +4,16 @@ title: art
 # which_category: art
 ---
 
+a table of contents!
+
+- [neural](#neural)
+- [improvised music](#improvised-music)
+- [live coding](#live-coding)
+- [tunes](#tunes)
+- [beats](#beats)
+- [electronic music](#electronic-music)
+
+
 # neural <a name="neural"></a>
 
 ## confluyo yo, el ambiente me sigue (2023)
@@ -34,7 +44,7 @@ Latent Space // Salad Bowl is an immersive and interactive sound installation wh
 
 
 
-# improvised music <a name="improvised music"></a>
+# improvised music <a name="improvised-music"></a>
 
 ## Introspections (2023)
 
@@ -58,7 +68,7 @@ Working on a patch for Francisco Corthey. Granular looping.
 radio scanning in uptown, chicago. 
 <iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# live coding <a name="live coding"></a>
+# live coding <a name="live-coding"></a>
 
 ## [Flowerbeds](https://github.com/hugofloresgarcia/flowerbeds) (2019) <a name="flowerbeds"> </a>
 
@@ -104,7 +114,7 @@ These are some songs I've recorded over the years, using mostly acoustic instrum
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489140286&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/les-chats" title="les chats" target="_blank" style="color: #cccccc; text-decoration: none;">les chats</a></div>
 
-# electronic music <a name="electronic music"></a>
+# electronic music <a name="electronic-music"></a>
 
 ### 3AM ZOOMIES!!! (2023)
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673783706&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/3amzoomies" title="3AMZOOMIES!!!" target="_blank" style="color: #cccccc; text-decoration: none;">3AMZOOMIES!!!</a></div>
