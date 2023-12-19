@@ -10,9 +10,9 @@ entries:
     category: interfaces
     url: /interfaces
 
-  - title: performances 🔊
-    category: performances
-    url: /performances
+  # - title: performances 🔊
+  #   category: performances
+  #   url: /performances
 
 
 
