@@ -81,8 +81,6 @@ radio scanning in uptown, chicago.
 <h4>or go <a href="#toc">back to the top</a></h4>
 
 ## [Flowerbeds](https://github.com/hugofloresgarcia/flowerbeds) (2019) <a name="flowerbeds"> </a>
-
-
 <iframe  src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 
 Audiovisual live coding, written using SuperCollider and openFrameworks. Performed at Channel Noise fest  at Georgia Southern University in 2019. 
@@ -91,32 +89,35 @@ Audiovisual live coding, written using SuperCollider and openFrameworks. Perform
 # tunes <a name="tunes"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
 
-These are some songs I've recorded over the years, using mostly acoustic instruments, and usually with friends. I also might have other stuff on [spotify](https://open.spotify.com/artist/2G3nvgKUPVjOLq7Ng6Pwzm), [soundcloud](https://soundcloud.com/hugofloresgarcia) and [bandcamp](https://hugofloresgarcia.bandcamp.com/).
+These are some songs I've recorded over the years, usually with friends. I also might have other stuff on [spotify](https://open.spotify.com/artist/2G3nvgKUPVjOLq7Ng6Pwzm), [soundcloud](https://soundcloud.com/hugofloresgarcia) and [bandcamp](https://hugofloresgarcia.bandcamp.com/).
 
 ### Poinciana (2023)
+with Jarrett Thompson
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z88LTgmKk7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Pp! (2022)
+with Kelly Reaves, Jarrett Thompson, and Matt Strickland
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eENbaIzjoaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### El Sol (Sale a Cantar) (2022)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q56_43i3ThI?si=8q-5blg4h69mfm9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Camilla (2021)
-
+with Daniel Flores García and Jarrett Thompson
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DE21m3ckO-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Mary Jane (2019)
-
+with Hip-Oh (Jarrett Thompson, Kelly Reaves, Matt Strickland, Cyril Durant, and Zack Sloop, featuring Margaret Kochetta on bgvs)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_Gd8PbdFR-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Bloom (2019)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SF2h6K5NLJc?si=_f3TCT7Iz7OmAw95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Little Fish (2019)
-
+with Play of the Game (Jarrett Thompson, Joseph Charron, and Zack Sloop, featuring Margaret Kochetta on bgvs)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XBDf9AOVZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
