@@ -16,7 +16,6 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 - [improvised music](#improvised-music)
 - [live coding](#live-coding)
 - [tunes](#tunes)
-- [beats](#beats)
 - [electronic music](#electronic-music)
 
 
