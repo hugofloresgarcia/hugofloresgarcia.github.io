@@ -15,7 +15,7 @@ function sleep(milliseconds) {
 }
 
 var jitter_trees = false;
-var use_keyboard = false;
+var use_keyboard = true;
 var use_midi = false;
 var tree;
 var trees = [];
@@ -171,7 +171,7 @@ function setup() {
   jitter_box.changed(toggle_jitter);
   jitter_box.position(0, button_size * 3);
 
-  var use_keyboard_box = createCheckbox("use keyboard", false);
+  var use_keyboard_box = createCheckbox("use keyboard", true);
   use_keyboard_box.changed(toggle_keyboard);
   use_keyboard_box.position(0, button_size * 4);
 
