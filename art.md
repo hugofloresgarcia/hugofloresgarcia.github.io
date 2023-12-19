@@ -4,7 +4,13 @@ title: art
 # which_category: art
 ---
 
-a table of contents!
+<style>
+h4 {text-align: center;}
+</style>
+
+<a name="toc"></a>
+i try to do all kinds of things! so for your troubles, here's a table of contents!
+
 
 - [neural](#neural)
 - [improvised music](#improvised-music)
@@ -15,6 +21,8 @@ a table of contents!
 
 
 # neural <a name="neural"></a>
+<!-- TODO: i need to center the  "back to the top" links. -->
+<h4>or go <a href="#toc">back to the top</a></h4>
 
 ## confluyo yo, el ambiente me sigue (2023)
 <iframe  src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -45,6 +53,7 @@ Latent Space // Salad Bowl is an immersive and interactive sound installation wh
 
 
 # improvised music <a name="improvised-music"></a>
+<h4> or go <a href="#toc">back to the top</a></h4>
 
 ## Introspections (2023)
 
@@ -69,6 +78,7 @@ radio scanning in uptown, chicago.
 <iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # live coding <a name="live-coding"></a>
+<h4>or go <a href="#toc">back to the top</a></h4>
 
 ## [Flowerbeds](https://github.com/hugofloresgarcia/flowerbeds) (2019) <a name="flowerbeds"> </a>
 
@@ -79,6 +89,7 @@ Audiovisual live coding, written using SuperCollider and openFrameworks. Perform
 
 
 # tunes <a name="tunes"></a>
+<h4>or go <a href="#toc">back to the top</a></h4>
 
 These are some songs I've recorded over the years, using mostly acoustic instruments, and usually with friends. I also might have other stuff on [spotify](https://open.spotify.com/artist/2G3nvgKUPVjOLq7Ng6Pwzm), [soundcloud](https://soundcloud.com/hugofloresgarcia) and [bandcamp](https://hugofloresgarcia.bandcamp.com/).
 
@@ -108,13 +119,9 @@ These are some songs I've recorded over the years, using mostly acoustic instrum
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XBDf9AOVZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# beats <a name="beats">
-
-### Les Chats (2022)
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489140286&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/les-chats" title="les chats" target="_blank" style="color: #cccccc; text-decoration: none;">les chats</a></div>
 
 # electronic music <a name="electronic-music"></a>
+<h4>or go <a href="#toc">back to the top</a></h4>
 
 ### 3AM ZOOMIES!!! (2023)
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673783706&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/3amzoomies" title="3AMZOOMIES!!!" target="_blank" style="color: #cccccc; text-decoration: none;">3AMZOOMIES!!!</a></div>
@@ -126,6 +133,12 @@ These are some songs I've recorded over the years, using mostly acoustic instrum
 ### a friendly invader (2023)
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673810046&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/a-friendly-invader" title="a friendly invader ~" target="_blank" style="color: #cccccc; text-decoration: none;">a friendly invader ~</a></div>
+
+
+### Les Chats (2022)
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489140286&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/les-chats" title="les chats" target="_blank" style="color: #cccccc; text-decoration: none;">les chats</a></div>
+
 
 ### Can't Help But Feel Alone (2020)
 
