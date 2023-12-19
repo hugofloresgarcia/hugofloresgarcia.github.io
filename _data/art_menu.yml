@@ -10,10 +10,6 @@ entries:
     category: interfaces
     url: /interfaces
 
-  - title: songs 🎵
-    category: songs
-    url: /songs
-
   - title: performances 🔊
     category: performances
     url: /performances
