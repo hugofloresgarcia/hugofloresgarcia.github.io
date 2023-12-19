@@ -20,7 +20,6 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 
 
 # neural sound art <a name="neural"></a>
-<!-- TODO: i need to center the  "back to the top" links. -->
 <h4>or go <a href="#toc">back to the top</a></h4>
 
 ## confluyo yo, el ambiente me sigue (2023)
@@ -35,6 +34,8 @@ Recordings available on [Bandcamp](https://hugofloresgarcia.bandcamp.com/album/c
 
 ## salad bowl (2023)
 <iframe src="https://www.youtube.com/embed/2Qo0FgvoRxU?si=uldShlWdkhUxoOQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/2lpoICgCkJM?si=MVzYXlvTXp1LnDZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 salad bowl is a neural sound installation that invites participants to co-create a sound collage with the salad — a neural network trained on different distributions of sounds. 
 
 to begin the interaction, a participant must make a sound into the microphone in front of them. the neural network then takes the participant’s sound as input and destroys around 80-90% of it, then attempts to regenerate the original sound — though it knows very little about the original sound (human speech)!  however, it does know a lot about natural sounds and specific musical styles.
@@ -97,32 +98,32 @@ These are some songs I've recorded over the years, usually with friends. I also 
 
 ### Poinciana (2023)
 with Jarrett Thompson
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z88LTgmKk7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/z88LTgmKk7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Pp! (2022)
 with Kelly Reaves, Jarrett Thompson, and Matt Strickland
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eENbaIzjoaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/eENbaIzjoaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### El Sol (Sale a Cantar) (2022)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q56_43i3ThI?si=8q-5blg4h69mfm9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Q56_43i3ThI?si=8q-5blg4h69mfm9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Camilla (2021)
 with Daniel Flores García and Jarrett Thompson
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DE21m3ckO-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/DE21m3ckO-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Mary Jane (2019)
 with Hip-Oh (Jarrett Thompson, Kelly Reaves, Matt Strickland, Cyril Durant, and Zack Sloop, featuring Margaret Kochetta on bgvs)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_Gd8PbdFR-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/_Gd8PbdFR-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Bloom (2019)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SF2h6K5NLJc?si=_f3TCT7Iz7OmAw95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/SF2h6K5NLJc?si=_f3TCT7Iz7OmAw95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Little Fish (2019)
 with Play of the Game (Jarrett Thompson, Joseph Charron, and Zack Sloop, featuring Margaret Kochetta on bgvs)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XBDf9AOVZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/XBDf9AOVZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 # electronic music <a name="electronic-music"></a>
