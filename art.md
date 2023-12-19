@@ -12,7 +12,7 @@ h4 {text-align: center;}
 i try to do all kinds of things! so for your troubles, here's a table of contents!
 
 
-- [neural](#neural)
+- [neural sound art](#neural)
 - [improvised music](#improvised-music)
 - [live coding](#live-coding)
 - [tunes](#tunes)
@@ -20,7 +20,7 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 - [electronic music](#electronic-music)
 
 
-# neural <a name="neural"></a>
+# neural sound art <a name="neural"></a>
 <!-- TODO: i need to center the  "back to the top" links. -->
 <h4>or go <a href="#toc">back to the top</a></h4>
 
