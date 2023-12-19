@@ -35,7 +35,12 @@ Recordings available on [Bandcamp](https://hugofloresgarcia.bandcamp.com/album/c
 
 ## salad bowl (2023)
 <iframe src="https://www.youtube.com/embed/2Qo0FgvoRxU?si=uldShlWdkhUxoOQr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-salad bowl is an interactive neural sound installation where audiences are invited to co-mingle with “the salad” — a neural network trained on a diverse, eclectic collection of sounds. the salad is a heterogeneous mix of sound elements, each with its unique character, all contributing to a vibrant whole. The salad is a collective memory of the past sonic experiences of all sorts of things, all encoded in a fuzzy possibility space.
+salad bowl is a neural sound installation that invites participants to co-create a sound collage with the salad — a neural network trained on different distributions of sounds. 
+
+to begin the interaction, a participant must make a sound into the microphone in front of them. the neural network then takes the participant’s sound as input and destroys around 80-90% of it, then attempts to regenerate the original sound — though it knows very little about the original sound (human speech)!  however, it does know a lot about natural sounds and specific musical styles.
+this process is repeated a number of times in a feedback loop and shown to the participant. 
+
+— the end result is a fascinating auditory look into the processes behind generative sound, as well as the ability of neural networks to spot and leverage relationships between sound objects in even the most unintuitive of circumstances. 
 
 ## Living // Dreaming (nightmare 1) (2023)
 <iframe  src="https://www.youtube.com/embed/KnBJIgaPZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
