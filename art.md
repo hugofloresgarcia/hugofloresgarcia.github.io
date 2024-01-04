@@ -15,9 +15,8 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 - [neural sound art](#neural)
 - [improvised music](#improvised-music)
 - [live coding](#live-coding)
-- [tunes](#tunes)
 - [electronic music](#electronic-music)
-
+- [tunes](#tunes)
 
 # neural sound art <a name="neural"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
@@ -56,7 +55,6 @@ High entropy, short structure, in short loops.
 Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space. -->
 
 
-
 # improvised music <a name="improvised-music"></a>
 <h4> or go <a href="#toc">back to the top</a></h4>
 
@@ -89,6 +87,34 @@ radio scanning in uptown, chicago.
 <iframe  src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 
 Audiovisual live coding, written using SuperCollider and openFrameworks. Performed at Channel Noise fest  at Georgia Southern University in 2019. 
+
+
+# electronic music <a name="electronic-music"></a>
+<h4>or go <a href="#toc">back to the top</a></h4>
+
+### JAILBREAK!!! (2023)
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1695343965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/jailbreak" title="JAILBREAK!!!" target="_blank" style="color: #cccccc; text-decoration: none;">JAILBREAK!!!</a></div>
+
+### 3AM ZOOMIES!!! (2023)
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673783706&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/3amzoomies" title="3AMZOOMIES!!!" target="_blank" style="color: #cccccc; text-decoration: none;">3AMZOOMIES!!!</a></div>
+
+
+### un torino (2023)
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1667918688&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/un-torino" title="un torino" target="_blank" style="color: #cccccc; text-decoration: none;">un torino</a></div>
+
+### a friendly invader (2023)
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673810046&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/a-friendly-invader" title="a friendly invader ~" target="_blank" style="color: #cccccc; text-decoration: none;">a friendly invader ~</a></div>
+
+
+### Les Chats (2022)
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489140286&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/les-chats" title="les chats" target="_blank" style="color: #cccccc; text-decoration: none;">les chats</a></div>
+
+
+### Can't Help But Feel Alone (2020)
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786787825&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/cant-help-but-feel-alone" title="can&#x27;t help but feel alone" target="_blank" style="color: #cccccc; text-decoration: none;">can&#x27;t help but feel alone</a></div>
 
 
 # tunes <a name="tunes"></a>
@@ -124,31 +150,3 @@ with Hip-Oh (Jarrett Thompson, Kelly Reaves, Matt Strickland, Cyril Durant, and 
 ### Little Fish (2019)
 with Play of the Game (Jarrett Thompson, Joseph Charron, and Zack Sloop, featuring Margaret Kochetta on bgvs)
 <iframe src="https://www.youtube.com/embed/XBDf9AOVZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-# electronic music <a name="electronic-music"></a>
-<h4>or go <a href="#toc">back to the top</a></h4>
-
-### JAILBREAK!!! (2023)
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1695343965&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/jailbreak" title="JAILBREAK!!!" target="_blank" style="color: #cccccc; text-decoration: none;">JAILBREAK!!!</a></div>
-
-### 3AM ZOOMIES!!! (2023)
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673783706&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/3amzoomies" title="3AMZOOMIES!!!" target="_blank" style="color: #cccccc; text-decoration: none;">3AMZOOMIES!!!</a></div>
-
-
-### un torino (2023)
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1667918688&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/un-torino" title="un torino" target="_blank" style="color: #cccccc; text-decoration: none;">un torino</a></div>
-
-### a friendly invader (2023)
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1673810046&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/a-friendly-invader" title="a friendly invader ~" target="_blank" style="color: #cccccc; text-decoration: none;">a friendly invader ~</a></div>
-
-
-### Les Chats (2022)
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489140286&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/les-chats" title="les chats" target="_blank" style="color: #cccccc; text-decoration: none;">les chats</a></div>
-
-
-### Can't Help But Feel Alone (2020)
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/786787825&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/cant-help-but-feel-alone" title="can&#x27;t help but feel alone" target="_blank" style="color: #cccccc; text-decoration: none;">can&#x27;t help but feel alone</a></div>
