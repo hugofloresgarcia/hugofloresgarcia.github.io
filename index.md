@@ -2,33 +2,64 @@
 layout: home
 ---
 
+
+
+
+
+
+
+
+
+
+
 <div style="text-align: center;">
   <figure style="display: inline-block; width: 300px; text-align: center;">
     <img src="/assets/img/flower.gif" alt="flower" width="300"/>
-    <figcaption style="font-size: 0.8em;">a flower fed back into itself going through multiple color transformations, made with max/msp/jit. original illustration by camilla forte</figcaption>
+    <figcaption style="font-size: 0.8em; text-align: center;">a spinning flower fed back into itself as it goes through edge tracing and multiple color transformations. animated gif into max/msp/jit. original illustration by camilla forte</figcaption>
   </figure>
 </div>
 
+
 <div class="container">
   <div class="row">
-    <p>Hugo Flores García (he/him) is a computer musician, scientist and guitarist. Hugo is a PhD Candidate at Northwestern University, performing research at the intersection of machine learning, music, and human-computer interaction. 
+    <p>Hugo Flores García (he/him) is a computer musician, audiovisual artist, composer, improviser, programmer, and scientist. 
     </p>
-    <img src="/assets/img/me.jpeg" alt="Hugo Flores García" width="200"/>
+    <figure>
+      <img src="/assets/img/me.jpeg" alt="Hugo Flores García" width="250"/>
+      <figcaption style="font-size: 0.8em; text-align: center;">photo by Jonathan Chick</figcaption>
+    </figure>
   </div>
 
   <div class="row">
-    <p>His research centers around designing deep learning systems and human-computer interfaces for creative expression, with a focus on the sound arts. Specifically, he's interested in building generative models for sound and designing controllable, human-in-the-loop interfaces for these generative models, such that they can empower musicians and sound artists to expressively communicate through the medium of generative sound. </p>
-    <img src="/assets/img/cloudchoir.gif" alt="Cloud Choir" width="200"/>
+    <p>His creative practice includes improvised music for guitars, found sound objects and electronics, electroacoustic compositions, live coding, interactive art installations, and bespoke interactive musical instruments.</p>
+    <figure>
+      <img src="/assets/img/bassface.jpg" alt="Bass Face" width="250"/>
+      <figcaption style="font-size: 0.8em; text-align: center;">photo by Lizzie Díaz Luna</figcaption>
+    </figure>
   </div>
 
   <div class="row">
-    <p>His creative work swirls around the worlds of improvised music, algorithmic composition, electroacoustic music, and live coding.</p>
-    <img src="/assets/img/bassface.jpg" alt="Bass Face" width="200"/>
+    <p>Hugo’s work is inspired by the appreciation of and interaction with the natural and human-made processes and ecologies around him. His approach to art and science (and the fuzzy spaces between the two) is led by a sense of curiosity and a desire to illustrate his explorations and findings to those around him.</p>
+    <figure>
+      <img src="/assets/img/field-rec.png" alt="Field Recording" width="250"/>
+      <figcaption style="font-size: 0.8em; text-align: center;">photo by Camilla Forte</figcaption>
+    </figure>
   </div>
 
   <div class="row">
-    <p>Hugo was born and raised in Tegucigalpa, Honduras. He now lives in Chicago, IL with his partner and his two cats, pipi and pixel.</p>
-    <img src="/assets/img/cats.jpg" alt="Cats" width="200"/>
+    <p>Hugo is a PhD candidate at Northwestern University, doing research at the intersection of applied machine learning, music, and human-computer interaction. His research centers around designing new interfaces for creative expression, with a focus on the sound arts. Specifically, he's interested in building controllable, artist-centered machine learning interfaces for sound. </p>
+    <figure>
+      <img src="/assets/img/cloudchoir.gif" alt="Cloud Choir" width="250"/>
+    </figure>
+  </div>
+
+
+
+  <div class="row">
+    <p>Hugo was born and raised in the heart of Central America: Honduras. He now lives in Chicago, IL with his partner and his two cats, pipi and pixel.</p>
+    <figure>
+      <img src="/assets/img/cats.jpg" alt="Cats" width="250"/>
+    </figure>
   </div>
 </div>
 
