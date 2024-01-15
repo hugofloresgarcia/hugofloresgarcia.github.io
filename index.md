@@ -2,16 +2,6 @@
 layout: home
 ---
 
-
-
-
-
-
-
-
-
-
-
 <div style="text-align: center;">
   <figure style="display: inline-block; width: 300px; text-align: center;">
     <img src="/assets/img/flower.gif" alt="flower" width="300"/>
