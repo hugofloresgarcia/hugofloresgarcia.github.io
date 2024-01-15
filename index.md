@@ -22,7 +22,7 @@ layout: home
 
 <div class="container">
   <div class="row">
-    <p>Hugo Flores García (he/him) is a computer musician, audiovisual artist, composer, improviser, programmer, and scientist. 
+    <p>Hugo Flores García (he/him) is a computer musician, improviser, audiovisual artist, composer, programmer, and scientist. 
     </p>
     <figure>
       <img src="/assets/img/me.jpeg" alt="Hugo Flores García" width="250"/>
