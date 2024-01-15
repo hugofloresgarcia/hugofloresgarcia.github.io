@@ -10,7 +10,7 @@ let sketch = function(p) {
     };
   
     p.draw = function() {
-      p.background(255);
+      p.background("#f9f6d5");
       let radius = p.min(p.width, p.height) / 2 - 50;
       let angle = 360 / numPoints;
       p.translate(p.width / 2, p.height / 2);
