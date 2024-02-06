@@ -54,6 +54,7 @@ layout: home
 </div>
 
 
+
 You can reach him
 <ul style="list-style-type:none">
   <li> by email at hugofg [at] u.northwestern.edu,  </li>
@@ -61,3 +62,5 @@ You can reach him
   <li> or <a href="https://instagram.com/hugofloresgarcia">instagram</a>.    </li>
 </ul>
   
+
+<img src="/assets/img/headshot-4.jpeg" alt="photo playing guitar with a computer" height="400"/>
