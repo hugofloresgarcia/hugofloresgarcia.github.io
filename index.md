@@ -12,7 +12,7 @@ layout: home
 
 <div class="container">
   <div class="row">
-    <p>Hugo Flores García (he/him) is a computer musician, improviser, audiovisual artist, composer, programmer, and scientist. 
+    <p>Hugo Flores García (he/him) is a computer musician, improviser, composer, programmer, and scientist. 
     </p>
     <figure>
       <img src="/assets/img/me.jpeg" alt="Hugo Flores García" width="250"/>
@@ -21,7 +21,7 @@ layout: home
   </div>
 
   <div class="row">
-    <p>His creative practice includes improvised music for guitars, found sound objects and electronics, electroacoustic compositions, live coding, interactive art installations, and bespoke interactive musical instruments.</p>
+    <p>His creative practice includes improvised music for guitars, found sound objects and electronics, electroacoustic compositions, live coding, interactive art installations, and bespoke musical instruments.</p>
     <figure>
       <img src="/assets/img/bassface.jpg" alt="Bass Face" width="250"/>
       <figcaption style="font-size: 0.8em; text-align: center;">photo by Lizzie Díaz Luna</figcaption>
@@ -29,7 +29,7 @@ layout: home
   </div>
 
   <div class="row">
-    <p>Hugo’s work is inspired by the appreciation of and interaction with the natural and human-made processes and ecologies around him. His approach to art and science (and the fuzzy spaces between the two) is led by a sense of curiosity and a desire to illustrate his explorations and findings to those around him.</p>
+    <p>Hugo’s work is inspired by the appreciation of and interaction with the natural and human-made processes and ecologies around him. His approach to art and science (and the fuzzy spaces between the two) is led by a sense of curiosity and a desire to illustrate his explorations to those around him.</p>
     <figure>
       <img src="/assets/img/field-rec.png" alt="Field Recording" width="250"/>
       <figcaption style="font-size: 0.8em; text-align: center;">photo by Camilla Forte</figcaption>
