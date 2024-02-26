@@ -2,6 +2,23 @@
 layout: home
 ---
 
+<style>
+h4 {text-align: center;}
+
+.fun-divider {
+  width: 100%; /* Full width */
+  text-align: center; /* Center the divider */
+  overflow: hidden; /* Ensures the content is clipped */
+  line-height: 20px; /* Height of the divider */
+}
+
+.fun-divider:before {
+  content: "🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻"; /* Your character pattern */
+  letter-spacing: 10px; /* Space between characters */
+}
+</style>
+
+
 <div style="text-align: center;">
   <figure style="display: inline-block; width: 300px; text-align: center;">
     <img src="/assets/img/flower.gif" alt="flower" width="300"/>
@@ -9,6 +26,19 @@ layout: home
   </figure>
 </div>
 
+<div class="fun-divider"></div>
+
+<!-- a news entry, with small bullet points for each new thing i want to share -->
+<div style="text-align: center;">
+  <h3>📰📰📰 news 📰📰📰</h3>
+  <ul>
+    <!-- <li> I will be playing an improvised ambient set at <a href="www.com">Drone Rodeo</a> at the Hideout in Chicago </li> -->
+    <li> on Feb. 25, 2024, I gave the inaugural talk + performance for the <a href="chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="ess.org">ESS Chicago</a>, where I talked about my compositional work with vampnet, using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and playsed a solo set of instrumental music with . 
+    You can watch the whole talk + performance on <a href="youtube.com/live/NfhlRH5k-bg?si=adj86iLSLVvyBuDt&t=580">youtube</a>!</li>
+  </ul>
+</div>
+
+<div class="fun-divider"></div>
 
 <div class="container">
   <div class="row">
