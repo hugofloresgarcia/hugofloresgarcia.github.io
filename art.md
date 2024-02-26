@@ -22,7 +22,7 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 <h4>or go <a href="#toc">back to the top</a></h4>
 
 ## chicago creative machines (2024)
-<iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=7OmsXADiw1QZTEeO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=PgSBUh-FuMliLWTB&amp;start=5002" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I had the joy of giving the inaugural talk + performance for the [Chicago Creative Machines](https://chicagocreativemachines.com) series at [ESS Chicago](https://ess.org) on Feb. 25, 2024. I talked about my compositional work with [vampnet](/research), using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and played a solo set of instrumental music with. 
 
