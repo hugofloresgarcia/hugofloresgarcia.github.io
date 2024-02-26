@@ -50,7 +50,7 @@ this process is repeated a number of times in a feedback loop and shown to the p
 ## Living // Dreaming (nightmare 1) (2023)
 <iframe  src="https://www.youtube.com/embed/KnBJIgaPZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Exploration of a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
+Exploration of the resonances in a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
 High entropy, short structure, in short loops. 
 
 
