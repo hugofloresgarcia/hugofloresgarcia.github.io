@@ -33,8 +33,8 @@ h4 {text-align: center;}
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
     <!-- <li> I will be playing an improvised ambient set at <a href="www.com">Drone Rodeo</a> at the Hideout in Chicago </li> -->
-    <li> on Feb. 25, 2024, I gave the inaugural talk + performance for the <a href="chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="ess.org">ESS Chicago</a>, where I talked about my compositional work with vampnet, using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and playsed a solo set of instrumental music with . 
-    You can watch the whole talk + performance on <a href="youtube.com/live/NfhlRH5k-bg?si=adj86iLSLVvyBuDt&t=580">youtube</a>!</li>
+    <li> on Feb. 25, 2024, I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>, where I talked about my compositional work with vampnet, using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and playsed a solo set of instrumental music with . 
+    You can watch the whole talk + performance on <a href="https://youtube.com/live/NfhlRH5k-bg?si=adj86iLSLVvyBuDt&t=580">youtube</a>!</li>
   </ul>
 </div>
 
