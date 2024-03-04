@@ -21,6 +21,17 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 # neural sound art <a name="neural"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
 
+## world of mouth (2024)
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=690466229/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/world-of-mouth-binaural-version">world of mouth (binaural version) by hugo flores garcía</a></iframe>
+
+world of mouth is a fixed media 8-channel composition for a generative sound neural network and voice.
+
+In world of mouth, I construct several sonic environments entirely out of gestures recorded with my own voice. These vocal gestures are used as guidance for a generative model trained on a sound library of percussion instruments and natural sounds.
+
+The vocal gestures gave timbral and rhythmic shape to the generated sounds, which contain the sonic properties of the collected material (e.g. percussion + natural sounds), while still following the patterns of my voice. The result is a fascinating morphing process between sound textures: we can listen my vocal gesture give shape to the sound material, but eventually, the sound material bites back, imposing its own rhythmic properties into the resulting sound.
+
+If you would like a copy of the 8-channel version, email me hugggofloresgarcia [at] gmail [dot] com.
+
 ## chicago creative machines (2024)
 <iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=PgSBUh-FuMliLWTB&amp;start=5002" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
