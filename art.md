@@ -12,13 +12,13 @@ h4 {text-align: center;}
 i try to do all kinds of things! so for your troubles, here's a table of contents!
 
 
-- [neural sound art](#neural)
+- [with neural nets](#neural)
 - [improvised music](#improvised-music)
 - [live coding](#live-coding)
 - [electronic music](#electronic-music)
 - [tunes](#tunes)
 
-# neural sound art <a name="neural"></a>
+# with neural nets <a name="neural"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
 
 ## world of mouth (2024)
@@ -63,12 +63,6 @@ this process is repeated a number of times in a feedback loop and shown to the p
 
 Exploration of the resonances in a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
 High entropy, short structure, in short loops. 
-
-
-<!-- 
-## Latent Space // Salad Bowl (coming soon)
-<iframe src="https://www.youtube.com/embed/WDs3ww5fLUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-Latent Space // Salad Bowl is an immersive and interactive sound installation where audiences are invited into the "latent space" of a neural network trained to generate a diverse range of sounds. The installation space is filled with unique physical sound sculptures which participants can engage with by plucking, shaking, striking, or singing into them. Each participant's unique interaction is captured and processed by a neural network, creating a transformed echo that begins to resonate from eight different speakers around the space. -->
 
 
 # improvised music <a name="improvised-music"></a>
