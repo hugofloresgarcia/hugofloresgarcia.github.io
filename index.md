@@ -43,12 +43,7 @@ h4 {text-align: center;}
         Drone Rodeo
       </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
     </li>
-    <li> (March 2024) I played 
-      <a href="https://hideoutchicago.com/event/drone-rodeo-urner-and-hugo-flores-garc%C3%ADa/hideout-chicago/chicago/">
-        Drone Rodeo
-      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
-    </li>
-    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the [art](/art) section. </li>
+    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the <a href="/art">art</a> section. </li>
   </ul>
 </div>
 
@@ -87,8 +82,6 @@ h4 {text-align: center;}
     </figure>
   </div>
 
-
-
   <div class="row">
     <p>Hugo was born and raised in the heart of Central America: Honduras. He now lives in Chicago, IL with his partner and his two cats, pipi and pixel.</p>
     <figure>
@@ -107,4 +100,7 @@ You can reach him
 </ul>
   
 
-<img src="/assets/img/headshot-4.jpeg" alt="photo playing guitar with a computer" height="400"/>
+<figure>
+<img src="/assets/img/hands!!.jpg" alt="photo playing a pad controller" height="400"/>
+<figcaption style="font-size: 0.8em; text-align: center;">photo by Ricardo Adame</figcaption>
+</figure>
