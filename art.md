@@ -58,7 +58,7 @@ this process is repeated a number of times in a feedback loop and shown to the p
 
 — the end result is a fascinating auditory look into the processes behind generative sound, as well as the ability of neural networks to spot and leverage relationships between sound objects in even the most unintuitive of circumstances. 
 
-## Living // Dreaming (nightmare 1) (2023)
+## living // dreaming (nightmare 1) (2023)
 <iframe  src="https://www.youtube.com/embed/KnBJIgaPZCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Exploration of the resonances in a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
@@ -87,10 +87,10 @@ Working on a patch for Francisco Corthey. Granular looping.
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489148689&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/sunday" title="sunday" target="_blank" style="color: #cccccc; text-decoration: none;">sunday</a></div>
 
-## Scanning the Waves (2023)
+<!-- ## Scanning the Waves (2023) -->
 
-radio scanning in uptown, chicago. 
-<iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- radio scanning in uptown, chicago.  -->
+<!-- <iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 # live coding <a name="live-coding"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
