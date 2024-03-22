@@ -43,7 +43,7 @@ h4 {text-align: center;}
         Drone Rodeo
       </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
     </li>
-    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the <a href="/art">art</a> section. </li>
+    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the <a href="/art#neural">art</a> section. </li>
   </ul>
 </div>
 
