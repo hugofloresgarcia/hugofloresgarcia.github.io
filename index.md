@@ -33,8 +33,22 @@ h4 {text-align: center;}
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
     <!-- <li> I will be playing an improvised ambient set at <a href="www.com">Drone Rodeo</a> at the Hideout in Chicago </li> -->
-    <li> on Feb. 25, 2024, I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>, where I talked about my compositional work with vampnet, using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and playsed a solo set of instrumental music with . 
-    You can watch the whole talk + performance on <a href="https://youtube.com/live/NfhlRH5k-bg?si=adj86iLSLVvyBuDt&t=580">youtube</a>!</li>
+    <li> (March 2024) Interviewed for 
+      <a href="https://www.wbez.org/stories/clarice-assad-is-pioneering-ai-in-classical-music/e03cb494-2c46-49b8-ba92-49725beccc56">
+      WBEZ article on AI music in Chicago.
+      </a>
+    </li>
+    <li> (March 2024) I played 
+      <a href="https://hideoutchicago.com/event/drone-rodeo-urner-and-hugo-flores-garc%C3%ADa/hideout-chicago/chicago/">
+        Drone Rodeo
+      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
+    </li>
+    <li> (March 2024) I played 
+      <a href="https://hideoutchicago.com/event/drone-rodeo-urner-and-hugo-flores-garc%C3%ADa/hideout-chicago/chicago/">
+        Drone Rodeo
+      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
+    </li>
+    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the [art](/art) section. </li>
   </ul>
 </div>
 
