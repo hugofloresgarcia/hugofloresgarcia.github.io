@@ -17,6 +17,9 @@ h4 {text-align: center;}
   letter-spacing: 10px; /* Space between characters */
 }
 </style>
+<div style="text-align: center;">
+  <p> to find out where I'm musicking next, have a look at my <a href="instagram.com/hugofloresgarcia">instagram!</a></p>
+</div>
 
 
 <div style="text-align: center;">
@@ -25,6 +28,7 @@ h4 {text-align: center;}
     <figcaption style="font-size: 0.8em; text-align: center;">a spinning flower fed back into itself as it goes through edge tracing and multiple color transformations. animated gif into max/msp/jit. original illustration by camilla forte</figcaption>
   </figure>
 </div>
+
 
 <div class="fun-divider"></div>
 
