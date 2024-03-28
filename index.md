@@ -18,7 +18,7 @@ h4 {text-align: center;}
 }
 </style>
 <div style="text-align: center;">
-  <p> to find out where I'm musicking next, have a look at my <a href="instagram.com/hugofloresgarcia">instagram!</a></p>
+  <p> to find out where I'm musicking next, have a look at my <a href="https://instagram.com/hugofloresgarcia">instagram!</a></p>
 </div>
 
 
