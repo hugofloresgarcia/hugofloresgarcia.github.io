@@ -9,12 +9,12 @@ main:
 
   - title: "Publications"
     url: https://scholar.google.com.ph/citations?user=CZ39htEAAAAJ
-
-  # - title: "Talks"
-  #   url: /talks/    
     
   - title: "Music"
     url: /music/
+
+  - title: "Songs"
+    url: /songwriting/
         
   - title: "CV"
     url: /_pages/cv.pdf
