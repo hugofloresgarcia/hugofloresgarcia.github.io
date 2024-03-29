@@ -9,14 +9,46 @@ h4 {text-align: center;}
 </style>
 
 <a name="toc"></a>
-i try to do all kinds of things! so for your troubles, here's a table of contents!
+i try to do all kinds of things! so for your troubles, here's a table of contents:
 
-
-- [with neural nets](#neural)
 - [improvised music](#improvised-music)
+- [with neural nets](#neural)
 - [live coding](#live-coding)
 - [electronic music](#electronic-music)
 - [tunes](#tunes)
+
+
+# improvised music <a name="improvised-music"></a>
+<h4> or go <a href="#toc">back to the top</a></h4>
+
+
+## sound collage - march 28th, 2024
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2112242711/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/sound-collage-march-28th-2024">sound collage - march 28th, 2024 by hugo flores garcía</a></iframe>
+
+## dueto - mi má y mi pá (2024)
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1146448455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/dueto-mi-m-y-mi-p">dueto - mi má y mi pá by hugo flores garcía</a></iframe>
+
+## Introspections (2023)
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2032541219/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/album/introspections">introspections by hugo flores garcía</a></iframe>
+
+
+## Cccccccc (2023)
+
+Working on a patch for Francisco Corthey. Granular looping. 
+<iframe  src="https://www.youtube.com/embed/-B4SSNlLNY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Sunday (2023)
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489148689&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/sunday" title="sunday" target="_blank" style="color: #cccccc; text-decoration: none;">sunday</a></div>
+
+<!-- ## Scanning the Waves (2023) -->
+
+<!-- radio scanning in uptown, chicago.  -->
+<!-- <iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
 
 # with neural nets <a name="neural"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
@@ -64,37 +96,6 @@ this process is repeated a number of times in a feedback loop and shown to the p
 Exploration of the resonances in a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
 High entropy, short structure, in short loops. 
 
-
-# improvised music <a name="improvised-music"></a>
-<h4> or go <a href="#toc">back to the top</a></h4>
-
-
-## sound collage - march 28th, 2024
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2112242711/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/sound-collage-march-28th-2024">sound collage - march 28th, 2024 by hugo flores garcía</a></iframe>
-
-## dueto - mi má y mi pá (2024)
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1146448455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/dueto-mi-m-y-mi-p">dueto - mi má y mi pá by hugo flores garcía</a></iframe>
-
-## Introspections (2023)
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2032541219/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/album/introspections">introspections by hugo flores garcía</a></iframe>
-
-
-## Cccccccc (2023)
-
-Working on a patch for Francisco Corthey. Granular looping. 
-<iframe  src="https://www.youtube.com/embed/-B4SSNlLNY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-## Sunday (2023)
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1489148689&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hugofloresgarcia" title="hugo flores-garcía" target="_blank" style="color: #cccccc; text-decoration: none;">hugo flores-garcía</a> · <a href="https://soundcloud.com/hugofloresgarcia/sunday" title="sunday" target="_blank" style="color: #cccccc; text-decoration: none;">sunday</a></div>
-
-<!-- ## Scanning the Waves (2023) -->
-
-<!-- radio scanning in uptown, chicago.  -->
-<!-- <iframe  src="https://www.youtube.com/embed/B0CNvrBFYDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 # live coding <a name="live-coding"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
