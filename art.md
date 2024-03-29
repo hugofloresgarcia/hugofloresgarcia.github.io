@@ -68,11 +68,15 @@ High entropy, short structure, in short loops.
 # improvised music <a name="improvised-music"></a>
 <h4> or go <a href="#toc">back to the top</a></h4>
 
+
+## sound collage - march 28th, 2024
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2112242711/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/sound-collage-march-28th-2024">sound collage - march 28th, 2024 by hugo flores garcía</a></iframe>
+
 ## dueto - mi má y mi pá (2024)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=1146448455/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/dueto-mi-m-y-mi-p">dueto - mi má y mi pá by hugo flores garcía</a></iframe>
-## Introspections (2023)
 
-three improvised experimental pieces recorded around my apartment, in concert with the sounds surrounding it. 
+## Introspections (2023)
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2032541219/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/album/introspections">introspections by hugo flores garcía</a></iframe>
 
