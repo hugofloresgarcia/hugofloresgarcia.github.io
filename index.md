@@ -30,26 +30,6 @@ h4 {text-align: center;}
 </div>
 
 
-<div class="fun-divider"></div>
-
-<!-- a news entry, with small bullet points for each new thing i want to share -->
-<div style="text-align: center;">
-  <h3>📰📰📰 news 📰📰📰</h3>
-  <ul>
-    <!-- <li> I will be playing an improvised ambient set at <a href="www.com">Drone Rodeo</a> at the Hideout in Chicago </li> -->
-    <li> (March 2024) Interviewed for 
-      <a href="https://www.wbez.org/stories/clarice-assad-is-pioneering-ai-in-classical-music/e03cb494-2c46-49b8-ba92-49725beccc56">
-      WBEZ article on AI music in Chicago.
-      </a>
-    </li>
-    <li> (March 2024) I played 
-      <a href="https://hideoutchicago.com/event/drone-rodeo-urner-and-hugo-flores-garc%C3%ADa/hideout-chicago/chicago/">
-        Drone Rodeo
-      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
-    </li>
-    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the <a href="/art#neural">art</a> section. </li>
-  </ul>
-</div>
 
 <div class="fun-divider"></div>
 
@@ -102,6 +82,33 @@ You can reach him
   <li> or <a href="https://github.com/hugofloresgarcia">github</a>,   </li>
   <li> or <a href="https://instagram.com/hugofloresgarcia">instagram</a>.    </li>
 </ul>
+
+
+<div class="fun-divider"></div>
+
+<!-- a news entry, with small bullet points for each new thing i want to share -->
+<div style="text-align: center;">
+  <h3>📰📰📰 news 📰📰📰</h3>
+  <ul>
+    <!-- <li> I will be playing an improvised ambient set at <a href="www.com">Drone Rodeo</a> at the Hideout in Chicago </li> -->
+    <li> (March 2024) Interviewed for 
+      <a href="https://www.wbez.org/stories/clarice-assad-is-pioneering-ai-in-classical-music/e03cb494-2c46-49b8-ba92-49725beccc56">
+      WBEZ article on AI music in Chicago.
+      </a>
+    </li>
+    <li> (March 2024) I played 
+      <a href="https://hideoutchicago.com/event/drone-rodeo-urner-and-hugo-flores-garc%C3%ADa/hideout-chicago/chicago/">
+        Drone Rodeo
+      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
+    </li>
+    <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the <a href="/art#neural">art</a> section. </li>
+    <li> (July 2023) My open-source generative looper, unloop, made it to the <a href="https://news.ycombinator.com/item?id=36739688">front page of hacker news on 07/15/2023!</a>
+    </li>
+    <!-- <li> (Dec 2021) Check out <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2021/building-tools-to-enhance-creative-expression.html">this article</a> on our ISMIR 2021 paper on Leveraging Hierarchical Structures for Musical Recognition that won the best paper award that year! 
+    </li> -->
+
+  </ul>
+</div>
   
 
 <figure>
