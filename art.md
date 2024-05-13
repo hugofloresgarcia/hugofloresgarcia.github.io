@@ -158,12 +158,12 @@ with Daniel Flores García and Jarrett Thompson
 
 
 ### Mary Jane (2019)
-with Hip-Oh (Jarrett Thompson, Kelly Reaves, Matt Strickland, Cyril Durant, and Zack Sloop, featuring Margaret Kochetta on bgvs)
+with Hip-Oh
 <iframe src="https://www.youtube.com/embed/_Gd8PbdFR-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Bloom (2019)
 <iframe src="https://www.youtube.com/embed/SF2h6K5NLJc?si=_f3TCT7Iz7OmAw95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Little Fish (2019)
-with Play of the Game (Jarrett Thompson, Joseph Charron, and Zack Sloop, featuring Margaret Kochetta on bgvs)
+with Play of the Game 
 <iframe src="https://www.youtube.com/embed/XBDf9AOVZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
