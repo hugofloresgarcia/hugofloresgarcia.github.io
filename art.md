@@ -21,6 +21,10 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 # improvised music <a name="improvised-music"></a>
 <h4> or go <a href="#toc">back to the top</a></h4>
 
+## stretchmetal presents | drone rodeo (2024)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T6eGKgeG7o0?si=kQWD9mWiEcf5HGcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ## sound collage - march 28th, 2024
 

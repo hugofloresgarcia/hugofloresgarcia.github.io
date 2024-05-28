@@ -99,7 +99,7 @@ You can reach him
     <li> (March 2024) I played 
       <a href="https://hideoutchicago.com/event/drone-rodeo-urner-and-hugo-flores-garc%C3%ADa/hideout-chicago/chicago/">
         Drone Rodeo
-      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. 
+      </a> at the Hideout, a series curated by <a href="https://www.stretchmetal.org/">StretchMetal</a>. video in the <a href="/art">art</a> page! 
     </li>
     <li> (Feb 2024) I gave the inaugural talk + performance for the <a href="https://chicagocreativemachines.com">Chicago Creative Machines</a> series at <a href="https://ess.org">ESS Chicago</a>! Read more in the <a href="/art#neural">art</a> section. </li>
     <li> (July 2023) My open-source generative looper, unloop, made it to the <a href="https://news.ycombinator.com/item?id=36739688">front page of hacker news on 07/15/2023!</a>
