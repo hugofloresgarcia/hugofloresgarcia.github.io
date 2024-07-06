@@ -140,7 +140,7 @@ function draw() {
   // background(100, 255, 80);
   background(0);
   lights();
-  // orbitControl();
+  orbitControl();
   // noStroke();
   // translate(0, 0, -200); // Move the whole scene back a bit
 
