@@ -46,7 +46,9 @@ let HEIGHT = 600;
 
 
 function setup() {
-  createCanvas(WIDTH, HEIGHT, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
+  WIDTH = windowWidth;
+  HEIGHT = windowHeight;
   colorMode(HSB);
   // debugMode();
   camera(0, 0, 500, 0, 0, 0, 0, 1, 0);
@@ -220,3 +222,8 @@ function draw() {
   }
 }
 
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
