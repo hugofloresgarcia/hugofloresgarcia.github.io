@@ -91,6 +91,7 @@ You can reach him
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
     <!-- <li> I will be playing an improvised ambient set at <a href="www.com">Drone Rodeo</a> at the Hideout in Chicago </li> -->
+    <li> (June 2024) started a summer internship at Adobe Research, working on controllable and expressive sound generation in San Francisco! </li>
     <li> (March 2024) Interviewed for 
       <a href="https://www.wbez.org/stories/clarice-assad-is-pioneering-ai-in-classical-music/e03cb494-2c46-49b8-ba92-49725beccc56">
       WBEZ article on AI music in Chicago.
