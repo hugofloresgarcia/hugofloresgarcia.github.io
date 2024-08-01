@@ -13,6 +13,7 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 
 - [improvised music](#improvised-music)
 - [with neural nets](#neural)
+- [web sketches](#p5)
 - [live coding](#live-coding)
 - [electronic music](#electronic-music)
 - [tunes](#tunes)
@@ -57,6 +58,14 @@ Working on a patch for Francisco Corthey. Granular looping.
 # with neural nets <a name="neural"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
 
+## token telephone (2024)
+
+A neural sound installation by Hugo Flores García and Stephan Moore. 
+
+at the NIME conference in Utrecht, NL, Sept. 4-6, 2024.
+
+<iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## world of mouth (2024)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=690466229/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/world-of-mouth-binaural-version">world of mouth (binaural version) by hugo flores garcía</a></iframe>
 
@@ -99,6 +108,16 @@ this process is repeated a number of times in a feedback loop and shown to the p
 
 Exploration of the resonances in a partially-trained raw-audio AI model trained on pop/lofi/breakcore/hip-hop music. 
 High entropy, short structure, in short loops. 
+
+
+# web sketches <a name="p5"></a>
+<h4>or go <a href="#toc">back to the top</a></h4>
+
+## [animated bowl of trix (2024)](https://hugofloresgarcia.github.io/sketches/animated-trix/)
+
+
+<img src="/assets/img/trix.png" alt="artwork for time bowl of trix" width="40%" />
+have an animated bowl of trix [here](https://hugofloresgarcia.github.io/sketches/animated-trix/).
 
 
 # live coding <a name="live-coding"></a>
