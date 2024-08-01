@@ -60,12 +60,12 @@ Working on a patch for Francisco Corthey. Granular looping.
 
 ## token telephone (2024)
 
-A neural sound installation by Hugo Flores García and Stephan Moore. 
-
-at the NIME conference in Utrecht, NL, Sept. 4-6, 2024.
 
 <iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+A neural sound installation by Hugo Flores García and Stephan Moore. 
+
+at the NIME conference in Utrecht, NL, Sept. 4-6, 2024.
 ## world of mouth (2024)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=690466229/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/world-of-mouth-binaural-version">world of mouth (binaural version) by hugo flores garcía</a></iframe>
 
