@@ -64,7 +64,7 @@ A neural sound installation by Hugo Flores García and Stephan Moore.
 
 at the NIME conference in Utrecht, NL, Sept. 4-6, 2024.
 
-<iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## world of mouth (2024)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=690466229/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/world-of-mouth-binaural-version">world of mouth (binaural version) by hugo flores garcía</a></iframe>
@@ -78,13 +78,13 @@ The vocal gestures gave timbral and rhythmic shape to the generated sounds, whic
 If you would like a copy of the 8-channel version, email me hugggofloresgarcia [at] gmail [dot] com.
 
 ## chicago creative machines (2024)
-<iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=PgSBUh-FuMliLWTB&amp;start=5002" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=PgSBUh-FuMliLWTB&amp;start=5002" title="YouTube video player" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I had the joy of giving the inaugural talk + performance for the [Chicago Creative Machines](https://chicagocreativemachines.com) series at [ESS Chicago](https://ess.org) on Feb. 25, 2024. I talked about my compositional work with [vampnet](/research), using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and played a solo set of instrumental music with. 
 
 ## confluyo yo, el ambiente me sigue (2023)
-<iframe  src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe  src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 confluyo yo explores the raw, timbral and rhythmic relationships between intentional sounds, natural sounds, and sounds as byproduct of human activity. in the piece, a horn player ([Michael J. Pineda](https://drum.io/michaeljpineda/)) plays short 9 second themes called  'seeds' and improvises over them.  the seeds are repeated for the rest of the piece, though, through repetition, a generative model slowly "dematerializes" or transfers the timbral characteristics of the saxophone to the sound of birds, or the sound of machines.
 
@@ -124,7 +124,7 @@ have an animated bowl of trix [here](https://hugofloresgarcia.github.io/sketches
 <h4>or go <a href="#toc">back to the top</a></h4>
 
 ## [flowerbeds](https://github.com/hugofloresgarcia/flowerbeds) (2019) <a name="flowerbeds"> </a>
-<iframe  src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
+<iframe  src="https://www.youtube.com/embed/1OFTEvNSGOg" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>  
 
 Audiovisual live coding, written using SuperCollider and openFrameworks. Performed at Channel Noise fest  at Georgia Southern University in 2019. 
 
