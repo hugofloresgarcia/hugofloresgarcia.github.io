@@ -66,6 +66,9 @@ Working on a patch for Francisco Corthey. Granular looping.
 A neural sound installation by Hugo Flores García and Stephan Moore. 
 
 at the NIME conference in Utrecht, NL, Sept. 4-6, 2024.
+
+Token Telephone is a co-creative AI sound installation where participants interact with a chain of generative AI models, initiating a generative game of telephone. The installation space is circled by four neural networks, each represented by a loudspeaker. Participants make sounds into a microphone at the entrance of the installation space. Their sounds are iteratively transformed by each neural network in a feedback loop, deviating further from the original with every pass. This iterative process reveals patterns between the input and the training data of the networks, morphing human utterances into new and unexpected sound textures. 
+
 ## world of mouth (2024)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=690466229/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/world-of-mouth-binaural-version">world of mouth (binaural version) by hugo flores garcía</a></iframe>
 
