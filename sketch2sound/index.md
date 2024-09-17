@@ -8,7 +8,9 @@ permalink: /sketch2sound/
 </head>
 
 <p align="center"> <b><font size="6">Controllable Audio Generation via Time-Varying Signals and Sonic Imitations</font></b> </p>
-<p align="center"><font size="4">Hugo Flores García, Oriol Nieto, Justin Salamon, Bryan Pardo and Prem Seetharaman</font></p>
+<p align="center"><font size="4">Hugo Flores García<sup>io</sup>, Oriol Nieto<sup>i</sup>, Justin Salamon<sup>i</sup>, Bryan Pardo<sup>o</sup> and Prem Seetharaman<sup>i</sup></font></p>
+<p align="center"><font size="4"><sup>i</sup>Adobe Research, <sup>o</sup>Northwestern University</font></p>
+
 
 <div class="wiggle-divider" ></div>
 
