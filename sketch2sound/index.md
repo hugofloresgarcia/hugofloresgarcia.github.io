@@ -22,7 +22,7 @@ permalink: /sketch2sound/
 
 ### Fig. 1 - Listening Example
 <figure>
-  <img src="/sketch2sound/figs/hero-figure.png" alt="" style="margin-bottom:2px; max-width: 1000px">
+  <img src="/sketch2sound/figs/hero-figure.png" alt="" style="margin-bottom:2px; max-width: 1200px">
   <figcaption>Overview of Sketch2Sound. We extract three control signals from any input sonic imitation: loudness, spectral centroid (i.e., brightness) and pitch probabilities. We encode the signals and add them to the latents used as input to a DiT text-to-sound generation system.</figcaption>
 </figure>
 
