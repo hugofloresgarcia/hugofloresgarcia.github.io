@@ -2,6 +2,7 @@
 layout: post
 category: research
 title: Sketch2Sound 
+permalink: /research/sketch2sound/
 # image: /sketch2sound/figs/hero-figure.png
 ---
 <head>
