@@ -3,7 +3,9 @@ layout: page
 title: Sketch2Sound
 permalink: /sketch2sound/
 ---
-
+<head>
+<meta name="robots" content="noindex, nofollow" />
+</head>
 
 <p align="center"> <b><font size="6">Controllable Audio Generation via Time-Varying Signals and Sonic Imitations</font></b> </p>
 <p align="center"><font size="4">Hugo Flores García, Oriol Nieto, Justin Salamon, Bryan Pardo and Prem Seetharaman</font></p>
