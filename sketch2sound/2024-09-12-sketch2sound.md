@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 category: research
 title: Sketch2Sound 
@@ -21,4 +21,4 @@ permalink: /research/sketch2sound/
 
 Sketch2Sound is a generative sound synthesizer capable of creating high-quality sounds from a set of interpretable time-varying control signals: loudness, brightness, and pitch, as well as text prompts. Sketch2Sound can synthesize arbitrary sounds from sonic imitations (i.e., a vocal imitation or a reference sound-shape).
 
-listen to the examples: [https://hugofloresgarcia.art/sketch2sound/](/sketch2sound/)
+listen to the examples: [https://hugofloresgarcia.art/sketch2sound/](/sketch2sound/) -->
