@@ -48,3 +48,7 @@ When prompted with "forest ambience", bursts of loudness in the controls become 
 | "bass drum, snare drum" | ![Image1](/sketch2sound/audio/drums/in.png) <br> <audio controls><source src="/sketch2sound/audio/drums/in.wav" type="audio/wav"></audio> | ![Image2](/sketch2sound/audio/drums/out.png) <br> <audio controls><source src="/sketch2sound/audio/drums/out.wav" type="audio/wav"></audio> |
 
 With "bass drum, snare drum", the model places snares in unpitched areas and bass drums in pitched areas.
+
+<div class="wiggle-divider" ></div>
+
+more examples coming soon! :) 
