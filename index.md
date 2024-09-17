@@ -97,12 +97,11 @@ You can reach him
     </li>
     <!-- <li> (Dec 2021) Check out <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2021/building-tools-to-enhance-creative-expression.html">this article</a> on our ISMIR 2021 paper on Leveraging Hierarchical Structures for Musical Recognition that won the best paper award that year! 
     </li> -->
-
   </ul>
 </div>
   
 
 <figure>
-<img src="/assets/img/hands!!.jpg" alt="photo playing a pad controller" height="400"/>
+<img src="/assets/img/hands!!.jpg" alt="photo playing a pad controller" />
 <figcaption style="font-size: 0.8em; text-align: center;">photo by Ricardo Adame</figcaption>
 </figure>

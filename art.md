@@ -119,7 +119,7 @@ High entropy, short structure, in short loops.
 ## [animated bowl of trix (2024)](https://hugofloresgarcia.github.io/sketches/animated-trix/)
 
 
-<img src="/assets/img/trix.png" alt="artwork for time bowl of trix" width="40%" />
+<img src="/assets/img/trix.png" alt="artwork for time bowl of trix" width="100%" />
 have an animated bowl of trix [here](https://hugofloresgarcia.github.io/sketches/animated-trix/).
 
 

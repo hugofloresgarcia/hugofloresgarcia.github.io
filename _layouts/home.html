@@ -9,6 +9,16 @@ layout: default
   {%- endif -%}
 </header>
 
+<head>
+  <style>
+    img {
+      width: 100%; /* Set to 100% of the container width */
+      max-width: 350px; /* Set the maximum width of the image */
+      height: auto; /* Maintain the aspect ratio */
+      margin-bottom: 5px; /* Add space between the image and audio widget */
+      }
+  </style>
+</head>
 <div class="menu-container">
   <ul>
   {%- include menu_item.html collection=site.data.art_menu.entries -%}
