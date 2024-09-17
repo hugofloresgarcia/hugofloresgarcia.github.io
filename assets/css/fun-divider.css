@@ -1,0 +1,23 @@
+.fun-divider {
+    width: 100%; /* Full width */
+    text-align: center; /* Center the divider */
+    overflow: hidden; /* Ensures the content is clipped */
+    line-height: 20px; /* Height of the divider */
+}
+  
+.fun-divider:before {
+content: "🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻"; /* Your character pattern */
+letter-spacing: 10px; /* Space between characters */
+}
+
+.wiggle-divider {
+    width: 100%; /* Full width */
+    text-align: center; /* Center the divider */
+    overflow: hidden; /* Ensures the content is clipped */
+    line-height: 20px; /* Height of the divider */
+}
+  
+.wiggle-divider:before {
+content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"; /* Your character pattern */
+letter-spacing: 10px; /* Space between characters */
+}

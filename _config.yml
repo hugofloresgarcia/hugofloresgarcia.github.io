@@ -27,3 +27,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+assets:
+  css:
+    - /assets/css/fun-divider.css

@@ -4,19 +4,9 @@ layout: home
 
 <style>
 h4 {text-align: center;}
-
-.fun-divider {
-  width: 100%; /* Full width */
-  text-align: center; /* Center the divider */
-  overflow: hidden; /* Ensures the content is clipped */
-  line-height: 20px; /* Height of the divider */
-}
-
-.fun-divider:before {
-  content: "🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻"; /* Your character pattern */
-  letter-spacing: 10px; /* Space between characters */
-}
 </style>
+
+
 <div style="text-align: center;">
   <p> to find out where I'm musicking next, have a look at my <a href="https://instagram.com/hugofloresgarcia">instagram!</a></p>
 </div>

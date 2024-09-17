@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: none;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+audio {
+  width: 100%;
+}
