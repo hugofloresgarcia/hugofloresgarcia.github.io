@@ -23,11 +23,13 @@ h4 {text-align: center;}
 
 
 
+
+
 <div class="fun-divider"></div>
 
 ## unloop (2023)
 
-<img src="/assets/img/interfaces/unloop.png" alt="photo of the unloop interface" width=500px>
+<img src="/assets/img/interfaces/unloop.png" width="100%" alt="photo of the unloop interface" >
 
 `unloop` is the musical interface that accompanies [VampNet](/research), which is a generative model for music I published at ISMIR 2023. `unloop` is a looper that uses generative modeling to **not** repeat itself. `unloop` can generate variations of loop a musician has recorded, creating a more interactive and fun experience than using a traditional looper. `unloop` is [open source](https://github.com/hugofloresgarcia/unloop), and has a [demo video](https://www.notion.so/hugo-does-things/unloop-a-looper-that-doesn-t-repeat-itself-a32a2bcadb264a82abf235d44c48a225)
 
