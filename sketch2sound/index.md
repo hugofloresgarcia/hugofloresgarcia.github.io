@@ -32,6 +32,7 @@ permalink: /sketch2sound/
     }
 </style>
 
+watch our demo video: 
 <video controls>
   <source src="/sketch2sound/figs/hero.mp4" type="video/mp4">
   <source src="/sketch2sound/figs/hero.webm" type="video/webm">
@@ -39,6 +40,7 @@ permalink: /sketch2sound/
   Your browser does not support the video tag.
 </video>
 
+<div class="wiggle-divider" ></div>
 
 ### Fig. 1 - Listening Example
 <figure>
