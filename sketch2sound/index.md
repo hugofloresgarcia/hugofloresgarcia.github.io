@@ -12,6 +12,7 @@ permalink: /sketch2sound/
 <p align="center"><font size="4"><sup>i</sup>Adobe Research, <sup>o</sup>Northwestern University</font></p>
 
 
+
 <div class="wiggle-divider" ></div>
 
 <style>
@@ -21,7 +22,22 @@ permalink: /sketch2sound/
     height: auto; /* Maintain the aspect ratio */
     margin-bottom: 1px; /* Add space between the image and audio widget */
     }
+    video {
+    width: 100%; /* Set to 100% of the container width */
+    max-width: 800px8; /* Set the maximum width of the video */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 1px; /* Add space between the video and audio widget */
+    display: block; /* Center the video */
+    margin: auto;
+    }
 </style>
+
+<video controls>
+  <source src="/sketch2sound/figs/hero.mp4" type="video/mp4">
+  <source src="/sketch2sound/figs/hero.webm" type="video/webm">
+  <source src="/sketch2sound/figs/hero.ogv" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
 
 ### Fig. 1 - Listening Example
