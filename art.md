@@ -26,6 +26,9 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T6eGKgeG7o0?si=kQWD9mWiEcf5HGcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## the air is full (2024)
+with Tyler Felson
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3812620163/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/album/the-air-is-full">the air is full by hugo flores garcía, tyler felson</a></iframe>
 
 ## sound collage - march 28th, 2024
 
