@@ -23,11 +23,11 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 <h4> or go <a href="#toc">back to the top</a></h4>
 
 ## live at elastic arts | improvised music series (2024)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NGOlux6uT9Y?si=ywnXnnIZAt0xDIMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/NGOlux6uT9Y?si=ywnXnnIZAt0xDIMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## stretchmetal presents | drone rodeo (2024)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T6eGKgeG7o0?si=kQWD9mWiEcf5HGcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/T6eGKgeG7o0?si=kQWD9mWiEcf5HGcC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## the air is full (2024)
 with Tyler Felson
@@ -67,7 +67,7 @@ Working on a patch for Francisco Corthey. Granular looping.
 ## token telephone (2024)
 
 
-<iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 A neural sound installation by Hugo Flores García and Stephan Moore. 
 
@@ -87,13 +87,13 @@ The vocal gestures gave timbral and rhythmic shape to the generated sounds, whic
 If you would like a copy of the 8-channel version, email me hugggofloresgarcia [at] gmail [dot] com.
 
 ## chicago creative machines (2024)
-<iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=PgSBUh-FuMliLWTB&amp;start=5002" title="YouTube video player" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/NfhlRH5k-bg?si=PgSBUh-FuMliLWTB&amp;start=5002" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I had the joy of giving the inaugural talk + performance for the [Chicago Creative Machines](https://chicagocreativemachines.com) series at [ESS Chicago](https://ess.org) on Feb. 25, 2024. I talked about my compositional work with [vampnet](/research), using the mouth as the interface for a generative model, showed an 8ch composition for voice and vampnet, and played a solo set of instrumental music with. 
 
 ## confluyo yo, el ambiente me sigue (2023)
-<iframe  src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe  src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/mcjf2iKf8Nk" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  src="https://www.youtube.com/embed/C_KqQScFa0A" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 confluyo yo explores the raw, timbral and rhythmic relationships between intentional sounds, natural sounds, and sounds as byproduct of human activity. in the piece, a horn player ([Michael J. Pineda](https://drum.io/michaeljpineda/)) plays short 9 second themes called  'seeds' and improvises over them.  the seeds are repeated for the rest of the piece, though, through repetition, a generative model slowly "dematerializes" or transfers the timbral characteristics of the saxophone to the sound of birds, or the sound of machines.
 
