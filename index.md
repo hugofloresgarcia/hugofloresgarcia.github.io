@@ -20,11 +20,6 @@ h4 {text-align: center;}
 <!-- Hugo Flores García (he/they) is a computer musician, improviser, programmer, and scientist whose creative practice spans improvised and composed music for guitars, sound objects and electronics, sound installations, bespoke digital musical instruments, and interactive art. -->
 
 
-
-
-
-
-
 <div class="fun-divider"></div>
 
 <div class="container">

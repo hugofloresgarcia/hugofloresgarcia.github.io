@@ -11,6 +11,14 @@ permalink: /sketch2sound/
 <p align="center"><font size="4">Hugo Flores García<sup>io</sup>, Oriol Nieto<sup>i</sup>, Justin Salamon<sup>i</sup>, Bryan Pardo<sup>o</sup> and Prem Seetharaman<sup>i</sup></font></p>
 <p align="center"><font size="4"><sup>i</sup>Adobe Research, <sup>o</sup>Northwestern University</font></p>
 
+<div class="wiggle-divider" ></div>
+
+We present Sketch2Sound, a generative audio model capable of creating high-quality sounds from a set of interpretable time-varying control signals: loudness, brightness, and pitch, as well as text prompts. **Sketch2Sound can synthesize arbitrary sounds from sonic imitations** (i.e., a vocal imitation or a reference sound-shape). 
+
+Sketch2Sound can be implemented on top of any text-to-audio latent diffusion transformer (DiT), and requires only 40k steps of fine-tuning and a single linear layer per control, making it more lightweight than existing methods like ControlNet. 
+To synthesize from sketchlike sonic imitations, we propose applying random median filters to the control signals during training, allowing Sketch2Sound to be prompted using controls with flexible levels of temporal specificity. 
+
+We show that Sketch2Sound can synthesize sounds that follow the gist of input controls from a vocal imitation while retaining the adherence to an input text prompt and audio quality compared to a text-only baseline. Sketch2Sound allows sound artists to create sounds with the semantic flexibility of text prompts and the expressivity and precision of a sonic gesture or vocal imitation.
 
 
 <div class="wiggle-divider" ></div>
@@ -73,4 +81,10 @@ With "bass drum, snare drum", the model places snares in unpitched areas and bas
 
 <div class="wiggle-divider" ></div>
 
-more examples coming soon! :) 
+demo video - guitar sonic imitations: 
+<video controls>
+  <source src="/sketch2sound/figs/demo-guitar.mov" type="video/mov">
+  <source src="/sketch2sound/figs/demo-guitar.webm" type="video/webm">
+  <source src="/sketch2sound/figs/demo-guitar.ogv" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
