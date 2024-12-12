@@ -2,6 +2,7 @@
 layout: post
 category: research
 title: Sketch2Sound
+permalink: /sketch2sound-landing/
 # image: /assets/img/research/vampnet-hero.png
 ---
 
