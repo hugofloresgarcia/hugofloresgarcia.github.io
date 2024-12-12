@@ -18,4 +18,4 @@ Sketch2Sound is a generative audio model capable of creating high-quality sounds
 
 **Sketch2Sound can synthesize arbitrary sounds from sonic imitations** (i.e., a vocal imitation or a reference sound-shape). 
 
-Check out our demo video, paper and website: [sketch2sound][/sketch2sound/]
+Check out our demo video, paper and website: [sketch2sound website](/sketch2sound/)
