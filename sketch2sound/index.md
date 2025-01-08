@@ -88,3 +88,10 @@ demo video - guitar sonic imitations:
   <source src="/sketch2sound/figs/demo-guitar.ogv" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+
+<div class="wiggle-divider" ></div>
+
+
+*a note on how these examples and demos were chosen*:
+
+The examples in the demo video were chosen to illustrate Sketch2Sound's capabilities as a tool for creating sound effects synced to video through vocal imitations. Though the outputs themselves were not cherry picked, the text prompts were chosen according to how visually compelling they would be, and how well we could imitate their sounds with our voice. 
