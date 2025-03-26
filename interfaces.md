@@ -21,11 +21,33 @@ h4 {text-align: center;}
 }
 </style>
 
+<div class="fun-divider"></div>
 
 
+## unsound objects (2025) <a name="unsound-objects"></a>
 
+<img src="/assets/img/interfaces/unsound-objects.png"  alt="photo of the unsound objects interface" >
+
+(un)sound objects is an instrument/spatial improvisation pieces where a performer co-creates fantastical acoustic environments with a generative neural network.  The network incessantly generates short loops in response to text queries written by a live performer. The live performer reacts to the generated loops, which don't burst into place until seconds after the query is sent, mixing and spatializing the constant stream of synthesized sounds in realtime. The sound objects jump between sound and unsound, sometimes resembling their real-world counterparts, and sometimes diverging into uncanny and distorted forms outside our distribution of “real” sounds. The piece explores text-prompted generative audio models as co-creators in the context of free improvisation, live performance, and sound art. (un)sound objects encourage the performer (and AI model) to break the neural medium past "in-distribution" sounds and toward (un)sound arrangements that lie at the rough edges of the model's learned distribution.
+
+unsound objects premiered on March 14th, 2025 at the [CLEAT series](https://cleat.info) at [Elastic Arts](https://elasticarts.org) in Chicago, IL.
+
+unsound objects was also accepted into the music program for the ICMC 2025 conference in Boston, USA! see you there!
+
+(video recording coming soon...)
 
 <div class="fun-divider"></div>
+
+## vaca (2025)
+
+<iframe  src="https://www.youtube.com/embed/QYNr1rekdE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+my humble reimplementation of the cwo effect from the teenage engineering OP-1 for Max/MSP. 
+
+I use it as part of my guitar setup, running freely available as a max patch! :)
+
+[click here](/assets/vaca.zip) to download!!! 
+
 
 ## unloop (2023)
 
