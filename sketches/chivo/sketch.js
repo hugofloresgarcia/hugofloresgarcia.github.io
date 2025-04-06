@@ -34,7 +34,7 @@ function color_vary(clr, amt) {
 
 // on click on the canvas, redirect to cabezadechivo.com
 function mousePressed() {
-  window.open("https://cabezadechivo.com", "_blank");
+  window.open("https://www.instagram.com/cabeza.de.chivo/", "_blank");
 }
 
 function draw() {
