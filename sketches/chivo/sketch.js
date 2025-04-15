@@ -45,9 +45,9 @@ function draw() {
   // bgColor = color_vary(bgColor, 10);
 
   // vary color only every 10 frames
-  if (frameCount % 10 == 0) {
-    bgColor = color_vary(bgColor, 10);
-  }
+  // if (frameCount % 10 == 0) {
+  //   bgColor = color_vary(bgColor, 10);
+  // }
   
   background(bgColor);
 
