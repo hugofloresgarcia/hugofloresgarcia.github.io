@@ -2,3 +2,10 @@
 ---
 
 @import "no-style-please";
+
+.content, .container {
+    background-color: transparent; /* ensures transparency, so body color is visible */
+}
+body {
+    background-color: #fcf9f0;
+}
