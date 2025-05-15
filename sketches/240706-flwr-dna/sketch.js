@@ -56,18 +56,44 @@ function setup() {
   // Build flowers and stems in helix pattern
   environment.flowers = [];
   environment.stems = [];
+
+  for (let i = 0; i < 8; i++) {
+    let theta = TWO_PI * i / 8;
+    let offset = {
+      x: 100 * cos(theta),
+      y: 100 * sin(theta),
+      z: 0
+    };
+    stem(environment, offset);
+  }
+  
+  environment.transforms = [];
+  for (let i = 0; i < environment.flowers.length; i++) {
+    let tfm = {};
+    tfm.zdir = random(-1, 1);
+    // tfm.zdir = 0;
+    // tfm.bouncefreq = random(0.1, 2.0);
+    // tfm.bouncefreq = 2;
+    tfm.stemsstrokeweight = random(0.5, 2.0);
+
+    environment.transforms.push(tfm);
+  }
+
+}
+
+function stem(environment, offset) {
   let num_pairs = 25;
   for (let i = 0; i < num_pairs; i++) {
-    let angle = i * TWO_PI / (num_pairs / 4);
+    let angle = 4 * i * TWO_PI / (num_pairs);
     // let radius = 10 * pow(1.05,  i);
-    let radius = 10 * i; // helix-like
+    let radius = 1 * i  +  random(5, 10) ; // helix-like
     // let radius = random(0, num_pairs * 5)
 
     // Calculate centers for each flower in a pair
     let center1 = {
-      x: radius * cos(angle),
-      y: radius * sin(angle),
-      z: 10 * i
+      x: radius * cos(angle) + offset.x,
+      y: radius * sin(angle) + offset.y,
+      z: 10  * i
       // z: radius * sin(angle)
     };
     
@@ -91,50 +117,6 @@ function setup() {
     environment.stems.push(stem);
     console.log("flower number " + i + " created");
   }
-  
-  for (let i = 0; i < num_pairs; i++) {
-    let angle = i * TWO_PI / (num_pairs / 4);
-    // let radius = 10 * pow(1.05,  i);
-    let radius = 10 * i;
-    // let radius = random(0, num_pairs * 5)
-    
-    // Calculate centers for each flower in a pair
-    let center1 = {
-      x: radius * cos(angle),
-      y: radius * sin(angle),
-      z: -10 * i
-    };
-    
-    let center2 = {
-      x: radius * cos(angle + PI),
-      y: radius * sin(angle + PI),
-      z: -10 * i
-    };
-    
-    let theta = random(TWO_PI);
-    // let clr = random_color_from_palette(PALETTE);
-    let clr = random_color();
-    
-    let flower1 = new Flower(center1, theta, clr);
-    let flower2 = new Flower(center2, theta, clr);
-    let stem = build_stem(center1, center2, color("#556b2fff")); // Dark olive green for stems
-    
-    environment.flowers.push(flower1);
-    environment.flowers.push(flower2);
-    environment.stems.push(stem);
-    console.log("flower number " + i + " created");
-  }
-  
-  environment.transforms = [];
-  for (let i = 0; i < environment.flowers.length; i++) {
-    let tfm = {};
-    tfm.zdir = random(-1, 1);
-    tfm.bouncefreq = random(0.1, 2.0);
-    tfm.stemsstrokeweight = random(0.5, 2.0);
-
-    environment.transforms.push(tfm);
-  }
-
 }
 
 // function to draw a perlin noise background
@@ -146,6 +128,9 @@ function draw() {
   background(0);
   lights();
   orbitControl();
+
+
+
   // noStroke();
   // translate(0, 0, -200); // Move the whole scene back a bit
 
@@ -181,50 +166,60 @@ function draw() {
     // stroke("#556b2fff")
     push();
 
-    rotateZ(tfm.zdir * frameCount * PI / 1000); // Slow rotation for visualization
+    rotateZ(frameCount * PI / 1000); // Slow rotation for visualization
 
-    translate(0, 1 + 1 * cos(frameCount*0.1), 0);
+    // translate(0, 1 + 1 * cos(frameCount*0.1), 0);
 
-    translate(
-      0, 0,  
-      10 * tfm.zdir * sin(frameCount / 10 * tfm.bouncefreq)
-    ); 
+    // translate(
+    //   0, 0,  
+    //   10 * tfm.zdir * sin(frameCount / 10 * tfm.bouncefreq)
+    // ); 
     
     // stems
-    // if (i > 0) {
-    //   let prev_flower = environment.flowers[i - 1];
-    //   let center1 = flower.center;
-    //   let center2 = prev_flower.center;
-    //   let clr = color("#556b2fff");
-    //   stroke(clr);
-    //   strokeWeight(tfm.stemsstrokeweight);
-    //   noFill();
+    if (i > 0) {
+      let prev_flower = environment.flowers[i - 1];
+      let center1 = flower.center;
+      let center2 = prev_flower.center;
+      let clr = color("#556b2fff");
+      stroke(clr);
+      strokeWeight(tfm.stemsstrokeweight);
+      noFill();
       
-    //   bezier(
-    //     center1.x, center1.y, center1.z,
-    //     0, 0,  center1.z - 30,
-    //     0, 0,  center2.z + 30,
-    //     0, 0, - 50, center2.z
-    //   );
-    // }
+      bezier(
+        center1.x, center1.y, center1.z,
+        0, 0,  center1.z - 30,
+        0, 0,  center2.z + 30,
+        0, 0, - 50, center2.z
+      );
+    }
     
     
     noStroke();
     translate(flower.center.x, flower.center.y, flower.center.z);
     rotate(tfm.zdir * (1 + abs(flower.center.z)) * frameCount * PI / 100000);
 
-    rotateX(tfm.zdir * abs(flower.center.z) * frameCount * PI / 10000);
-    rotateY(tfm.zdir * abs(flower.center.z) * frameCount * PI / 10000);
+    // rotateX(tfm.zdir * abs(flower.center.z) * frameCount * PI / 10000);
+    // rotateY(tfm.zdir * abs(flower.center.z) * frameCount * PI / 10000);
 
-    scale(
-      1 + 0.001 * abs(flower.center.z), 
-      1 + 0.001 * abs(flower.center.z), 
-      1 + 0.001 * abs(flower.center.z)
-    );
+    // scale(
+    //   1 + 0.001 * abs(flower.center.z), 
+    //   1 + 0.001 * abs(flower.center.z), 
+    //   1 + 0.001 * abs(flower.center.z)
+    // );
     fill(flower.clr);
     model(flower.geo);
     pop();
   }
+
+    // bottom text that says "flowers are in my dna"
+    loadFont('https://cdn.glitch.com/1e2d5f0c-2c6e-4b3f-8b5b-9b5a6e1d4d4f%2FInconsolata%2FInconsolata-Bold.ttf?v=1619473521723', (font) => {
+      textFont
+    });
+    fill(255);
+    textSize(32);
+    textAlign(CENTER, CENTER);
+    text("flowers are in my dna", 0, HEIGHT / 2 - 50, 0);
+    
 }
 
 
