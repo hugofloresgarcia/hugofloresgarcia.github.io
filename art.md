@@ -64,8 +64,15 @@ Working on a patch for Francisco Corthey. Granular looping.
 # with neural nets <a name="neural"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
 
-## token telephone (2024)
+## unsound objects (2025)
 
+<iframe  src="https://www.youtube.com/embed/Oq8RlhqP9Ms" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+In unsound objects, a performer co-creates sonic environments with a generative neural network. The neural network incessantly produces short loops of sound in response to text queries written by the live performer. The sounds are dynamically mixed, spatialized, and layered into continuously evolving “neural tape loops”,  establishing a mixed-initiative generative co-creation system between the performer and machine. The aesthetic properties of the generated sound objects oscillate between the recognizable and unsound, sometimes resembling their real-world counterparts, sometimes diverging into uncanny and distorted forms outside our distribution of “real” sounds.  The piece explores the affordances of text-queried generative audio models as “endless” spigots of sonic material in the context of a live-looping instrument with a continually evolving neural "tape".  unsound objects encourages the performer (and generative model) to break the neural medium past "in-distribution" sounds and toward (un)sound arrangements that lie at the rough edges of the model's learned distribution.
+
+
+## token telephone (2024)
 
 <iframe  src="https://www.youtube.com/embed/vEaYoEgtSUo" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -121,6 +128,9 @@ High entropy, short structure, in short loops.
 
 # web sketches <a name="p5"></a>
 <h4>or go <a href="#toc">back to the top</a></h4>
+
+## the cabeza de chivo website
+check out the [cabeza de chivo website](https://cabezadechivo.com) -- I built and designed it with Camilla Forte's help!
 
 ## [animated bowl of trix (2024)](https://hugofloresgarcia.github.io/sketches/animated-trix/)
 

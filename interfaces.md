@@ -34,7 +34,7 @@ unsound objects premiered on March 14th, 2025 at the [CLEAT series](https://clea
 
 unsound objects was also accepted into the music program for the ICMC 2025 conference in Boston, USA! see you there!
 
-(video recording coming soon...)
+you can watch the _music video_ for unsound objects in the [art section](/art.md#unsound-objects-2025).
 
 <div class="fun-divider"></div>
 
