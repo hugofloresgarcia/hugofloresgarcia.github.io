@@ -24,6 +24,17 @@ h4 {text-align: center;}
 <div class="fun-divider"></div>
 
 
+## chivo dub (2025) <a name="chivo-dub"></a>
+
+my most hellish creation yet, the chivo dub is a supernatural dub siren made for [cabeza de chivo](https://cabezadechivo.com). 
+
+- it's implemented on an electrosmith daisy, and features a single oscillator with a pitch modulating oscillator over it, along with a delay and filter. 
+- it's capable of breaking the pitch barrier both ways, from making clicky pulsing velcro sounds at ~8Hz all the way to R2D2-style FM wails. 
+- FOOTSWITCH TRIGGER IN
+- three fun little cute arcade buttons with light animations
+
+more about it in the [chivo dub page](/chivodub.md)
+
 ## unsound objects (2025) <a name="unsound-objects"></a>
 
 <img src="/assets/img/interfaces/unsound-objects.png"  alt="photo of the unsound objects interface" >
