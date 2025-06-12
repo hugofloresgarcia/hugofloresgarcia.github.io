@@ -83,6 +83,7 @@ You can reach him
 <div style="text-align: center;">
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
+    <li> (June 2025) Performed unsound objects at ICMC 2025!</li>
     <li> (March 2025) I played a solo improvisation with the CLEAT system at Elastic Arts Chicago with my new instrument/piece titled "unsound objects". Read more about it in the <a href="/interfaces#unsound-objects">interfaces</a> section.</li>
     <li> (November 2024) composed a sound piece for Ngoc Nau's video installation "All in Good Time" at the <a href="https://www.museum-folkwang.de/en/exhibition/6-12-weeks-ngoc-nau">Museum Folkwang</a> in Essen, Germany.</li>
     <li> (November 2024) defended my dissertation prospectus!</li>
