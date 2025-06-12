@@ -26,6 +26,8 @@ h4 {text-align: center;}
 
 ## chivo dub (2025) <a name="chivo-dub"></a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/boNo2F2Ta4Q?si=x7uhA3fk4JShQel3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 my most hellish creation yet, the chivo dub is a supernatural dub siren made for [cabeza de chivo](https://cabezadechivo.com). 
 
 - it's implemented on an electrosmith daisy, and features a single oscillator with a pitch modulating oscillator over it, along with a delay and filter. 
@@ -33,7 +35,6 @@ my most hellish creation yet, the chivo dub is a supernatural dub siren made for
 - FOOTSWITCH TRIGGER IN
 - three fun little cute arcade buttons with light animations
 
-more about it in the [chivo dub page](/chivodub.md)
 
 ## unsound objects (2025) <a name="unsound-objects"></a>
 
