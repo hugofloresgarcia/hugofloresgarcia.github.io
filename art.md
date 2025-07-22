@@ -200,7 +200,7 @@ with Daniel Flores García and Jarrett Thompson
 
 
 ### Mary Jane (2019)
-with Hip-Oh
+with Hip-Oh and Cyril Durant.
 <iframe src="https://www.youtube.com/embed/_Gd8PbdFR-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Bloom (2019)
