@@ -7,9 +7,6 @@ h4 {text-align: center;}
 </style>
 
 
-
-
-
 <div style="text-align: center;">
   <figure style="display: inline-block; width: 300px; text-align: center;">
     <img src="/assets/img/flower.gif" alt="flower" width="300"/>
@@ -83,6 +80,9 @@ You can reach him
 <div style="text-align: center;">
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
+    <li> (July 2025) defended my PhD thesis!!! you can read my dissertation <a href="https://hugofloresgarcia.art/thesis.pdf">here</a>.</li>
+    <li> (July 2025) played at Thalia Hall with <a href="https://cabezadechivo.com">Cabeza de Chivo</a>, supporting Son Rompe Pera.</li>
+    <li> (June 2025) Album release show with <a href="https://cabezadechivo.com">Cabeza de Chivo</a> at the Empty Bottle!</li>
     <li> (June 2025) Performed unsound objects at ICMC 2025!</li>
     <li> (March 2025) I played a solo improvisation with the CLEAT system at Elastic Arts Chicago with my new instrument/piece titled "unsound objects". Read more about it in the <a href="/interfaces#unsound-objects">interfaces</a> section.</li>
     <li> (November 2024) composed a sound piece for Ngoc Nau's video installation "All in Good Time" at the <a href="https://www.museum-folkwang.de/en/exhibition/6-12-weeks-ngoc-nau">Museum Folkwang</a> in Essen, Germany.</li>
