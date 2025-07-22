@@ -14,9 +14,6 @@ h4 {text-align: center;}
   </figure>
 </div>
 
-<!-- Hugo Flores García (he/they) is a computer musician, improviser, programmer, and scientist whose creative practice spans improvised and composed music for guitars, sound objects and electronics, sound installations, bespoke digital musical instruments, and interactive art. -->
-
-
 <div class="fun-divider"></div>
 
 <div class="container">
@@ -62,7 +59,7 @@ h4 {text-align: center;}
 
 
 
-You can reach him
+You can reach them
 <ul style="list-style-type:none">
   <li> by email at hugofg [at] u.northwestern.edu,  </li>
   <li> or <a href="https://github.com/hugofloresgarcia">github</a>,   </li>
