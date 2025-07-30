@@ -15,10 +15,14 @@ entries:
     category: publications
     url: https://scholar.google.com.ph/citations?user=CZ39htEAAAAJ
 
-  - title: curriculum vitae (cv) 🧑🏾‍🎓
+
+  - title: thesis 📖
+    category: thesis
+    url: /thesis.pdf
+
+  - title: cv 🧑🏾‍🎓
     category: cv
     url: assets/cv.pdf
-
 
 
 
