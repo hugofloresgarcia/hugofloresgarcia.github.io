@@ -4,15 +4,12 @@ title: cenote
 # which_category: interfaces
 ---
 
-# cenote - frequency-shifting chorus/delay + vibrato
+## frequency-shifting chorus/delay + vibrato
 
 
 demo video (vocals)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1MCsX0o-sJQ?si=PvQuT-XTy_WjuQyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/1MCsX0o-sJQ?si=PvQuT-XTy_WjuQyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## description
 
