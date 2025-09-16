@@ -61,7 +61,7 @@ h4 {text-align: center;}
 
 You can reach them
 <ul style="list-style-type:none">
-  <li> by email at hugggofloresgarcia [at] gmail,  </li>
+  <li> by email at mail[at]hugofloresgarcia.art,  </li>
   <li> or <a href="https://github.com/hugofloresgarcia">github</a>,   </li>
   <li> or <a href="https://instagram.com/hugofloresgarcia">instagram</a>.    </li>
 </ul>
