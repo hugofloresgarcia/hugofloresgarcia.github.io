@@ -39,8 +39,10 @@ function setup() {
   }
 }
 
+var frameCount = 0;
 function draw() {
   background(120, 20, 95); // pale green
+  frameCount++;
 
   for (let i = 0; i < environment.flowers.length; i++) {
     let flower = environment.flowers[i];
@@ -56,6 +58,11 @@ function draw() {
     translate(x, y);
     rotate(frameCount * tfm.rotSpeed * tfm.dir);
     noStroke();
+
+    //swap flower color every 2 seconds
+    if (frameCount % 120 === 0 ) {
+      flower.clr = color(random(360), 80, 100);
+    }
     fill(flower.clr);
     ellipse(0, 0, 20, 20); // center ellipse
     pop();
@@ -67,7 +74,7 @@ function draw() {
 
   // Main header message
   fill(0);
-  textSize(16);
+  textSize(24);
   let today = new Date();
   let dateStr = today.toDateString();
   text(`hello cami! :) today is ${dateStr}`, WIDTH / 2, 40);
