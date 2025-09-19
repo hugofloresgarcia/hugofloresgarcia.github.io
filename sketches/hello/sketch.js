@@ -12,7 +12,7 @@ function setup() {
   environment.flowers = [];
   environment.transforms = [];
 
-  let num_pairs = 25;
+  let num_pairs = 50;
   let spacing = 25; // more spacing between flowers
 
   for (let i = 0; i < num_pairs; i++) {
@@ -64,7 +64,7 @@ function draw() {
       flower.clr = color(random(360), 80, 100);
     }
     fill(flower.clr);
-    ellipse(0, 0, 20, 20); // center ellipse
+    ellipse(0, 0, 40, 40); // center ellipse
     pop();
 
     // Draw label text slightly above
