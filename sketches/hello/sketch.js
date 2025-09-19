@@ -42,7 +42,7 @@ function setup() {
 var frameCount = 0;
 function draw() {
   background(120, 20, 95); // pale green
-  frameCount++;
+  frameCount = (frameCount + 1) % 10000;
 
   for (let i = 0; i < environment.flowers.length; i++) {
     let flower = environment.flowers[i];
@@ -58,13 +58,8 @@ function draw() {
     translate(x, y);
     rotate(frameCount * tfm.rotSpeed * tfm.dir);
     noStroke();
-
-    //swap flower color every 2 seconds
-    if (frameCount % 120 === 0 ) {
-      flower.clr = color(random(360), 80, 100);
-    }
     fill(flower.clr);
-    ellipse(0, 0, 40, 40); // center ellipse
+    ellipse(0, 0, 20, 20); // center ellipse
     pop();
 
     // Draw label text slightly above
@@ -73,11 +68,19 @@ function draw() {
   }
 
   // Main header message
-  fill(0);
   textSize(24);
   let today = new Date();
   let dateStr = today.toDateString();
-  text(`hello cami! :) today is ${dateStr}`, WIDTH / 2, 40);
+  fill(0);
+  // make a background rectangle for text
+  var msg = `hola cami! :) today is ${dateStr}`;
+  let textW = textWidth(msg) + 10;
+  let textH = 30;
+  fill(120, 80, 85);
+  rectMode(CENTER);
+  rect(WIDTH / 2, 40, textW, textH, 5);
+  fill(255);
+  text(msg, WIDTH / 2, 40);
 }
 
 function windowResized() {
