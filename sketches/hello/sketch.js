@@ -54,60 +54,65 @@ function setup() {
   }
 }
 
-
-
-
 function draw() {
-  background(bgColor); // pale green
+  background(bgColor);
   frameCount = (frameCount + 1) % 10000;
 
+  // Update text colors periodically
   if (frameCount % 120 === 0) {
-    // textColors.();
-    for (i = 0; i < numMsgs-1; i++) {
+    for (let i = 0; i < numMsgs - 1; i++) {
       textColors[i] = textColors[i + 1];
     }
-    textColors[numMsgs-1] = color(random(360), 120, 80)
+    textColors[numMsgs - 1] = color(random(360), 120, 80);
   }
 
-  // for (let i = 0; i < environment.flowers.length; i++) {
-  //   let flower = environment.flowers[i];
-  //   let tfm = environment.transforms[i];
+  // 🌸 Draw animated flowers
+  for (let i = 0; i < environment.flowers.length; i++) {
+    let flower = environment.flowers[i];
+    let tfm = environment.transforms[i];
 
-  //   // Subtle animation
-  //   let bounce = sin(frameCount * tfm.freq + i) * 5;
-  //   let x = flower.center.x + tfm.dir * sin(frameCount * 0.01 + i) * 3;
-  //   let y = flower.center.y + bounce;
+    // Subtle bounce + side wobble
+    let bounce = sin(frameCount * tfm.freq + i) * 5;
+    let x = flower.center.x + tfm.dir * sin(frameCount * 0.01 + i) * 3;
+    let y = flower.center.y + bounce;
 
-  //   // Draw rotating flower
-  //   push();
-  //   translate(x, y);
-  //   rotate(frameCount * tfm.rotSpeed * tfm.dir);
-  //   noStroke();
-  //   fill(flower.clr);
-  //   ellipse(0, 0, 20, 20); // center ellipse
-  //   pop();
+    // Draw rotating flower
+    push();
+    translate(x, y);
+    rotate(frameCount * tfm.rotSpeed * tfm.dir);
+    noStroke();
+    fill(flower.clr);
+    ellipse(0, 0, 20, 20); // flower center
+    pop();
 
-  //   // Draw label text slightly above
-  //   fill(0);
-  //   text("hello cami!", x, y - 18); // slightly above flower
-  // }
-  
+    // Text label above flower
+    fill(255);
+    textSize(10);
+    text("hello!", x, y - 16);
+  }
 
-  // Main header message
-  for (i = 0; i < numMsgs; i++){
-    textSize(24);
-    let today = new Date();
-    let dateStr = today.toDateString();
-    fill(0);
-    // make a background rectangle for text
-    var msg = `hola cami!! <3 have a good flight today!! -h`;
-    let textW = textWidth(msg) + 10;
-    let textH = 30;
-    fill(textColors[i]);
-    // rectMode(CENTER);
-    // rect(WIDTH / 2, 40 * i, textW, textH, 5);
-    // fill(255);
-    text(msg, WIDTH / 2, 40 * i - (frameCount % 40));
+  // 🌀 Spinning circular message
+  textSize(24);
+  let today = new Date();
+  let dateStr = today.toDateString();
+  let msg = `greetings from sf! - hugo and cami - ${dateStr}`;
+
+  let cx = WIDTH / 2;
+  let cy = HEIGHT / 2;
+  let radius = 200;
+  let baseAngle = frameCount * 0.01;
+
+  for (let i = 0; i < msg.length; i++) {
+    let theta = baseAngle + map(i, 0, msg.length, 0, TWO_PI);
+    let x = cx + radius * cos(theta);
+    let y = cy + radius * sin(theta);
+
+    push();
+    translate(x, y);
+    rotate(theta + HALF_PI);
+    fill(textColors[i % textColors.length]);
+    text(msg[i], 0, 0);
+    pop();
   }
 }
 
