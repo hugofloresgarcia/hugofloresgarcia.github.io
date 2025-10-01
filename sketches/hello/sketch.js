@@ -31,7 +31,7 @@ function setup() {
   textAlign(CENTER, CENTER);
   textSize(14);
 
-  for (let i = 0; i < 128; i++) {
+  for (let i = 0; i < 64; i++) {
     blobs.push(new BlobCreature());
   }
 
