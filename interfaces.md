@@ -24,6 +24,44 @@ h4 {text-align: center;}
 <div class="fun-divider"></div>
 
 
+## text2sound4all (2025) <a name="text2sound4all"></a>
+
+<div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
+  <div style="flex:0 0 auto;">
+    <img src="/assets/img/interfaces/text2sound4all.png" width="500px" alt="photo of the text2sound4all interface">
+  </div>
+  <div style="flex:1;" markdown="1">
+an open source version of [unsound objects](/interfaces.md#unsound-objects-2025), an instrument/spatial improvisation instrument/piece where a performer co-creates acoustic environments with a generative neural network.
+
+`text2sound4all` is a multitrack looper that lets you generate sounds from text prompts using [stable audio open small](https://huggingface.co/spaces/hugggof/saos).
+
+to see download and install instructions, see
+
+`text2sound4all` features a 2D panner for using with the [CLEAT](https://cleat.info) 16-channel speaker system at [elastic arts chicago](https://elasticarts.org).
+  </div>
+</div>
+
+### the CLEAT panner
+
+<div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
+  <div style="flex:0 0 auto;">
+    <img src="assets/img/interfaces/cleat_panner.png" alt="photo of the cleat panner interface" style="width: 200px; max-width: 200px; height: auto;">
+  </div>
+  <div style="flex:1;" markdown="1">
+the CLEAT panner is an auto spatialization tool designed for the 16-channel CLEAT system at [elastic arts](https://cleat.info). it is included as a part of text2sound4all.
+
+**onset triggers** (`o`)
+make your sound move only during transients. the onset tracker will look for sound onsets of your audio and can trigger spatial movements or path changes based on onset detection.
+
+**path generation** 
+the path generator creates simple spatial trajectories, like circles, spirals, horizontal/vertical lines, bouncing, random and wandering paths.
+
+**trajectory recording**
+perform your spatialization and record/loop it. the trajectory recorder lets you grab the panner puck, move it around, and record that movement as a loopable trajectory.
+  </div>
+</div>
+
+
 ## cenote (2025) <a name="cenote"></a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1MCsX0o-sJQ?si=PvQuT-XTy_WjuQyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -50,7 +88,7 @@ my most hellish creation yet, the chivo dub is a supernatural dub siren made for
 
 <img src="/assets/img/interfaces/unsound-objects.png"  alt="photo of the unsound objects interface" >
 
-(un)sound objects is an instrument/spatial improvisation pieces where a performer co-creates fantastical acoustic environments with a generative neural network.  The network incessantly generates short loops in response to text queries written by a live performer. The live performer reacts to the generated loops, which don't burst into place until seconds after the query is sent, mixing and spatializing the constant stream of synthesized sounds in realtime. The sound objects jump between sound and unsound, sometimes resembling their real-world counterparts, and sometimes diverging into uncanny and distorted forms outside our distribution of “real” sounds. The piece explores text-prompted generative audio models as co-creators in the context of free improvisation, live performance, and sound art. (un)sound objects encourage the performer (and AI model) to break the neural medium past "in-distribution" sounds and toward (un)sound arrangements that lie at the rough edges of the model's learned distribution.
+(un)sound objects is an instrument/spatial improvisation pieces where a performer co-creates acoustic environments with a generative neural network.  The network incessantly generates short loops in response to text queries written by a live performer. The live performer reacts to the generated loops, which don't burst into place until seconds after the query is sent, mixing and spatializing the constant stream of synthesized sounds in realtime. The sound objects jump between sound and unsound, sometimes resembling their real-world counterparts, and sometimes diverging into uncanny and distorted forms outside our distribution of “real” sounds. The piece explores text-prompted generative audio models as co-creators in the context of free improvisation, live performance, and sound art. (un)sound objects encourage the performer (and AI model) to break the neural medium past "in-distribution" sounds and toward (un)sound arrangements that lie at the rough edges of the model's learned distribution.
 
 unsound objects premiered on March 14th, 2025 at the [CLEAT series](https://cleat.info) at [Elastic Arts](https://elasticarts.org) in Chicago, IL.
 
