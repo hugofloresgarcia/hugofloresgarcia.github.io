@@ -32,11 +32,11 @@ h4 {text-align: center;}
     <img src="/assets/img/interfaces/text2sound4all.png" width="500px" alt="photo of the text2sound4all interface">
   </div>
   <div style="flex:1;" markdown="1">
-an open source version of [unsound objects](/interfaces.md#unsound-objects-2025), an instrument/spatial improvisation instrument/piece where a performer co-creates acoustic environments with a generative neural network.
+an open source (C++/JUCE) version of [unsound objects](/interfaces.md#unsound-objects-2025), an instrument/spatial improvisation instrument/piece where a performer co-creates acoustic environments with a generative neural network.
 
 `text2sound4all` is a multitrack looper that lets you generate sounds from text prompts using [stable audio open small](https://huggingface.co/spaces/hugggof/saos).
 
-`text2sound4all` features a 2D panner for using with the [CLEAT](https://cleat.info) 16-channel speaker system at [elastic arts chicago](https://elasticarts.org).
+`text2sound4all` features a 2D panner for using with the [CLEAT](https://cleat.info) 16-channel speaker system at [elastic arts chicago](https://elasticarts.org) and other spatial audio formats (quad, 8-channel, etc.).
   </div>
 </div>
 
@@ -49,7 +49,7 @@ to see download and install instructions, [open the github page!](https://github
     <img src="assets/img/interfaces/cleat_panner.png" alt="photo of the cleat panner interface" style="width: 200px; max-width: 200px; height: auto;">
   </div>
   <div style="flex:1;" markdown="1">
-the CLEAT panner is an auto spatialization tool designed for the 16-channel CLEAT system at [elastic arts](https://cleat.info). it is included as a part of text2sound4all.
+the CLEAT panner is an auto spatialization tool designed for the 16-channel CLEAT system at [elastic arts](https://cleat.info) and other spatial audio formats (quad, 8-channel, etc.). it is included as a part of text2sound4all. It is currently written in C++. I would love to make a standalone plugin for it, if this is of interest to you please reach out!
 
 **onset triggers** (`o`)
 make your sound move only during transients. the onset tracker will look for sound onsets of your audio and can trigger spatial movements or path changes based on onset detection.
