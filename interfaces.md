@@ -26,7 +26,7 @@ h4 {text-align: center;}
 
 ## text2sound4all (2025) <a name="text2sound4all"></a>
 
-to see download and install instructions, see https://github.com/hugofloresgarcia/unsound-juce/tree/main/apps/text2sound4all
+to see download and install instructions, [open the github page!](https://github.com/hugofloresgarcia/unsound-juce/tree/main/apps/text2sound4all)
 
 <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
   <div style="flex:0 0 auto;">
