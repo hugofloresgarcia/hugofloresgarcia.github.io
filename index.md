@@ -77,6 +77,7 @@ You can reach them
 <div style="text-align: center;">
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
+    <li> (September 2025) moved to San Francisco, to join Adobe Research as a research scientist.</li>
     <li> (July 2025) defended my PhD thesis!!! you can read my dissertation <a href="https://hugofloresgarcia.art/thesis.pdf">here</a>.</li>
     <li> (July 2025) played at Thalia Hall with <a href="https://cabezadechivo.com">Cabeza de Chivo</a>, supporting Son Rompe Pera.</li>
     <li> (June 2025) Album release show with <a href="https://cabezadechivo.com">Cabeza de Chivo</a> at the Empty Bottle!</li>
