@@ -26,7 +26,6 @@ h4 {text-align: center;}
 
 ## text2sound4all (2025) <a name="text2sound4all"></a>
 
-to see download and install instructions, [open the github page!](https://github.com/hugofloresgarcia/unsound-juce/tree/main/apps/text2sound4all)
 
 <div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
   <div style="flex:0 0 auto;">
@@ -40,6 +39,8 @@ an open source version of [unsound objects](/interfaces.md#unsound-objects-2025)
 `text2sound4all` features a 2D panner for using with the [CLEAT](https://cleat.info) 16-channel speaker system at [elastic arts chicago](https://elasticarts.org).
   </div>
 </div>
+
+to see download and install instructions, [open the github page!](https://github.com/hugofloresgarcia/unsound-juce/tree/main/apps/text2sound4all)
 
 ### the CLEAT panner
 
