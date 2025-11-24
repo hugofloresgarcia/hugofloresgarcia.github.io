@@ -6,3 +6,6 @@ _site
 vendor
 Gemfile.lock
 .DS_Store
+.envs/
+.ssh_config
+.ssh_known_hosts
