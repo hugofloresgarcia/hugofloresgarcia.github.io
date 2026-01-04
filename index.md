@@ -34,19 +34,18 @@ h4 {text-align: center;}
     </figure>
   </div>
 
- <div class="row">
-    <p>Hugo's research centers around designing new instruments for creative expression, focusing on artist-centered machine learning interfaces for the sound arts </p>
-    
-    <figure>
-      <img src="/assets/img/fieldrec.jpg" alt="Field Recording" width="250"/>
-      <figcaption style="font-size: 0.8em; text-align: center;">photo by Camilla Forte</figcaption>
-    </figure>
-  </div>
-
   <div class="row">
     <p>Hugo holds a PhD from Northwestern University, where they did research at the intersection of applied machine learning, music, and human-computer interaction.</p>
     <figure>
       <img src="/assets/img/cloudchoir.gif" alt="Cloud Choir" width="250"/>
+    </figure>
+  </div>
+
+ <div class="row">
+    <p>Hugo received their PhD in Computer Science from Northwestern University in 2025, advised by Bryan Pardo.</p>
+    <figure>
+      <img src="/assets/img/fieldrec.jpg" alt="Field Recording" width="250"/>
+      <figcaption style="font-size: 0.8em; text-align: center;">photo by Camilla Forte</figcaption>
     </figure>
   </div>
 
@@ -78,6 +77,7 @@ You can reach them
 <div style="text-align: center;">
   <h3>📰📰📰 news 📰📰📰</h3>
   <ul>
+    <li> (September 2025) moved to San Francisco, to join Adobe Research as a research scientist.</li>
     <li> (July 2025) defended my PhD thesis!!! you can read my dissertation <a href="https://hugofloresgarcia.art/thesis.pdf">here</a>.</li>
     <li> (July 2025) played at Thalia Hall with <a href="https://cabezadechivo.com">Cabeza de Chivo</a>, supporting Son Rompe Pera.</li>
     <li> (June 2025) Album release show with <a href="https://cabezadechivo.com">Cabeza de Chivo</a> at the Empty Bottle!</li>
