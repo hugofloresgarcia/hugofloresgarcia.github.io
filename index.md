@@ -35,7 +35,8 @@ h4 {text-align: center;}
   </div>
 
  <div class="row">
-    <p>Hugo is a PhD candidate at Northwestern University, doing research at the intersection of applied machine learning, music, and human-computer interaction.</p>
+    <p>Hugo's research centers around designing new instruments for creative expression, focusing on artist-centered machine learning interfaces for the sound arts </p>
+    
     <figure>
       <img src="/assets/img/fieldrec.jpg" alt="Field Recording" width="250"/>
       <figcaption style="font-size: 0.8em; text-align: center;">photo by Camilla Forte</figcaption>
@@ -43,7 +44,7 @@ h4 {text-align: center;}
   </div>
 
   <div class="row">
-    <p>Hugo's research centers around designing new instruments for creative expression, focusing on artist-centered machine learning interfaces for the sound arts </p>
+    <p>Hugo holds a PhD from Northwestern University, where they did research at the intersection of applied machine learning, music, and human-computer interaction.</p>
     <figure>
       <img src="/assets/img/cloudchoir.gif" alt="Cloud Choir" width="250"/>
     </figure>

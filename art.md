@@ -22,6 +22,9 @@ i try to do all kinds of things! so for your troubles, here's a table of content
 # improvised music <a name="improvised-music"></a>
 <h4> or go <a href="#toc">back to the top</a></h4>
 
+## los chuchitos live at sound potluck | bim bom studios (2025)
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=4140131721/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/los-chuchitos-live-at-sound-potluck-11222025">los chuchitos - live at sound potluck 11.22.2025 by hugo flores garcía</a></iframe>
+
 ## live at elastic arts | improvised music series (2024)
 <iframe  src="https://www.youtube.com/embed/NGOlux6uT9Y?si=ywnXnnIZAt0xDIMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
