@@ -18,20 +18,28 @@ layout: default
       margin-bottom: 5px; /* Add space between the image and audio widget */
       }
 
-    /* generative vine + flower frame (see /assets/js/vines.js) */
-    #vines canvas {
-      position: fixed;
-      inset: 0;
-      width: 100vw;
-      height: 100vh;
-      pointer-events: none; /* never block clicks/links */
-      z-index: -1;          /* behind the content layer */
+    /* contact tab: a tidy reveal of the email */
+    .contact-reveal summary {
+      cursor: pointer;
+      list-style: none;
     }
-    .w { position: relative; z-index: 1; } /* keep page content above the frame */
+    .contact-reveal summary::-webkit-details-marker { display: none; }
+    .contact-reveal summary::marker { content: ""; }
+    .contact-reveal summary:hover { text-decoration: underline; }
+    .contact-email {
+      display: inline-block;
+      margin-top: 0.35rem;
+    }
+    .contact-reveal[open] .contact-email {
+      animation: contact-bloom 0.45s ease both;
+    }
+    @keyframes contact-bloom {
+      from { opacity: 0; transform: translateY(-4px) scale(0.95); }
+      to   { opacity: 1; transform: none; }
+    }
   </style>
 </head>
 
-<div id="vines"></div>
 <div class="menu-container">
   <ul>
   {%- include menu_item.html collection=site.data.art_menu.entries -%}
@@ -39,16 +47,20 @@ layout: default
   <ul>
   {%- include menu_item.html collection=site.data.research_menu.entries -%}
   </ul>
+  <ul>
+    <li>
+      <details class="contact-reveal">
+        <summary>contact 📫</summary>
+        <a class="contact-email" href="mailto:mail@hugofloresgarcia.art">🌻 mail@hugofloresgarcia.art 🌻</a>
+      </details>
+    </li>
+  </ul>
 </div>
 
 {{ content }}
 
   
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-
 <div id="wormhole"></div>
 
 <script src="/wormhole.js"></script>
-
-<script src="/assets/js/vines.js"></script>

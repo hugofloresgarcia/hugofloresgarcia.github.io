@@ -13,11 +13,23 @@
     margin-bottom: 5px; /* Add space between the image and audio widget */
     }
 
+    /* generative vine + flower frame (see /assets/js/vines.js) */
+    #vines canvas {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none; /* never block clicks/links */
+      z-index: 0;           /* above the page background, below content */
+    }
+    .w { position: relative; z-index: 1; } /* keep page content above the frame */
+
   </style>
 </head>
 <head>
   <link rel="stylesheet" href="{{ '/assets/css/pretty-tables.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/fun-divider.css' | relative_url }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
 </head>
 <body a="{{ site.theme_config.appearance | default: "auto" }}">
     <main class="page-content" aria-label="Content">
@@ -35,5 +47,8 @@
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
+
+    <div id="vines"></div>
+    <script src="/assets/js/vines.js"></script>
   </body>
 </html>
