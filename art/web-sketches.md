@@ -4,8 +4,6 @@ title: web sketches
 permalink: /art/web-sketches
 ---
 
-[← back to art 🌻](/art)
-
 ## the cabeza de chivo website
 check out the [cabeza de chivo website](https://cabezadechivo.com) -- I built and designed it with Camilla Forte's help!
 

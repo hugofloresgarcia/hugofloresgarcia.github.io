@@ -4,8 +4,6 @@ title: tunes
 permalink: /art/tunes
 ---
 
-[← back to art 🌻](/art)
-
 These are some songs I've recorded over the years, usually with friends, along with some solo electronic stuff. I also might have other stuff on [spotify](https://open.spotify.com/artist/2G3nvgKUPVjOLq7Ng6Pwzm), [soundcloud](https://soundcloud.com/hugofloresgarcia) and [bandcamp](https://hugofloresgarcia.bandcamp.com/).
 
 ### Poinciana (2023)

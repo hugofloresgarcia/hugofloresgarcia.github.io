@@ -4,8 +4,6 @@ title: with neural nets
 permalink: /art/neural
 ---
 
-[← back to art 🌻](/art)
-
 ## unsound objects (2025)
 
 <iframe  src="https://www.youtube.com/embed/Oq8RlhqP9Ms" title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

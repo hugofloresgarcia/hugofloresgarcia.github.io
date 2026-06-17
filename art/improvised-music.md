@@ -4,8 +4,6 @@ title: improvised music
 permalink: /art/improvised-music
 ---
 
-[← back to art 🌻](/art)
-
 ## los chuchitos live at sound potluck | bim bom studios (2025)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=4140131721/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/los-chuchitos-live-at-sound-potluck-11222025">los chuchitos - live at sound potluck 11.22.2025 by hugo flores garcía</a></iframe>
 
