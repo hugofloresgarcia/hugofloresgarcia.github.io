@@ -17,8 +17,21 @@ layout: default
       height: auto; /* Maintain the aspect ratio */
       margin-bottom: 5px; /* Add space between the image and audio widget */
       }
+
+    /* generative vine + flower frame (see /assets/js/vines.js) */
+    #vines canvas {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none; /* never block clicks/links */
+      z-index: -1;          /* behind the content layer */
+    }
+    .w { position: relative; z-index: 1; } /* keep page content above the frame */
   </style>
 </head>
+
+<div id="vines"></div>
 <div class="menu-container">
   <ul>
   {%- include menu_item.html collection=site.data.art_menu.entries -%}
@@ -37,3 +50,5 @@ layout: default
 <div id="wormhole"></div>
 
 <script src="/wormhole.js"></script>
+
+<script src="/assets/js/vines.js"></script>
