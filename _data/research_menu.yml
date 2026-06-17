@@ -3,9 +3,9 @@
 
 entries:
 
-  - title: research 🧪
-    category: research
-    url: /research
+  # - title: research 🧪
+  #   category: research
+  #   url: /research
 
   # - title: software 💻
   #   category: software
@@ -16,9 +16,9 @@ entries:
     url: https://scholar.google.com.ph/citations?user=CZ39htEAAAAJ
 
 
-  - title: thesis 📖
-    category: thesis
-    url: /thesis.pdf
+  # - title: thesis 📖
+  #   category: thesis
+  #   url: /thesis.pdf
 
   - title: cv 🧑🏾‍🎓
     category: cv

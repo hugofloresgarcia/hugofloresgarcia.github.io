@@ -6,9 +6,9 @@ entries:
     category: art
     url: /art
 
-  - title: interfaces 🕹️
-    category: interfaces
-    url: /interfaces
+  # - title: interfaces 🕹️
+  #   category: interfaces
+  #   url: /interfaces
 
   # - title: performances 🔊
   #   category: performances
