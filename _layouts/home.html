@@ -205,7 +205,13 @@ layout: default
   }
 
   place();
-  window.addEventListener('resize', place);
+  var lastW = window.innerWidth;
+  window.addEventListener('resize', function () {
+    // ignore height-only resizes (mobile address bar show/hide on scroll)
+    if (window.innerWidth === lastW) return;
+    lastW = window.innerWidth;
+    place();
+  });
   if (reduce) frame(0); else requestAnimationFrame(frame);
 })();
 </script>

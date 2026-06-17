@@ -151,7 +151,11 @@ let vineSketch = function (p) {
     }
   };
 
+  let lastW = window.innerWidth;
   p.windowResized = function () {
+    // ignore height-only resizes (mobile address bar show/hide on scroll)
+    if (window.innerWidth === lastW) return;
+    lastW = window.innerWidth;
     p.resizeCanvas(p.windowWidth, p.windowHeight);
     p.clear();
     buildElements();

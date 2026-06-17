@@ -134,7 +134,11 @@ let bouquetSketch = function (p) {
     if (reduce) { p.noLoop(); p.redraw(); }
   };
 
+  let lastW = window.innerWidth;
   p.windowResized = function () {
+    // ignore height-only resizes (mobile address bar show/hide on scroll)
+    if (window.innerWidth === lastW) return;
+    lastW = window.innerWidth;
     const wh = size();
     p.resizeCanvas(wh[0], wh[1]);
     build();
