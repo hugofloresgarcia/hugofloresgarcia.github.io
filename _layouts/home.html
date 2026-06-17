@@ -55,6 +55,7 @@ layout: default
       max-width: 210px;
       aspect-ratio: 1 / 1;
       margin: 0;
+      pointer-events: none; /* decorative — taps go to the links */
     }
     .fn-flower canvas { display: block; }
     .fn-item {
@@ -74,25 +75,20 @@ layout: default
       margin: 1.6rem auto 0;
     }
 
-    /* mobile: drop the scatter, stack the flower over a centered link cluster */
+    /* mobile: a rectangular garden patch of flowers, links scattered over it */
     @media (max-width: 640px) {
       .flower-nav {
-        height: auto;
-        flex-wrap: wrap;
-        gap: 0.6rem 1.1rem;
-        padding-bottom: 1rem;
+        height: 480px;
       }
       .fn-flower {
-        order: -1;
-        flex: 0 0 100%;     /* flower on its own row, on top */
-        width: 62%;
-        max-width: 230px;
-        margin: 0 auto;
+        position: absolute;
+        inset: 0;
+        width: auto;
+        max-width: none;
+        aspect-ratio: auto;  /* fill the rectangle as the garden canvas */
+        z-index: 0;
       }
-      .fn-item {
-        position: static;
-        transform: none !important; /* override the JS scatter/sway */
-      }
+      .fn-item { z-index: 1; } /* links above the garden, still interactive */
     }
   </style>
 </head>
@@ -126,10 +122,10 @@ layout: default
   var n = items.length;
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // per-link gentle sway (leaf in a breeze); angle/rf set by place()
+  // per-link gentle sway (leaf in a breeze); baseX/baseY set by place()
   var data = items.map(function () {
     return {
-      angle: 0, rf: 0,
+      baseX: 0, baseY: 0,
       phase: Math.random() * Math.PI * 2,
       speed: 0.0007 + Math.random() * 0.0005,  // slow breeze
       ampX: 9 + Math.random() * 9,             // mostly side to side
@@ -138,60 +134,68 @@ layout: default
     };
   });
 
-  // scatter links at random spots, rejecting positions that would overlap
-  // another link (footprint includes each link's sway range)
+  function isGarden() {
+    return window.matchMedia && window.matchMedia('(max-width: 640px)').matches;
+  }
+
+  // scatter links, rejecting positions that would overlap another link.
+  // desktop: a ring around the center flower. mobile: spread across the garden.
   function place() {
     var r = nav.getBoundingClientRect();
-    var fr = (flower ? flower.offsetWidth : 0) / 2;
+    var garden = isGarden();
     var foot = items.map(function (el, i) {
       return {
         hw: el.offsetWidth / 2 + data[i].ampX + 6,
         hh: el.offsetHeight / 2 + data[i].ampY + 6
       };
     });
-    var maxHW = 0, maxHH = 0;
-    foot.forEach(function (f) { if (f.hw > maxHW) maxHW = f.hw; if (f.hh > maxHH) maxHH = f.hh; });
-    var R = Math.max(10, Math.min(r.width / 2 - maxHW, r.height / 2 - maxHH));
-    var rMin = Math.max(0, Math.min(fr + 16, R - 1));
+    var R = 10, rMin = 0;
+    if (!garden) {
+      var maxHW = 0, maxHH = 0;
+      foot.forEach(function (f) { if (f.hw > maxHW) maxHW = f.hw; if (f.hh > maxHH) maxHH = f.hh; });
+      var fr = (flower ? flower.offsetWidth : 0) / 2;
+      R = Math.max(10, Math.min(r.width / 2 - maxHW, r.height / 2 - maxHH));
+      rMin = Math.max(0, Math.min(fr + 16, R - 1));
+    }
 
     var placed = [];
     for (var i = 0; i < n; i++) {
       var best = null, bestScore = -Infinity;
-      for (var k = 0; k < 150; k++) {
-        var ang = Math.random() * Math.PI * 2;
-        var rf = Math.random();
-        var rad = rMin + rf * (R - rMin);
-        var bx = rad * Math.cos(ang);
-        var by = rad * Math.sin(ang);
+      for (var k = 0; k < 180; k++) {
+        var bx, by;
+        if (garden) {
+          bx = (Math.random() - 0.5) * Math.max(0, r.width - 2 * foot[i].hw);
+          by = (Math.random() - 0.5) * Math.max(0, r.height - 2 * foot[i].hh);
+        } else {
+          var ang = Math.random() * Math.PI * 2;
+          var rad = rMin + Math.random() * (R - rMin);
+          bx = rad * Math.cos(ang);
+          by = rad * Math.sin(ang);
+        }
         var worst = Infinity;
         for (var j = 0; j < placed.length; j++) {
-          var p = placed[j];
-          var sepX = Math.abs(bx - p.bx) - (foot[i].hw + foot[p.i].hw);
-          var sepY = Math.abs(by - p.by) - (foot[i].hh + foot[p.i].hh);
+          var pj = placed[j];
+          var sepX = Math.abs(bx - pj.bx) - (foot[i].hw + foot[pj.i].hw);
+          var sepY = Math.abs(by - pj.by) - (foot[i].hh + foot[pj.i].hh);
           var sep = Math.max(sepX, sepY); // >= 0 means the boxes don't overlap
           if (sep < worst) worst = sep;
         }
-        if (worst > bestScore) { bestScore = worst; best = { ang: ang, rf: rf, bx: bx, by: by }; }
+        if (worst > bestScore) { bestScore = worst; best = { bx: bx, by: by }; }
         if (worst >= 0) break; // found a non-overlapping spot
       }
-      data[i].angle = best.ang;
-      data[i].rf = best.rf;
+      data[i].baseX = best.bx;
+      data[i].baseY = best.by;
       placed.push({ i: i, bx: best.bx, by: best.by });
     }
-    nav._R = R; nav._rMin = rMin;
   }
 
   function frame(now) {
-    var R = nav._R, rMin = nav._rMin;
     for (var i = 0; i < n; i++) {
       var d = data[i];
-      var rad = rMin + d.rf * (R - rMin);
-      var bx = rad * Math.cos(d.angle);
-      var by = rad * Math.sin(d.angle);
       var s = reduce ? 0 : Math.sin(now * d.speed + d.phase);
       var s2 = reduce ? 0 : Math.sin(now * d.speed * 0.6 + d.phase);
-      var x = (bx + s * d.ampX).toFixed(1);
-      var y = (by + s2 * d.ampY).toFixed(1);
+      var x = (d.baseX + s * d.ampX).toFixed(1);
+      var y = (d.baseY + s2 * d.ampY).toFixed(1);
       var rot = (s * d.tilt).toFixed(2);
       items[i].style.transform =
         'translate(calc(-50% + ' + x + 'px), calc(-50% + ' + y + 'px)) rotate(' + rot + 'deg)';
