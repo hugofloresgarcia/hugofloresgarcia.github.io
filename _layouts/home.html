@@ -22,10 +22,11 @@ layout: default
     .contact-reveal summary {
       cursor: pointer;
       list-style: none;
+      color: LinkText;          /* match the default link color of the other tabs */
+      text-decoration: underline;
     }
     .contact-reveal summary::-webkit-details-marker { display: none; }
     .contact-reveal summary::marker { content: ""; }
-    .contact-reveal summary:hover { text-decoration: underline; }
     .contact-email {
       display: inline-block;
       margin-top: 0.35rem;
