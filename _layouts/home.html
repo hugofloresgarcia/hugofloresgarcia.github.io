@@ -73,6 +73,27 @@ layout: default
       max-width: 460px;
       margin: 1.6rem auto 0;
     }
+
+    /* mobile: drop the scatter, stack the flower over a centered link cluster */
+    @media (max-width: 640px) {
+      .flower-nav {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 0.6rem 1.1rem;
+        padding-bottom: 1rem;
+      }
+      .fn-flower {
+        order: -1;
+        flex: 0 0 100%;     /* flower on its own row, on top */
+        width: 62%;
+        max-width: 230px;
+        margin: 0 auto;
+      }
+      .fn-item {
+        position: static;
+        transform: none !important; /* override the JS scatter/sway */
+      }
+    }
   </style>
 </head>
 
