@@ -15,7 +15,7 @@ epk_back: true
 
 <section id="bio">
 <h2>bio</h2>
-<p>¡aguante, tacuazín! is the ambient latino music of hugo flores garcía and their friends. the collective blends ambient forms and textures with Latin American rhythms played by drums and drum machines, melodies played on synthesizers and vocals, a tapestry of electroacoustic colors and field recordings from Central America.</p>
+<p>¡aguante, tacuazín! is the latinx ambient music of hugo flores garcía and their friends. the collective blends ambient forms and textures with Latin American rhythms played by drums and drum machines, melodies played on synthesizers and vocals, a tapestry of electroacoustic colors and field recordings from Central America.</p>
 </section>
 
 <section id="press">
