@@ -6,14 +6,6 @@ layout: home
 h4 {text-align: center;}
 </style>
 
-
-<div style="text-align: center;">
-  <figure style="display: inline-block; width: 300px; text-align: center;">
-    <img src="/assets/img/flower.gif" alt="flower" width="300"/>
-    <figcaption style="font-size: 0.8em; text-align: center;">a spinning flower fed back into itself as it goes through edge tracing and multiple color transformations. animated gif into max/msp/jit. original illustration by camilla forte</figcaption>
-  </figure>
-</div>
-
 <div class="fun-divider"></div>
 
 <div class="container">
@@ -71,6 +63,8 @@ You can reach them
   <p> to find out where I'm musicking next, have a look at my <a href="https://instagram.com/hugofloresgarcia">instagram!</a></p>
 </div>
 
+{% comment %} news section hidden for now — remove these comment tags to restore {% endcomment %}
+{% comment %}
 <div class="fun-divider"></div>
 
 <!-- a news entry, with small bullet points for each new thing i want to share -->
@@ -106,6 +100,7 @@ You can reach them
     </li> -->
   </ul>
 </div>
+{% endcomment %}
   
 
 <figure>

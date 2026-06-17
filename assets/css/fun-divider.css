@@ -2,12 +2,32 @@
     width: 100%; /* Full width */
     text-align: center; /* Center the divider */
     overflow: hidden; /* Ensures the content is clipped */
-    line-height: 20px; /* Height of the divider */
+    line-height: 24px; /* Height of the divider */
 }
-  
+
+/* fallback row of tildes when JS is off */
 .fun-divider:before {
-content: "🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻🌻"; /* Your character pattern */
-letter-spacing: 10px; /* Space between characters */
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    letter-spacing: 10px;
+}
+
+/* once JS swaps in animated worm spans, drop the static fallback */
+.fun-divider.wormy:before { content: none; }
+
+.fun-divider .worm {
+    display: inline-block;
+    margin: 0 4px;
+    animation: worm-wiggle 1.5s ease-in-out infinite;
+    will-change: transform;
+}
+
+@keyframes worm-wiggle {
+    0%, 100% { transform: translateY(-3px) rotate(-12deg); }
+    50%      { transform: translateY(3px) rotate(12deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fun-divider .worm { animation: none; }
 }
 
 .wiggle-divider {
@@ -16,7 +36,7 @@ letter-spacing: 10px; /* Space between characters */
     overflow: hidden; /* Ensures the content is clipped */
     line-height: 20px; /* Height of the divider */
 }
-  
+
 .wiggle-divider:before {
 content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"; /* Your character pattern */
 letter-spacing: 10px; /* Space between characters */

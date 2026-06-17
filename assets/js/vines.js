@@ -37,9 +37,9 @@ let vineSketch = function (p) {
         const alongHeading = axis === 'h' ? (p.random() < 0.5 ? 0 : Math.PI)
                                           : (p.random() < 0.5 ? p.HALF_PI : -p.HALF_PI);
 
-        // weighted pick of creature: vine / coil flower / daisy / lily
+        // weighted pick of creature: vine / coil flower / daisy / lily / rosette
         const r = p.random();
-        const kind = r < 0.38 ? 'vine' : r < 0.60 ? 'flower' : r < 0.80 ? 'daisy' : 'lily';
+        const kind = r < 0.30 ? 'vine' : r < 0.45 ? 'flower' : r < 0.60 ? 'daisy' : r < 0.78 ? 'lily' : 'rosette';
 
         if (kind === 'vine') {
           // ---- vine: a drifting/growing green strand (flowerVine) ----
@@ -96,7 +96,7 @@ let vineSketch = function (p) {
             bri: rnd(72, 90),
             weight: p.max(1, s * rnd(0.001, 0.0015)),
           });
-        } else {
+        } else if (kind === 'lily') {
           // ---- lily: jagged inharmonic spikes (FM, non-integer ratio) ----
           els.push({
             kind: 'lily',
@@ -111,6 +111,21 @@ let vineSketch = function (p) {
             sat: rnd(80, 98),
             bri: rnd(66, 86),
             weight: p.max(0.9, s * rnd(0.001, 0.0015)),
+          });
+        } else {
+          // ---- rosette: an EYESY flowerbeds rosette spiral ----
+          els.push({
+            kind: 'rosette',
+            x: x, y: y,
+            angle: rnd(100, 300),             // the wide-palette shape parameter
+            niter: 8 + Math.floor(rnd(0, 16)),
+            size: s * rnd(0.03, 0.075),
+            seed: rnd(1000),
+            spin: rnd(-0.12, 0.12),
+            hue: p.random() < 0.4 ? rnd(95, 150) : rnd(0, 360),
+            sat: rnd(72, 96),
+            bri: rnd(70, 92),
+            weight: p.max(0.8, s * rnd(0.001, 0.0016)),
           });
         }
       }
@@ -269,6 +284,32 @@ let vineSketch = function (p) {
     p.pop();
   }
 
+  // rosette: EYESY flowerbeds spiral — heading i*(360/niter + angle), auto-fit to size
+  function drawRosette(e) {
+    const pts = [];
+    let x = 0, y = 0, maxd = 0;
+    for (let i = 0; i < e.niter; i++) {
+      const rad = p.radians(i * (360 / e.niter + e.angle));
+      const st = i / e.niter;
+      x += Math.cos(rad) * 0.5 * st;
+      y += Math.sin(rad) * 0.5 * st;
+      pts.push([x, y]);
+      const d = Math.hypot(x, y);
+      if (d > maxd) maxd = d;
+    }
+    const sc = maxd > 0 ? e.size / maxd : 1;
+    p.push();
+    p.translate(e.x, e.y);
+    p.rotate(reduceMotion ? e.seed : t * e.spin + e.seed);
+    p.noFill();
+    p.stroke(e.hue % 360, e.sat, e.bri, 85);
+    p.strokeWeight(e.weight);
+    p.beginShape();
+    for (const pt of pts) p.vertex(pt[0] * sc, pt[1] * sc);
+    p.endShape();
+    p.pop();
+  }
+
   p.draw = function () {
     if (reduceMotion) {
       p.clear();
@@ -284,6 +325,7 @@ let vineSketch = function (p) {
       if (e.kind === 'vine') drawVine(e);
       else if (e.kind === 'daisy') drawDaisy(e);
       else if (e.kind === 'lily') drawLily(e);
+      else if (e.kind === 'rosette') drawRosette(e);
       else drawFlower(e);
     }
   };
