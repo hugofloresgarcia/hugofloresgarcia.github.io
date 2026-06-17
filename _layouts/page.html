@@ -14,6 +14,6 @@ layout: default
 
 {%-include back_link.html-%}
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title }}{% include year-range.html text=content %}</h1>
 
 {{ content }}

@@ -9,7 +9,7 @@ permalink: /art/web-sketches
 ## the cabeza de chivo website
 check out the [cabeza de chivo website](https://cabezadechivo.com) -- I built and designed it with Camilla Forte's help!
 
-## cabeza de chivo web sketches
+## cabeza de chivo web sketches (2026)
 
 - [chivo fantasma](https://cabezadechivo.com/chivo-fantasma)
 - [la pelea del chivo](https://cabezadechivo.com/la-pelea-del-chivo/)

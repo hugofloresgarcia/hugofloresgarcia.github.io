@@ -1,6 +1,6 @@
 ---
 layout: page
-title: tunes (2019-2023)
+title: tunes
 permalink: /art/tunes
 ---
 

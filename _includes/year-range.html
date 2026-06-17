@@ -1,0 +1,15 @@
+{%- comment -%}
+Scans include.text for "(YYYY)" markers (the year in each item heading) and
+emits " (min)" or " (min-max)". No manual upkeep — add an item with a year and
+the range updates itself.
+{%- endcomment -%}
+{%- assign minY = 0 -%}
+{%- assign maxY = 0 -%}
+{%- for y in (2000..2035) -%}
+{%- capture tok -%}({{ y }}){%- endcapture -%}
+{%- if include.text contains tok -%}
+{%- if minY == 0 -%}{%- assign minY = y -%}{%- endif -%}
+{%- assign maxY = y -%}
+{%- endif -%}
+{%- endfor -%}
+{%- if minY != 0 %} ({% if minY == maxY %}{{ minY }}{% else %}{{ minY }}-{{ maxY }}{% endif %}){% endif -%}

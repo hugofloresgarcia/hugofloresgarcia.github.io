@@ -1,0 +1,13 @@
+{%- comment -%}
+Emits the year range (see year-range.html) for another page, found by url.
+Usage: {% include year-range-for.html url="/art/live-coding" %}
+Matches with or without a trailing ".html" so it works for both explicit
+permalinks and the default /:slug.html pages.
+{%- endcomment -%}
+{%- assign target = include.url -%}
+{%- assign txt = "" -%}
+{%- for pg in site.pages -%}
+{%- assign u = pg.url | remove: ".html" -%}
+{%- if u == target -%}{%- assign txt = pg.content -%}{%- endif -%}
+{%- endfor -%}
+{%- include year-range.html text=txt -%}
