@@ -118,6 +118,17 @@
   audio.addEventListener('loadedmetadata', syncDuration);
   syncDuration(); // in case metadata beat us to it
 
+  // drop the needle: each visit opens at one of the set's two good moments
+  const START_AT = Math.random() < 0.5 ? 26 * 60 : 11 * 60 + 30;
+  function dropNeedle() {
+    if (audio.currentTime > 1) return; // user already moved — don't yank
+    audio.currentTime = START_AT;
+    seek.value = START_AT;
+    cur.textContent = fmt(START_AT);
+  }
+  if (audio.readyState >= 1) dropNeedle();
+  else audio.addEventListener('loadedmetadata', dropNeedle, { once: true });
+
   playBtn.addEventListener('click', function () {
     if (audio.paused) {
       initAnalyser();
