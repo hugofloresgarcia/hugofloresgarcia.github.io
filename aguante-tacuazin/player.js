@@ -397,7 +397,7 @@
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
       title: 'at great big lake',
-      artist: 'aguante tacuazín',
+      artist: '¡aguante tacuazín!',
       artwork: [{ src: 'photos/cover1.JPG', sizes: '1260x1028', type: 'image/jpeg' }],
     });
     navigator.mediaSession.setActionHandler('play', function () { playBtn.click(); });

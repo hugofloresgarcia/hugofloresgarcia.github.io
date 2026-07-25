@@ -4,7 +4,7 @@ title: improvised music
 permalink: /art/improvised-music
 ---
 
-## aguante tacuazín — at great big lake (2026)
+## ¡aguante tacuazín! — at great big lake (2026)
 
 a set of improvised ambient cumbia, son and merengue, live at Stretchmetal x Lake Effect Records' *a great big lake* show at the Belmont Rocks in Chicago.
 
