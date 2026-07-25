@@ -211,6 +211,11 @@ h1 {
 
 .credits li { margin: 0.4rem 0; }
 
+.thanks {
+  text-align: center;
+  margin: 2.2rem 0 0;
+}
+
 .fin { margin-bottom: 0; }
 
 .noscript {
