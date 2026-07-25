@@ -4,6 +4,14 @@ title: improvised music
 permalink: /art/improvised-music
 ---
 
+## aguante tacuazín — at great big lake (2026)
+
+a set of improvised ambient cumbia, son and merengue, live at Stretchmetal x Lake Effect Records' *a great big lake* show at the Belmont Rocks in Chicago.
+
+[<img src="/aguante-tacuazin/photos/cover1.JPG" alt="polaroid of the crowd at the belmont rocks" style="width: 100%; max-width: 420px;">](/aguante-tacuazin/)
+
+[▶ listen on the interactive player](/aguante-tacuazin/)
+
 ## los chuchitos live at sound potluck | bim bom studios (2025)
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=4140131721/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://hugofloresgarcia.bandcamp.com/track/los-chuchitos-live-at-sound-potluck-11222025">los chuchitos - live at sound potluck 11.22.2025 by hugo flores garcía</a></iframe>
 
