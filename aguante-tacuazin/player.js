@@ -119,7 +119,7 @@
   syncDuration(); // in case metadata beat us to it
 
   // drop the needle: each visit opens at one of the set's two good moments
-  const START_AT = Math.random() < 0.5 ? 26 * 60 : 11 * 60 + 30;
+  const START_AT = Math.random() < 0.5 ? 26 * 60 : 10 * 60 + 15;
   function dropNeedle() {
     if (audio.currentTime > 1) return; // user already moved — don't yank
     audio.currentTime = START_AT;
