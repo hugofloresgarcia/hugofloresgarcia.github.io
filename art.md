@@ -12,5 +12,5 @@ i try to do all kinds of things! so for your troubles, here's an index:
 - [web sketches](/art/web-sketches){% include year-range-for.html url="/art/web-sketches" %}
 - [live coding](/art/live-coding){% include year-range-for.html url="/art/live-coding" %}
 - [tunes](/art/tunes){% include year-range-for.html url="/art/tunes" %}
-- [instruments](/instruments){% include year-range-for.html url="/instruments" %}
-- [pedals](/pedals){% include year-range-for.html url="/pedals" %}
+- [instruments](https://floreselectronics.com/instruments) ↗ now at flores electronics
+- [pedals](https://floreselectronics.com/pedals) ↗ now at flores electronics
