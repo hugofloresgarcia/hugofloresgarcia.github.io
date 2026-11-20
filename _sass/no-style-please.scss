@@ -159,6 +159,155 @@ img {
   max-width: 90%;
 }
 
+// compact archive entries (performances, art, ...)
+.content-container {
+  margin-bottom: 0.75rem;
+
+  h3 {
+    margin: 0.5rem 0 0.1rem;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .column {
+    padding: 0.35rem 1rem;
+  }
+
+  .image-entry {
+    flex: 0 0 auto;
+  }
+}
+
+.entry-img {
+  width: 430px;
+  max-width: 100%;
+}
+
+// tiered archive (performances): featured / standard / compact entries,
+// grouped by year. markup in _includes/tiered_list.html
+$archive-muted: #6b6b6b;
+
+.archive {
+  hr { margin: 3.5rem 0 2rem; }
+  .archive-year:first-child hr { margin-top: 2.5rem; }
+
+  .entry { margin: 0 0 2.75rem; }
+  .entry h2, .entry h3 { margin: 0 0 0.75rem; }
+  .entry-text > :first-child { margin-top: 0; }
+  .entry-text > :last-child { margin-bottom: 0; }
+  .entry-text iframe { max-width: 100%; }
+
+  // media: an image link, filling its column
+  .entry-media {
+    position: relative;
+    display: block;
+  }
+  .entry-media img {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+  .entry-play {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.25rem 0.7rem;
+    background: black;
+    color: white;
+  }
+  .entry-media:hover .entry-play,
+  .entry-media:focus-visible .entry-play { background: blue; }
+
+  // featured: big image beside the full text
+  .entry-featured {
+    margin-bottom: 3.5rem;
+
+    h2 { font-size: 1.4rem; }
+    .entry-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 2rem;
+      align-items: start;
+    }
+    .entry-media img { max-height: 42rem; object-fit: cover; object-position: top; }
+    &.no-media .entry-body { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  // standard: a mid-size image, the text beside it
+  .entry-standard {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+    grid-template-areas: "media text";
+    gap: 2rem;
+    align-items: start;
+
+    .entry-media { grid-area: media; }
+    .entry-text { grid-area: text; }
+    &.no-media {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas: "text";
+    }
+    // tall phone shots / flyers get cropped; the link opens the full image
+    .entry-media img { max-height: 20rem; object-fit: cover; }
+  }
+
+  // compact, with a flyer: a wall of small thumbnails
+  .entry-wall {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+    gap: 1.5rem 1.25rem;
+
+    li { margin: 0; font-size: 0.85rem; line-height: 1.35; }
+    .wall-img { display: block; margin-bottom: 0.4rem; }
+    img {
+      width: 100%;
+      max-width: none;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      object-position: top;
+      margin: 0;
+      border: thin solid black;
+    }
+    .wall-title, .note { display: block; }
+    .note { margin-top: 0.2rem; }
+  }
+
+  // compact, nothing to show: one dated line
+  .entry-rows {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: grid;
+      grid-template-columns: 4.5rem minmax(0, 1fr);
+      gap: 1rem;
+      margin: 0.35rem 0;
+    }
+  }
+
+  .note, time { color: $archive-muted; }
+}
+
+@media only screen and (max-width: 600px) {
+  .archive {
+    .entry-featured .entry-body { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+    .entry-standard {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas: "text" "media";
+      gap: 1rem;
+    }
+    .entry-standard .entry-media { max-width: 18rem; }
+    .entry-wall { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 1rem; }
+    .entry-rows li { grid-template-columns: 3.75rem minmax(0, 1fr); gap: 0.6rem; }
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .row {
       flex-direction: column;

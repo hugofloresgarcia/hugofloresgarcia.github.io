@@ -1,0 +1,69 @@
+{%- comment -%}
+Sizes up one archive post (include.post) for the tiered listing
+(tiered_list.html). Sets, in the caller's scope:
+  t_tier   featured | standard | compact
+  t_body   the post's html with <!-- comments --> removed
+  t_img    the post's own image, "" if it only has the site-wide default
+  t_flyer  true when that image is a flyer/poster (its image_alt says so)
+  t_video  true when the post embeds a video (iframe that isn't an audio player, or <video>)
+  t_audio  true when the post embeds a bandcamp/soundcloud player
+  t_words  word count of the text
+Rule: featured = video or a real write-up (>= 80 words);
+      standard = audio player, a real photo, or >= 35 words;
+      compact  = flyer-only, a one-liner, or nothing yet.
+Front matter `tier: featured|standard|compact` overrides the rule.
+{%- endcomment -%}
+{%- assign t_post = include.post -%}
+
+{%- comment -%} the _config.yml default image is for link previews only {%- endcomment -%}
+{%- assign t_default_img = "" -%}
+{%- for d in site.defaults -%}{%- if d.values.image -%}{%- assign t_default_img = d.values.image -%}{%- endif -%}{%- endfor -%}
+{%- assign t_img = "" -%}
+{%- if t_post.image and t_post.image != t_default_img -%}{%- assign t_img = t_post.image -%}{%- endif -%}
+
+{%- assign t_alt = t_post.image_alt | downcase -%}
+{%- assign t_flyer = false -%}
+{%- if t_alt contains "flyer" or t_alt contains "poster" -%}{%- assign t_flyer = true -%}{%- endif -%}
+
+{%- assign t_body = "" -%}
+{%- assign t_parts = t_post.content | split: "<!--" -%}
+{%- for part in t_parts -%}
+  {%- if forloop.first -%}
+    {%- assign t_body = t_body | append: part -%}
+  {%- else -%}
+    {%- assign t_bits = part | split: "-->" -%}
+    {%- for bit in t_bits offset: 1 -%}{%- assign t_body = t_body | append: bit -%}{%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign t_body = t_body | strip -%}
+
+{%- assign t_iframes = 0 -%}
+{%- assign t_players = 0 -%}
+{%- if t_body contains "<iframe" -%}
+  {%- assign t_iframes = t_body | split: "<iframe" | size | minus: 1 -%}
+  {%- assign t_chunks = t_body | split: "<iframe" -%}
+  {%- for chunk in t_chunks offset: 1 -%}
+    {%- assign t_src = chunk | split: ">" | first -%}
+    {%- if t_src contains "bandcamp.com/EmbeddedPlayer" or t_src contains "soundcloud.com/player" -%}
+      {%- assign t_players = t_players | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- assign t_audio = false -%}
+{%- if t_players > 0 -%}{%- assign t_audio = true -%}{%- endif -%}
+{%- assign t_video = false -%}
+{%- if t_iframes > t_players or t_body contains "<video" -%}{%- assign t_video = true -%}{%- endif -%}
+
+{%- assign t_words = t_body | strip_html | number_of_words -%}
+
+{%- if t_post.tier == "featured" or t_post.tier == "standard" or t_post.tier == "compact" -%}
+  {%- assign t_tier = t_post.tier -%}
+{%- elsif t_video or t_words >= 80 -%}
+  {%- assign t_tier = "featured" -%}
+{%- elsif t_audio or t_words >= 35 -%}
+  {%- assign t_tier = "standard" -%}
+{%- elsif t_img != "" and t_flyer == false -%}
+  {%- assign t_tier = "standard" -%}
+{%- else -%}
+  {%- assign t_tier = "compact" -%}
+{%- endif -%}

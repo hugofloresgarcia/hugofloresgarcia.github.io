@@ -1,14 +1,17 @@
 <div class="content-container">
     <h3>{{ include.post.title }}</h3>
-  
+
     <div class="row">
       <div class="column text-entry">
         {{ include.post.content | markdownify }}
       </div>
-  
-      {% if include.post.image %}
-      <div class="column">
-        <img src="{{ include.post.image }}" alt="{{ include.post.image_alt }}" width="300px" />
+
+      {%- comment -%} skip the _config.yml default image (it's only for link previews) {%- endcomment -%}
+      {%- assign default_img = "" -%}
+      {%- for d in site.defaults -%}{%- if d.values.image -%}{%- assign default_img = d.values.image -%}{%- endif -%}{%- endfor -%}
+      {% if include.post.image and include.post.image != default_img %}
+      <div class="column image-entry">
+        <img class="entry-img" src="{{ include.post.image }}" alt="{{ include.post.image_alt }}" />
       </div>
       {% endif %}
     </div>

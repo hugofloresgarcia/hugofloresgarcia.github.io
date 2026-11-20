@@ -8,4 +8,8 @@ layout: default
 
 {{ content }}
 
-{%-include post_list.html category=page.which_category-%}
+{%-if page.tiered-%}
+  {%-include tiered_list.html category=page.which_category-%}
+{%-else-%}
+  {%-include post_list.html category=page.which_category-%}
+{%-endif-%}

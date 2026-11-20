@@ -1,0 +1,130 @@
+{%- comment -%}
+Tiered archive listing, grouped by year, newest first (used by archive pages
+with `tiered: true`, i.e. performances.md). Each year shows its featured and
+standard entries in order, then the compact ones: flyers as a small wall,
+the rest as one-line rows. Tiers come from entry_tier.html.
+  featured  big media + full text; a video post shows its image with a
+            "watch" link to the post page instead of loading the embed here
+  standard  text beside a mid-size image (audio players stay inline)
+  compact   flyer thumbnail or a single dated line
+Images open full size in place of the post page, since post pages only
+render the text.
+{%- endcomment -%}
+{%- if include.category -%}
+  {%- assign posts = site.categories[include.category] -%}
+{%- else -%}
+  {%- assign posts = site.posts -%}
+{%- endif -%}
+{%- assign years = posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+
+<div class="archive">
+{%- for year in years %}
+<section class="archive-year" id="y{{ year.name }}">
+  <hr data-content="{{ year.name }}">
+
+  {%- for post in year.items -%}
+    {%- include entry_tier.html post=post -%}
+    {%- if t_tier == "featured" -%}
+      {%- comment -%} drop video embeds/tags from the text when the image stands in for them {%- endcomment -%}
+      {%- assign f_text = t_body -%}
+      {%- if t_img != "" and t_video -%}
+        {%- assign f_chunks = t_body | split: "<iframe" -%}
+        {%- assign f_text = "" -%}
+        {%- for chunk in f_chunks -%}
+          {%- if forloop.first -%}
+            {%- assign f_text = f_text | append: chunk -%}
+          {%- else -%}
+            {%- assign f_src = chunk | split: ">" | first -%}
+            {%- if f_src contains "bandcamp.com/EmbeddedPlayer" or f_src contains "soundcloud.com/player" -%}
+              {%- assign f_text = f_text | append: "<iframe" | append: chunk -%}
+            {%- else -%}
+              {%- assign f_bits = chunk | split: "</iframe>" -%}
+              {%- for bit in f_bits offset: 1 -%}{%- assign f_text = f_text | append: bit -%}{%- endfor -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if f_text contains "<video" -%}
+          {%- assign f_chunks = f_text | split: "<video" -%}
+          {%- assign f_text = f_chunks | first -%}
+          {%- for chunk in f_chunks offset: 1 -%}
+            {%- assign f_bits = chunk | split: "</video>" -%}
+            {%- for bit in f_bits offset: 1 -%}{%- assign f_text = f_text | append: bit -%}{%- endfor -%}
+          {%- endfor -%}
+        {%- endif -%}
+        {%- assign f_text = f_text | replace: "<p></p>", "" -%}
+      {%- endif %}
+  <article class="entry entry-featured{% if t_img == "" %} no-media{% endif %}">
+    <h2>{{ post.title }}</h2>
+    <div class="entry-body">
+      {%- if t_img != "" %}
+      {%- if t_video %}
+      <a class="entry-media" href="{{ post.url | relative_url }}" title="watch the video">
+        <img src="{{ t_img | relative_url }}" alt="{{ post.image_alt }}" loading="lazy">
+        <span class="entry-play">▶ watch</span>
+      </a>
+      {%- else %}
+      <a class="entry-media" href="{{ t_img | relative_url }}">
+        <img src="{{ t_img | relative_url }}" alt="{{ post.image_alt }}" loading="lazy">
+      </a>
+      {%- endif %}
+      {%- endif %}
+      <div class="entry-text">
+        {{ f_text }}
+      </div>
+    </div>
+  </article>
+    {%- elsif t_tier == "standard" %}
+  <article class="entry entry-standard{% if t_img == "" %} no-media{% endif %}">
+    <div class="entry-text">
+      <h3>{{ post.title }}</h3>
+      {{ t_body }}
+    </div>
+    {%- if t_img != "" %}
+    <a class="entry-media" href="{{ t_img | relative_url }}">
+      <img src="{{ t_img | relative_url }}" alt="{{ post.image_alt }}" loading="lazy">
+    </a>
+    {%- endif %}
+  </article>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%} compact: flyer wall, then one-line rows {%- endcomment -%}
+  {%- assign wall = "" -%}
+  {%- assign rows = "" -%}
+  {%- for post in year.items -%}
+    {%- include entry_tier.html post=post -%}
+    {%- if t_tier == "compact" -%}
+      {%- assign note = t_body | strip_html | strip | truncatewords: 32 -%}
+      {%- if t_img != "" -%}
+        {%- capture cell -%}
+    <li>
+      <a class="wall-img" href="{{ t_img | relative_url }}"><img src="{{ t_img | relative_url }}" alt="{{ post.image_alt }}" loading="lazy"></a>
+      <span class="wall-title">{{ post.title }}</span>
+      {%- if note != "" %}
+      <span class="note">{{ note }}</span>
+      {%- endif %}
+    </li>
+        {%- endcapture -%}
+        {%- assign wall = wall | append: cell -%}
+      {%- else -%}
+        {%- capture cell -%}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d" | downcase }}</time>
+      <span>{{ post.title }}{% if note != "" %} <span class="note">{{ note }}</span>{% endif %}</span>
+    </li>
+        {%- endcapture -%}
+        {%- assign rows = rows | append: cell -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if wall != "" %}
+  <ul class="entry-wall">{{ wall }}
+  </ul>
+  {%- endif -%}
+  {%- if rows != "" %}
+  <ul class="entry-rows">{{ rows }}
+  </ul>
+  {%- endif %}
+</section>
+{%- endfor %}
+</div>
