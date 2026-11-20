@@ -7,4 +7,3 @@ image_alt: cabeza de chivo on the armitage county fair stage at dusk, purple lig
 ---
 
 📸: andres recillas
-<!-- photo: ~/projects/chivo/cabeza-de-chivo/PRESS-PROMO/andres recillas/armitage county fair/26_01267.jpg ; credit from that folder name -->

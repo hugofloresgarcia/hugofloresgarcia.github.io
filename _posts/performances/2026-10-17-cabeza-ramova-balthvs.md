@@ -9,4 +9,3 @@ image_alt: cabeza de chivo small on the big ramova theatre stage, purple light a
 supporting balthvs.
 
 📸: @lifeviastills 🎞️: @michigamaphotos
-<!-- photo: slide 1 of @cabeza.de.chivo post https://www.instagram.com/p/DflU9juG5-y/ ; credit copied verbatim from its caption (that slide is tagged @michigamaphotos) -->
