@@ -3,7 +3,7 @@ layout: post
 category: performances
 title: at experimental sound studio, chicago (2024)
 image: /assets/img/performances/ess-creative-machines-2024.jpg
-image_alt: chicago creative machines promo: hugo on a back porch at dusk with a guitar and laptop, a green-glitch monitor beside him
+image_alt: "chicago creative machines promo: hugo on a back porch at dusk with a guitar and laptop, a green-glitch monitor beside him"
 ---
 
 talk + performance for the chicago creative machines series: an 8-channel fixed media piece for voice and four vampnets, a talk on making music with machine learning, and a solo improv set.
